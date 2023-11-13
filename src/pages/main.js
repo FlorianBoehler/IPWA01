@@ -1,4 +1,4 @@
-import Background from "../components/background";
+import Background from "../components/Background";
 
 function MainPage() {
     return <div><Background/> </div>;
