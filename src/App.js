@@ -5,19 +5,19 @@ import MainPage from "./pages/main";
 import TablePage from "./pages/table";
 import OverUsPage from "./pages/overus";
 import KnowledgePage from "./pages/knowledge";
-import MainNavigation from "./components/layout/MainNavigation";
+import MainNavigation from "./components/mainNavigation/MainNavigation";
+
 
 function App() {
   return (
-    
     <BrowserRouter>
       <div>
-      <MainNavigation />
+        <MainNavigation />
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/table" element={<TablePage />} />
           <Route path="/overus" element={<OverUsPage />} />
-          <Route path="/knowledge" element={<KnowledgePage/>}/>
+          <Route path="/knowledge" element={<KnowledgePage />} />
         </Routes>
       </div>
     </BrowserRouter>
