@@ -14,10 +14,10 @@ function App() {
       <div>
         <MainNavigation />
         <Routes>
-          <Route path="/" element={<MainPage />} />
-          <Route path="/table" element={<TablePage />} />
-          <Route path="/overus" element={<OverUsPage />} />
+        <Route path="/" element={<MainPage />} />
+          <Route path="/table" element={<TablePage />} /> 
           <Route path="/knowledge" element={<KnowledgePage />} />
+          <Route path="/overus" element={<OverUsPage />} />
         </Routes>
       </div>
     </BrowserRouter>
