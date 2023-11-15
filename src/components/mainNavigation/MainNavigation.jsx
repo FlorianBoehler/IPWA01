@@ -16,8 +16,6 @@ class MainNavigation extends Component {
             className={classes.logoImg}
             src={logo}
             alt="Green World Energy logo"
-            width={100}
-            height={100}
           />
         </h1>
         <ul className={classes.navMenu}>
@@ -25,7 +23,11 @@ class MainNavigation extends Component {
             return (
               <li key={index}>
                 <Link className={classes.navLink} to={item.url}>
-                  <img className={classes.navLinkIcon} src={item.img} alt={item.alt} />
+                  <img
+                    className={classes.navLinkIcon}
+                    src={item.img}
+                    alt={item.alt}
+                  />
                   {item.title}
                 </Link>
               </li>

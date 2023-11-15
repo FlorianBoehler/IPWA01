@@ -18,13 +18,21 @@
 .logo{
   color: black;
   justify-self: start;
-  cursor: pointer;
-  
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 10px;
+  list-style: none;
+  align-items: center;
+  text-align: center;
+  justify-content: end;
 }
 
 .logoImg{
   margin: 0.2rem;
-  font-size: 1.6rem;
+  width: 4rem;
+  height: 3.8rem;
+  
 }
 
 .navMenu{
@@ -46,9 +54,9 @@
 }
 
 .navLinkIcon{
-  padding-right: 10px;
-  width: 30px;
-  height: 20px;
+  padding-right: 0.2rem;
+  width: 1.5rem;
+  height: 1.3rem;
 }
 
 .navLink:hover{
