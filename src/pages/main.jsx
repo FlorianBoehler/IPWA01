@@ -1,9 +1,9 @@
 import Background from "../components/background/Background";
 
-function MainPage() {
+function MainPage(props) {
   return (
-    <div>
-      <Background />
+    <div onClick={props.onMainPageClick}>
+      <Background/>
     </div>
   );
 }
