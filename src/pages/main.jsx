@@ -4,6 +4,7 @@ function MainPage(props) {
   return (
     <div onClick={props.onMainPageClick}>
       <Background/>
+      
     </div>
   );
 }

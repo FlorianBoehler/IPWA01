@@ -1,0 +1,10 @@
+.appContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  .languageSettings {
+    display: flex;
+    justify-content: flex-end;
+  }
