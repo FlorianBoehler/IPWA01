@@ -1,13 +1,71 @@
 import React from "react";
-import classes from "./LanguageButton.module.css"
-import globe from "../../media/icons/globe.png";
+import { Link } from "react-router-dom";
+import classes from "./LanguageButton.module.css";
+import { Component } from "react";
+import logo from "../../media/Logo.png";
+import menuIcon from "../../media/icons/menu-burger.png";
+import crossIcon from "../../media/icons/cross.png";
 
-function LanguageButton() {
-  return (
-    <div className={classes.languageButtonContainer}>
-      <img className={classes.logo} src={globe} alt="Globe Icon" />
-    </div>
-  );
+import { MainNavigationData } from "./LanguageButtonData";
+import MainPage from "../../pages/main";
+
+class LanguageButton extends Component {
+  state = { clicked: false };
+  handleClick = () => {
+    this.setState({ clicked: !this.state.clicked });
+  };
+  closeMenu = () => {
+    this.setState({ clicked: false });
+  };
+  render() {
+    return (
+      <div>
+        <nav className={classes.NavigationItems}>
+          <h1 className={classes.logo} onClick={this.closeMenu}>
+            Green World Energy
+            <img
+              className={classes.logoImg}
+              src={logo}
+              alt="Green World Energy logo"
+            />
+          </h1>
+          <div className={classes.MenuSmallScreen}>
+            <img
+              className={classes.menuBar}
+              src={this.state.clicked ? crossIcon : menuIcon}
+              alt="MenuBar Icon"
+              onClick={this.handleClick}
+            />
+          </div>
+          <ul
+            className={
+              this.state.clicked ? classes.navMenuActive : classes.navMenu
+            }
+          >
+            {MainNavigationData.map((item, index) => {
+              return (
+                <li key={index}>
+                  <Link
+                    className={classes.navLink}
+                    to={item.url}
+                    onClick={this.closeMenu}
+                  >
+                    <img
+                      className={classes.navLinkIcon}
+                      src={item.img}
+                      alt={item.alt}
+                    />
+                    {item.title}
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </nav>
+        <MainPage onMainPageClick={this.closeMenu} />
+      </div>
+    );
+  }
 }
 
 export default LanguageButton;

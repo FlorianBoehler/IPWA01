@@ -1,13 +1,125 @@
-.languageButtonContainer {
+.NavigationItems {
   display: flex;
-  justify-content: flex-end;
-  margin-top: 10px;
-  margin-right: 10px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  padding: 0 30px;
+  background-color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+  width: 95%;
+  height: 80px;
+  border-radius: 13px;
+  position: fixed;
+  top: 10px;
+  left: 2.5%;
+  
 }
 
 .logo {
-    color: black;
-    width: 50px; 
-    height: 50px; 
-    cursor: pointer; 
+  color: black;
+  justify-self: start;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 10px;
+  list-style: none;
+  align-items: center;
+  text-align: center;
+  justify-content: end;
+}
+
+.logoImg {
+  margin: 0.2rem;
+  width: 4rem;
+  height: 3.8rem;
+}
+
+.navMenu,
+.navMenuActive {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 10px;
+  list-style: none;
+  align-items: center;
+  text-align: center;
+  justify-content: end;
+}
+
+.navLink {
+  text-decoration: none;
+  color: black;
+  padding: 0.7rem 1rem;
+  white-space: nowrap;
+}
+
+.navLinkIcon {
+  padding-right: 0.2rem;
+  width: 1.5rem;
+  height: 1.3rem;
+}
+
+.navLink:hover {
+  background: rgb(80, 80, 238);
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+
+.menuBar {
+  color: black;
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+.MenuSmallScreen {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .MenuSmallScreen {
+    z-index: 99;
+  }
+
+  .navMenu,
+  .navMenuActive {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgba(224, 214, 224, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(173, 168, 173, 0.25);
+    backdrop-filter: blur(4px);
+    border-radius: 13px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    align-items: stretch;
+    padding: 4rem 0px 30px 0;
+    margin: 0;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .navMenu {
+    left: -110%;
+  }
+
+  .navMenuActive {
+    left: 0%;
+  }
+
+  .navLink {
+    display: block;
+    width: 100%;
+    padding: 2rem 0;
+    color: #222;
+  }
+
+  .navLink:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(20px);
+  }
+  .MenuSmallScreen {
+    display: block;
+  }
 }

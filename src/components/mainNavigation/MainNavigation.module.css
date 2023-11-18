@@ -10,9 +10,9 @@
   height: 80px;
   border-radius: 13px;
   position: fixed;
-  top: 20px;
-  left: 50%;
-  transform: translate(-50%);
+  top: 120px;
+  left: 2.5%;
+  
 }
 
 .logo {

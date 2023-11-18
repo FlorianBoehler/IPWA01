@@ -5,7 +5,7 @@ import contactUsIcon from "../../media/icons/comments-question.png";
 
 
 export const MainNavigationData = [
-  { title: "Home", url: "/", img: homeIcon, alt: "Home Icon" },
+  { title: "Language", url: "/", img: homeIcon, alt: "Home Icon" },
   { title: "Table", url: "/table", img: tableIcon, alt: "Table Icon" },
   { title: "Knowledge Base", url: "/knowledge", img: knowledgenIcon, alt: "Knowledge Icon" },
   { title: "Contact Us", url: "/overus", img: contactUsIcon, alt: "Contact Us" },
