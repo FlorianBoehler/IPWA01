@@ -8,22 +8,25 @@ import KnowledgePage from "./pages/knowledge";
 import MainNavigation from "./components/mainNavigation/MainNavigation";
 import LanguageButton from "./components/languagebutton/LanguageButton";
 
-import { useTranslation } from "react-i18next";
+
 
 function App() {
-  const { t } = useTranslation();
+  
   return (
-    <BrowserRouter>
-      <LanguageButton />
+    <div className="appContainer">
+      <div className="d-flex flex-column align-items-start"></div>
+      <BrowserRouter>
+        <LanguageButton />
 
-      <MainNavigation />
-      <Routes>
-        <Route path="/" element={<MainPage />} />
-        <Route path="/table" element={<TablePage />} />
-        <Route path="/knowledge" element={<KnowledgePage />} />
-        <Route path="/overus" element={<OverUsPage />} />
-      </Routes>
-    </BrowserRouter>
+        <MainNavigation />
+        <Routes>
+          <Route path="/" element={<MainPage />} />
+          <Route path="/table" element={<TablePage />} />
+          <Route path="/knowledge" element={<KnowledgePage />} />
+          <Route path="/overus" element={<OverUsPage />} />
+        </Routes>
+      </BrowserRouter>{" "}
+    </div>
   );
 }
 

@@ -8,6 +8,7 @@ import crossIcon from "../../media/icons/cross.png";
 
 import { MainNavigationData } from "./MainNavigationData";
 import MainPage from "../../pages/main";
+import { withTranslation } from "react-i18next";
 
 class MainNavigation extends Component {
   state = { clicked: false };
@@ -17,7 +18,9 @@ class MainNavigation extends Component {
   closeMenu = () => {
     this.setState({ clicked: false });
   };
+  
   render() {
+    const {t} = this.props;
     return (
       <div>
         <nav className={classes.NavigationItems}>
@@ -55,7 +58,7 @@ class MainNavigation extends Component {
                       src={item.img}
                       alt={item.alt}
                     />
-                    {item.title}
+                    {t(item.title)}
                   </Link>
                 </li>
               );
@@ -68,4 +71,4 @@ class MainNavigation extends Component {
   }
 }
 
-export default MainNavigation;
+export default withTranslation()(MainNavigation);

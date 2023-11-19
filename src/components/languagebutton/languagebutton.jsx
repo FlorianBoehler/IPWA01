@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import classes from "./LanguageButton.module.css";
 import { Component } from "react";
-import logo from "../../media/Logo.png";
-import menuIcon from "../../media/icons/menu-burger.png";
+
+import globeIcon from "../../media/icons/globe.png";
 import crossIcon from "../../media/icons/cross.png";
 
 import { MainNavigationData } from "./LanguageButtonData";
@@ -21,19 +21,12 @@ class LanguageButton extends Component {
     return (
       <div>
         <nav className={classes.NavigationItems}>
-          <h1 className={classes.logo} onClick={this.closeMenu}>
-            Green World Energy
-            <img
-              className={classes.logoImg}
-              src={logo}
-              alt="Green World Energy logo"
-            />
-          </h1>
+          
           <div className={classes.MenuSmallScreen}>
             <img
               className={classes.menuBar}
-              src={this.state.clicked ? crossIcon : menuIcon}
-              alt="MenuBar Icon"
+              src={this.state.clicked ? crossIcon : globeIcon}
+              alt="Globe Icon"
               onClick={this.handleClick}
             />
           </div>

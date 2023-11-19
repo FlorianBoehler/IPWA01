@@ -1,1 +1,10 @@
-{"welcome_to_react": "Bienvenue a React et react-i18next"}
+{
+    "welcome_to_react": "Bienvenue a React et react-i18next",
+    "language": "French",
+    "app_title": "Green World Energy",
+    "home": "Accueil",
+    "table": "Table",
+    "knowledge": "Base de connaissances",
+    "contact": "Nous contacter"
+  }
+  

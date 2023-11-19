@@ -1,2 +1,9 @@
-{"welcome_to_react": "Welcome to React and react-i18next"}
-
+{
+  "welcome_to_react": "Welcome to React and react-i18next",
+  "language": "English",
+  "app_title": "Green World Energy",
+  "home": "Home",
+  "table": "Table",
+  "knowledge": "Knowledge Base",
+  "contact": "Contact Us"
+}
