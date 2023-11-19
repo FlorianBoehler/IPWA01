@@ -7,7 +7,7 @@ import MainPage from "./pages/main";
 import TablePage from "./pages/table";
 import OverUsPage from "./pages/overus";
 import KnowledgePage from "./pages/knowledge";
-import LanguageButton from "./components/languageButton/LanguageButton";
+import LanguageButton from "./components/languagebutton/LanguageButton";
 import MainNavigation from "./components/mainNavigation/MainNavigation";
 import Background from "./components/background/Background";
 
