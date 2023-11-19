@@ -1,64 +1,69 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+
 import classes from "./LanguageButton.module.css";
-import { Component } from "react";
-
+import { useTranslation } from "react-i18next";
+import { LanguageButtonData } from "./LanguageButtonData";
+import "../../../node_modules/flag-icon-css/css/flag-icons.min.css";
 import globeIcon from "../../media/icons/globe.png";
-import crossIcon from "../../media/icons/cross.png";
+import i18next from "i18next";
+import cookies from "js-cookie";
 
-import { MainNavigationData } from "./LanguageButtonData";
-import MainPage from "../../pages/main";
+function LanguageButton() {
 
-class LanguageButton extends Component {
-  state = { clicked: false };
-  handleClick = () => {
-    this.setState({ clicked: !this.state.clicked });
-  };
-  closeMenu = () => {
-    this.setState({ clicked: false });
-  };
-  render() {
-    return (
-      <div>
-        <nav className={classes.NavigationItems}>
-          
-          <div className={classes.MenuSmallScreen}>
-            <img
-              className={classes.menuBar}
-              src={this.state.clicked ? crossIcon : globeIcon}
-              alt="Globe Icon"
-              onClick={this.handleClick}
-            />
-          </div>
-          <ul
-            className={
-              this.state.clicked ? classes.navMenuActive : classes.navMenu
-            }
-          >
-            {MainNavigationData.map((item, index) => {
-              return (
-                <li key={index}>
-                  <Link
-                    className={classes.navLink}
-                    to={item.url}
-                    onClick={this.closeMenu}
-                  >
-                    <img
-                      className={classes.navLinkIcon}
-                      src={item.img}
-                      alt={item.alt}
-                    />
-                    {item.title}
-                  </Link>
-                </li>
-              );
-            })}
-          </ul>
-        </nav>
-        <MainPage onMainPageClick={this.closeMenu} />
-      </div>
+  const { t } = useTranslation();
+  
+  const [currentLanguageCode, setCurrentLanguageCode] = useState(
+    cookies.get("i18next") || "en"
+  );
+
+  useEffect(() => {
+    const currentLanguage = LanguageButtonData.find(
+      (l) => l.code === currentLanguageCode, document.title = t("app_title")
     );
-  }
+    const direction = currentLanguage ? currentLanguage.dir : "ltr";
+    document.body.dir = direction;
+  }, [currentLanguageCode]); // Abhängigkeit zu currentLanguageCode
+
+  const handleLanguageChange = (code) => {
+    i18next.changeLanguage(code);
+    setCurrentLanguageCode(code);
+    
+  };
+
+  
+
+  return (
+    <div className={classes.dropdown}>
+      <button
+        className="btn btn-secondary dropdown-toggle"
+        type="button"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        <img className={classes.globeIcon} src={globeIcon} alt="Globe Icon" />
+      </button>
+      <ul className="dropdown-menu">
+        <li>
+          <span className="dropdown-item-text">{t("language")}</span>
+        </li>
+        {LanguageButtonData.map(({ code, name, country_code }) => (
+          <li key={country_code}>
+            <button
+              className="dropdown-item"
+              onClick={() => handleLanguageChange(code)}
+              disabled={code === currentLanguageCode}
+            >
+              <span
+                className={`flag-icon flag-icon-${country_code} mx-2`}
+                style={{ opacity: code === currentLanguageCode ? 0.5 : 1 }}
+              ></span>
+              {name}
+            </button>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
 }
 
 export default LanguageButton;

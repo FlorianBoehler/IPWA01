@@ -1,11 +1,5 @@
-import Background from "../components/background/Background";
-
 function KnowledgePage() {
-  return (
-    <div>
-      <Background />
-    </div>
-  );
+  return <div></div>;
 }
 
 export default KnowledgePage;

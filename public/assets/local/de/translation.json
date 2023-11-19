@@ -1,2 +1,11 @@
-{"welcome_to_react": "Welcome to React and react-i18next"}
+{
+    
+    "language": "Sprache",
+    "app_title": "Grüne Welt Energie",
+    "home": "Startseite",
+    "table": "Tabelle",
+    "knowledge": "Wissensdatenbank",
+    "contact": "Kotanktiere uns"
+  }
+  
 

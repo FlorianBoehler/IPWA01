@@ -25,7 +25,7 @@ class MainNavigation extends Component {
       <div>
         <nav className={classes.NavigationItems}>
           <h1 className={classes.logo} onClick={this.closeMenu}>
-            Green World Energy
+            {t("app_title")} 
             <img
               className={classes.logoImg}
               src={logo}

@@ -1,2 +1,8 @@
-{"welcome_to_react": "Welcome to React and react-i18next"}
+{
+"language":  "لغة",
+"app_title": "الطاقة العالمية الخضراء",
+"home": "الصفحة الرئيسية",
+"table": "جدول",
+"knowledge": "قاعدة المعرفة",
+"contact": "عننا"}
 
