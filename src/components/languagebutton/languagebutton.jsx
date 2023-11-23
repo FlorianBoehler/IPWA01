@@ -9,28 +9,25 @@ import i18next from "i18next";
 import cookies from "js-cookie";
 
 function LanguageButton() {
-
   const { t } = useTranslation();
-  
+
   const [currentLanguageCode, setCurrentLanguageCode] = useState(
     cookies.get("i18next") || "en"
   );
 
   useEffect(() => {
     const currentLanguage = LanguageButtonData.find(
-      (l) => l.code === currentLanguageCode, document.title = t("app_title")
+      (l) => l.code === currentLanguageCode,
+      (document.title = t("app_title")) // & Change Title
     );
     const direction = currentLanguage ? currentLanguage.dir : "ltr";
     document.body.dir = direction;
-  }, [currentLanguageCode]); // Abhängigkeit zu currentLanguageCode
+  }, [currentLanguageCode]);
 
   const handleLanguageChange = (code) => {
     i18next.changeLanguage(code);
     setCurrentLanguageCode(code);
-    
   };
-
-  
 
   return (
     <div className={classes.dropdown}>
