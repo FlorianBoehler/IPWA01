@@ -17,7 +17,7 @@ export const columnDef = [
   },
   {
     accessorKey: "co2_value_in_kt",
-    header: "CO2 Value ID",
+    header: "kt CO2/yr ",
   },
   {
     accessorKey: "industry_sector",

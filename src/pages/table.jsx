@@ -1,10 +1,12 @@
 import DataTable from "../components/tanStackTable/DataTable";
-import SortingTable from "../components/tanStackTable/SortingTable"
+import SortingTable from "../components/tanStackTable/SortingTable";
+import GlobalFiltering from "../components/tanStackTable/GlobalFiltering";
 
 function TablePage() {
   return <div>
     {/*<DataTable/>*/}
-    <SortingTable/>
+    {/*<SortingTable/>*/}
+    <GlobalFiltering/>
   </div>;
 }
 
