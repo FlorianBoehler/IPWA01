@@ -1,12 +1,13 @@
-import DataTable from "../components/tanStackTable/DataTable";
-import SortingTable from "../components/tanStackTable/SortingTable";
-import GlobalFiltering from "../components/tanStackTable/GlobalFiltering";
+import GlobalFiltering from "../components/tanStackTable/DataTable";
+
 
 function TablePage() {
-  return <div>
+  return <div >
     {/*<DataTable/>*/}
     {/*<SortingTable/>*/}
+    {/*<GlobalTable/>*/}
     <GlobalFiltering/>
+    
   </div>;
 }
 

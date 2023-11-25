@@ -16,7 +16,7 @@ const loadingMarkup = (
 
 ReactDOM.render(
   <Suspense fallback={loadingMarkup}>
-    <App />
+    <App/>
   </Suspense>,
   document.getElementById("root")
 );

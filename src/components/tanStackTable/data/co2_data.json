@@ -3,7 +3,12 @@
       "type": "country",
       "country_code": "AW",
       "country_name": "Aruba",
-      "co2_value_in_kt": "127"
+      "co2_value_in_kt": "127",
+      "company_name":"",
+      "industry_sector":"",
+      "headquarters_city":"",
+      "number_of_employees":""
+
     },
     {
       "type": "country",
