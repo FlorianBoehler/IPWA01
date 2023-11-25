@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import classes from "./MainNavigation.module.css";
 import { Component } from "react";
 import logo from "../../media/Logo.png";
-import menuIcon from "../../media/icons/menu-burger.png";
-import crossIcon from "../../media/icons/cross.png";
+import menuIcon from "../../media/icons/list.svg";
+import crossIcon from "../../media/icons/x-lg.svg";
 
 import { MainNavigationData } from "./MainNavigationData";
 import MainPage from "../../pages/main";

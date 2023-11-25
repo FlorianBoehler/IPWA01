@@ -39,59 +39,51 @@ const Table = () => {
     <>
       <GlobalFilter filter={filtering} setFilter={setFiltering} />
       <hr />
-      <div className="tableScroll">
       <table>
         <thead>
-          {tableInstance.getHeaderGroups().map((headerEl) => {
-            return (
-              <tr key={headerEl.id}>
-                {headerEl.headers.map((columnEl) => {
-                  return (
-                    <th
-                      key={columnEl.id}
-                      colSpan={columnEl.colSpan}
-                      onClick={columnEl.column.getToggleSortingHandler()}
-                    >
-                      {flexRender(
-                        columnEl.column.columnDef.header,
-                        columnEl.getContext()
-                      )}
-                      {/*Code for UP and DOWN sorting*/}
-                      {
+          {tableInstance.getHeaderGroups().map((headerEl) => (
+            <tr key={headerEl.id}>
+              {headerEl.headers.map((columnEl) => (
+                <th
+                  key={columnEl.id}
+                  colSpan={columnEl.colSpan}
+                  onClick={columnEl.column.getToggleSortingHandler()}
+                >
+                  {flexRender(
+                    columnEl.column.columnDef.header,
+                    columnEl.getContext()
+                  )}
+                  {/* Code for UP and DOWN sorting */}
+                  {
                     columnEl.column.getIsSorted() === 'asc' ? " ↑" :
                     columnEl.column.getIsSorted() === 'desc' ? " ↓" :
                     " ↑↓"
                   }
-                    </th>
-                  );
-                })}
-              </tr>
-            );
-          })}
+                </th>
+              ))}
+            </tr>
+          ))}
         </thead>
-        <tbody>
-          {tableInstance.getRowModel().rows.map((rowEl) => {
-            return (
-              <tr key={rowEl.id}>
-                {rowEl.getVisibleCells().map((cellEl) => {
-                  return (
-                    <td key={cellEl.id}>
-                      {flexRender(
-                        cellEl.column.columnDef.cell,
-                        cellEl.getContext()
-                      )}
-                    </td>
-                  );
-                })}
-              </tr>
-            );
-          })}
-        </tbody>
       </table>
+      <div className="tableScroll">
+        <table>
+          <tbody>
+            {tableInstance.getRowModel().rows.map((rowEl) => (
+              <tr key={rowEl.id}>
+                {rowEl.getVisibleCells().map((cellEl) => (
+                  <td key={cellEl.id}>
+                    {flexRender(
+                      cellEl.column.columnDef.cell,
+                      cellEl.getContext()
+                    )}
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
       </div>
-      <div>
       <Pagination tableInstance={tableInstance} />
-      </div>
     </>
   );
 };

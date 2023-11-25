@@ -1,12 +1,25 @@
+.dropdownContainer {
+  position: fixed;
+  top: 2px; /* Abstand von oben */
+  right: 10px; /* Abstand von rechts */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 1000;
+}
+
 .dropdown {
   display: flex;
+  top: 10px; /* Abstand von oben */
+  right: 10px; /* Abstand von rechts */
   justify-content: flex-end;
 }
 
 .globeIcon {
   width: 1.8rem;
   height: 1.4rem;
-  
+  top: 10px; /* Abstand von oben, plus Abstand zum Dropdown */
+  right: 10px; /* Abstand von rechts, plus Breite des Dropdowns */
   padding-right: 0.2rem;
   padding-left: 0.2rem;
 }

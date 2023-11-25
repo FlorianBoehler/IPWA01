@@ -8,12 +8,12 @@
   background-color: white;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
   width: 95%;
-  height: 80px;
+  height: 4rem;
   border-radius: 13px;
   position: fixed;
-  top: 60px;
+  top: 50px;
   left: 2.5%;
-  
+  z-index: 500;
 }
 
 .logo {
@@ -31,8 +31,8 @@
 
 .logoImg {
   margin: 0.2rem;
-  width: 4rem;
-  height: 3.8rem;
+  width: 3.8rem;
+  height: 3.6rem;
 }
 
 .navMenu,

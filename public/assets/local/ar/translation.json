@@ -1,8 +1,11 @@
 {
-"language":  "لغة",
-"app_title": "الطاقة العالمية الخضراء",
-"home": "الصفحة الرئيسية",
-"table": "جدول",
-"knowledge": "قاعدة المعرفة",
-"contact": "عننا"}
-
+  "language": "لغة",
+  "app_title": "الطاقة العالمية الخضراء",
+  "home": "الصفحة الرئيسية",
+  "table": "جدول",
+  "knowledge": "قاعدة المعرفة",
+  "contact": "عننا",
+  "footer_all_rights": "© Green Future Energy - كل الحقوق محفوظة",
+  "footer_legal_notice": "إشعار قانوني"
+  
+}

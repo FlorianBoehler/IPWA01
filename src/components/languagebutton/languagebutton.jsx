@@ -4,7 +4,7 @@ import classes from "./LanguageButton.module.css";
 import { useTranslation } from "react-i18next";
 import { LanguageButtonData } from "./LanguageButtonData";
 import "../../../node_modules/flag-icon-css/css/flag-icons.min.css";
-import globeIcon from "../../media/icons/globe.png";
+import globeIcon from "../../media/icons/globe2.svg";
 import i18next from "i18next";
 import cookies from "js-cookie";
 
@@ -30,6 +30,7 @@ function LanguageButton() {
   };
 
   return (
+    <div className={classes.dropdownContainer}>
     <div className={classes.dropdown}>
       <button
         className="btn btn-secondary dropdown-toggle"
@@ -59,7 +60,7 @@ function LanguageButton() {
           </li>
         ))}
       </ul>
-    </div>
+    </div> </div>
   );
 }
 
