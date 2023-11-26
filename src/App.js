@@ -21,7 +21,6 @@ function App() {
           <Routes>
             <Route path="/" element={<MainPage />} />
             <Route path="/table" element={<TablePage />} />
-
             <Route path="/overus" element={<OverUsPage />} />
           </Routes>
         </div>

@@ -1,0 +1,11 @@
+.videoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Vollständige Höhe des Viewports */
+  }
+  
+  video {
+    max-width: 100%; /* Sorgt dafür, dass das Video nicht größer als sein Container wird */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: fügt einen Schatten hinzu */
+  }
