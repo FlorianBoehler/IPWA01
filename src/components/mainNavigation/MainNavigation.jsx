@@ -7,7 +7,6 @@ import menuIcon from "../../media/icons/list.svg";
 import crossIcon from "../../media/icons/x-lg.svg";
 
 import { MainNavigationData } from "./MainNavigationData";
-import MainPage from "../../pages/main";
 import { withTranslation } from "react-i18next";
 
 class MainNavigation extends Component {
@@ -65,7 +64,7 @@ class MainNavigation extends Component {
             })}
           </ul>
         </nav>
-        <MainPage onMainPageClick={this.closeMenu} />
+        
       </div>
     );
   }

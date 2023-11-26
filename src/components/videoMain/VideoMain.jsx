@@ -4,7 +4,7 @@ import "./VideoMain.css";
 
 const VideoMain = () => {
   return (
-    <video width="800" height="450" controls>
+    <video width="800" height="450" autoPlay loop muted>
       <source src={video} type="video/mp4" />
       Ihr Browser unterstützt kein Video.
     </video>

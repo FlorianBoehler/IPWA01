@@ -1,7 +1,8 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import MainPage from "./pages/main";
+//import MainPage from "./pages/main";
+import MainPage from "./pages/MainPage";
 import TablePage from "./pages/table";
 import OverUsPage from "./pages/overus";
 import LanguageButton from "./components/languageButton/LanguageButton";
@@ -12,10 +13,10 @@ import "./App.css";
 function App() {
   return (
     <div className="appContainer">
-      <BrowserRouter>
+      <BrowserRouter >
       <div className="header"><LanguageButton />
       
-        <MainNavigation />
+      <MainNavigation />
         </div>
         <div className="content">
           <Routes>
