@@ -5,20 +5,22 @@ import "./MainPage.css";
 
 function MainPage() {
   return (
-    <div>
-      <dvi className="welcomeText">
+    <div className="contentContainer">
+      <div className="welcomeText">
         <p>
-          Welcome to the CO2 Overview Table of <br></br>GREEN FUTURE ENERGY
+          <h2>
+            Welcome <br></br> to the <br></br> <h1> CO2 Overview Table </h1>of{" "}
+            <br></br>GREEN FUTURE ENERGY{" "}
+          </h2>
         </p>
-      </dvi>
+      </div>
       <div className="videoOverlayContainer">
         <div className="videoContainer">
           <Video />
         </div>
         <div className="overlayContent">
-          <p>Click Here to Start</p>
           <Link to="/table" className="btn btn-secondary">
-            Compare CO₂ Values
+            <h3>Compare CO₂ Values</h3>
           </Link>
         </div>
       </div>

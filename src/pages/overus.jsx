@@ -1,8 +1,8 @@
-
+import "./Overus.css"
 
 function OverUsPage() {
   return (
-    <div>
+    <div className="legalContent">
       <h1>Impressum</h1>
       <p>Angaben gemäß § 5 TMG</p>
       <p>Max Muster </p>
@@ -14,7 +14,7 @@ function OverUsPage() {
       </p>
       <p>Jane Doe</p>
       <p>
-        <a href="mailto:beispiel@example.com" class="btn btn-secondary">
+        <a className="emailButton" href="mailto:beispiel@example.com" class="btn btn-secondary">
           E-Mail senden
         </a>
       </p>

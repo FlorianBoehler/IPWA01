@@ -17,20 +17,15 @@ class MainNavigation extends Component {
   closeMenu = () => {
     this.setState({ clicked: false });
   };
-  
+
   render() {
-    const {t} = this.props;
+    const { t } = this.props;
     return (
       <div>
         <nav className={classes.NavigationItems}>
-          <h1 className={classes.logo} onClick={this.closeMenu}>
-            {t("app_title")} 
-            <img
-              className={classes.logoImg}
-              src={logo}
-              alt="Green World Energy logo"
-            />
-          </h1>
+          <h2 className={classes.logoText} onClick={this.closeMenu}>
+            {t("app_title")}
+          </h2>
           <div className={classes.MenuSmallScreen}>
             <img
               className={classes.menuBar}
@@ -64,7 +59,6 @@ class MainNavigation extends Component {
             })}
           </ul>
         </nav>
-        
       </div>
     );
   }

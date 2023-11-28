@@ -1,9 +1,10 @@
-
 .NavigationItems {
   display: flex;
   justify-content: space-between;
+
   align-items: center;
   font-size: 1.2rem;
+
   padding: 0 30px;
   background-color: white;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
@@ -11,35 +12,20 @@
   height: 4rem;
   border-radius: 13px;
   position: fixed;
-  top: 50px;
+  top: 3rem;
   left: 2.5%;
   z-index: 500;
 }
 
-.logo {
-  color: black;
-  justify-self: start;
-  align-items: center;
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-gap: 10px;
-  list-style: none;
-  align-items: center;
-  text-align: center;
-  justify-content: end;
-}
-
-.logoImg {
-  margin: 0.2rem;
-  width: 3.8rem;
-  height: 3.6rem;
+.logoText {
+  color: #305473;
 }
 
 .navMenu,
 .navMenuActive {
   display: grid;
   grid-template-columns: repeat(4, auto);
-  grid-gap: 10px;
+  grid-gap: 0.5rem;
   list-style: none;
   align-items: center;
   text-align: center;
@@ -48,26 +34,26 @@
 
 .navLink {
   text-decoration: none;
-  color: black;
-  padding: 0.7rem 1rem;
+  color: #305473;
+  padding: 1rem 1rem;
   white-space: nowrap;
 }
 
 .navLinkIcon {
   padding-right: 0.2rem;
   padding-left: 0.2rem;
-  width: 1.8rem;
-  height: 1.4rem;
+  width: 1.4rem;
+  height: 1.2rem;
 }
 
 .navLink:hover {
-  background: rgb(80, 80, 238);
+  background: #7da63f;
   border-radius: 4px;
   transition: all 0.2s ease-in-out;
 }
 
 .menuBar {
-  color: black;
+  color: #305473;
   width: 1.5rem;
   height: 1.5rem;
   cursor: pointer;

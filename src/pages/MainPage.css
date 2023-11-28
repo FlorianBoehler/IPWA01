@@ -1,21 +1,59 @@
+.contentContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.welcomeText,
+.videoOverlayContainer {
+  flex: 1;
+}
+
 .welcomeText {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #305473;
+  text-align: center;
 }
 
 .videoOverlayContainer {
   position: relative;
 }
 
-.overlayContent {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+.videoContainer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 9%;
 }
 
-.btn-secondary {
+video {
+  width: 800px;
+  height: 450px;
+  max-width: 100%;
+  max-height: 50vh;
+  border-radius: 13px;
 }
+
+.overlayContent {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #305473;
+}
+
+.btn.btn-secondary {
+    background-color: #7DA63F; 
+    border-color: #7DA63F; 
+    color: #1D4014; 
+  }
+  
+ .btn.btn-secondary:hover {
+    background-color: #1D4014; 
+    border-color: #1D4014;
+    color: #7DA63F; 
+  }
