@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import classes from "./MainNavigation.module.css";
+import "./MainNavigation.css";
 import { Component } from "react";
-import logo from "../../media/Logo.png";
 import menuIcon from "../../media/icons/list.svg";
 import crossIcon from "../../media/icons/x-lg.svg";
 
@@ -22,13 +21,13 @@ class MainNavigation extends Component {
     const { t } = this.props;
     return (
       <div>
-        <nav className={classes.NavigationItems}>
-          <h2 className={classes.logoText} onClick={this.closeMenu}>
+        <nav className="NavigationItems">
+          <h2 className=".logoText" onClick={this.closeMenu}>
             {t("app_title")}
           </h2>
-          <div className={classes.MenuSmallScreen}>
+          <div className="MenuSmallScreen">
             <img
-              className={classes.menuBar}
+              className="menuBar"
               src={this.state.clicked ? crossIcon : menuIcon}
               alt="MenuBar Icon"
               onClick={this.handleClick}
@@ -36,19 +35,19 @@ class MainNavigation extends Component {
           </div>
           <ul
             className={
-              this.state.clicked ? classes.navMenuActive : classes.navMenu
+              this.state.clicked ? "navMenuActive" : "navMenu"
             }
           >
             {MainNavigationData.map((item, index) => {
               return (
                 <li key={index}>
                   <Link
-                    className={classes.navLink}
+                    className="navLink"
                     to={item.url}
                     onClick={this.closeMenu}
                   >
                     <img
-                      className={classes.navLinkIcon}
+                      className="navLinkIcon"
                       src={item.img}
                       alt={item.alt}
                     />

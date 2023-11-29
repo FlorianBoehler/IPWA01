@@ -13,10 +13,10 @@ import "./App.css";
 function App() {
   return (
     <div className="appContainer">
-      <BrowserRouter >
-      <div className="header"><LanguageButton />
-      
-      <MainNavigation />
+      <BrowserRouter>
+        <div className="header">
+          <LanguageButton />
+          <MainNavigation />
         </div>
         <div className="content">
           <Routes>

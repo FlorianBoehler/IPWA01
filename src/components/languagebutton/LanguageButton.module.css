@@ -13,7 +13,6 @@
   top: 10px; /* Abstand von oben */
   right: 10px; /* Abstand von rechts */
   justify-content: flex-end;
-  
 }
 
 .globeIcon {
@@ -25,14 +24,3 @@
   padding-left: 0.2rem;
 }
 
-.btn.btn-secondary {
-  background-color: #7DA63F; 
-  border-color: #7DA63F; 
-  color: #1D4014; 
-}
-
-.btn.btn-secondary:hover {
-  background-color: #1D4014; 
-  border-color: #1D4014;
-  color: #7DA63F; 
-}

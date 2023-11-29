@@ -7,12 +7,14 @@ function MainPage() {
   return (
     <div className="contentContainer">
       <div className="welcomeText">
-        <p>
-          <h2>
-            Welcome <br></br> to the <br></br> <h1> CO2 Overview Table </h1>of{" "}
-            <br></br>GREEN FUTURE ENERGY{" "}
-          </h2>
-        </p>
+        <h2>
+          Welcome <br></br> to the <br></br>
+        </h2>
+        <h1> CO2 Overview Table </h1>
+        <h2>
+          of
+          <br></br>GREEN FUTURE ENERGY
+        </h2>
       </div>
       <div className="videoOverlayContainer">
         <div className="videoContainer">
