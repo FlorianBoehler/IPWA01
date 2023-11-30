@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import classes from "./LanguageButton.module.css";
+import "./LanguageButton.css"
 import { useTranslation } from "react-i18next";
 import { LanguageButtonData } from "./LanguageButtonData";
 import "../../../node_modules/flag-icon-css/css/flag-icons.min.css";
@@ -30,15 +30,15 @@ function LanguageButton() {
   };
 
   return (
-    <div className={classes.dropdownContainer}>
-    <div className={classes.dropdown}>
+    <div className="dropdownContainer">
+    <div className="dropdown">
       <button
         className="btn btn-secondary dropdown-toggle"
         type="button"
         data-bs-toggle="dropdown"
         aria-expanded="false"
       >
-        <img className={classes.globeIcon} src={globeIcon} alt="Globe Icon" />
+        <img className="globeIcon" src={globeIcon} alt="Globe Icon" />
       </button>
       <ul className="dropdown-menu">
         <li>

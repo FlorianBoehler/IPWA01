@@ -4,7 +4,7 @@ body,
   background: linear-gradient(
     90deg,
     rgba(125, 166, 63, 1) 0%,
-    rgb(214, 225, 199) 35%,
+    rgb(255, 255, 255) 35%,
     rgb(255, 255, 255) 100%
   );
 }
@@ -16,16 +16,13 @@ body,
 
 .header {
   position: fixed;
-  top: 0;
+  top: 0px;
   width: 100%;
   z-index: 1000;
 }
 
 .content {
-  
-  box-shadow: 0 10px 15px -5px rgba(0, 0, 0, 0.25);
-  border-radius: 13px;
-  z-index: 500;
+  z-index: 100;
 }
 
 .btn.btn-secondary {
@@ -45,13 +42,10 @@ body,
     background-color: #7da63f;
     border-color: #7da63f;
     z-index: 1;
-    
-  
   }
 
   .navLink:active {
     background-color: #1d4014;
-   border-color: #1d4014;
-    
+    border-color: #1d4014;
   }
 }

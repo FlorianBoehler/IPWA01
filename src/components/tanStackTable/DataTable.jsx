@@ -35,8 +35,10 @@ const Table = () => {
     onGlobalFilterChange: setFiltering,
   });
 
+  
+
   return (
-    <>
+    <> <div className="tableContainer">
       <GlobalFilter filter={filtering} setFilter={setFiltering} />
       <hr />
       <table>
@@ -84,6 +86,7 @@ const Table = () => {
         </table>
       </div>
       <Pagination tableInstance={tableInstance} />
+      </div>
     </>
   );
 };
