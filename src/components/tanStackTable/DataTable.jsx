@@ -18,7 +18,7 @@ import Pagination from "./Pagination";
 
 const Table = () => {
   const [typeFilter, setTypeFilter] = React.useState({});
-  const [filterOptions, setFilterOptions] = useState([]); // Zustandsvariable für Filteroptionen
+  const [filterOptions, setFilterOptions] = useState([]); 
   const [sorting, setSorting] = React.useState([]);
   const [filtering, setFiltering] = React.useState("");
 
@@ -29,10 +29,17 @@ const Table = () => {
   const finalData = React.useMemo(() => mainData, []);
   const finalColumnDef = React.useMemo(() => columnDef, []);
 
-  // Effekt zum Initialisieren der Filteroptionen
+  const [countryFilter, setCountryFilter] = React.useState({});
+  const [countryOptions, setCountryOptions] = useState([]);
+  
   useEffect(() => {
-    const options = extractUniqueOptions(finalData, 'type'); // 'type' ist der Schlüssel
+    const options = extractUniqueOptions(finalData, 'type'); 
     setFilterOptions(options);
+  }, [finalData]);
+
+  useEffect(() => {
+    const options = extractUniqueOptions(finalData, 'country_name'); 
+    setCountryOptions(options);
   }, [finalData]);
 
   const tableInstance = useReactTable({
@@ -51,20 +58,33 @@ const Table = () => {
   });
    
 
+  
   return (
     <> 
       <div className="tableContainer">
         <div className="filterContainer">
+        <div >
           <GlobalFilter filter={filtering} setFilter={setFiltering} />
           <CheckboxFilterComponent
+            buttonTitle="Type"
             options={filterOptions}
             selectedOptions={typeFilter}
             setSelectedOptions={setTypeFilter}
           />
         </div>
+
+        <div >
+        <CheckboxFilterComponent
+          buttonTitle="Country"
+          options={countryOptions}
+          selectedOptions={countryFilter}
+          setSelectedOptions={setCountryFilter}
+        />
+        </div>
+      </div>
         <hr />
 
-        {/* Scrollbare Tabelle mit integriertem thead und tbody */}
+       
         <div className="tableScroll">
           <table>
             <thead className="thead">

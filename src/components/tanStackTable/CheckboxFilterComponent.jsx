@@ -1,11 +1,16 @@
-import React from 'react';
+import React from "react";
 
-const CheckboxFilterComponent = ({ options, selectedOptions, setSelectedOptions }) => {
+const CheckboxFilterComponent = ({
+  buttonTitle,
+  options,
+  selectedOptions,
+  setSelectedOptions,
+}) => {
   const handleChange = (event) => {
     const value = event.target.name;
-    setSelectedOptions(prev => ({
+    setSelectedOptions((prev) => ({
       ...prev,
-      [value]: !prev[value]
+      [value]: !prev[value],
     }));
   };
 
@@ -17,10 +22,10 @@ const CheckboxFilterComponent = ({ options, selectedOptions, setSelectedOptions 
         data-bs-toggle="dropdown"
         aria-expanded="false"
       >
-        Type
+        {buttonTitle}
       </button>
       <ul className="dropdown-menu">
-        {options.map(option => (
+        {options.map((option) => (
           <li key={option}>
             <label className="dropdown-item">
               <input
