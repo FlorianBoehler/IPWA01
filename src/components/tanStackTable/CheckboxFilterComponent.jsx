@@ -10,18 +10,30 @@ const CheckboxFilterComponent = ({ options, selectedOptions, setSelectedOptions 
   };
 
   return (
-    <div>
-      {options.map(option => (
-        <label key={option}>
-          <input
-            type="checkbox"
-            name={option}
-            checked={selectedOptions[option] || false}
-            onChange={handleChange}
-          />
-          {option}
-        </label>
-      ))}
+    <div className="dropdown">
+      <button
+        className="btn btn-primary dropdown-toggle"
+        type="button"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        Type
+      </button>
+      <ul className="dropdown-menu">
+        {options.map(option => (
+          <li key={option}>
+            <label className="dropdown-item">
+              <input
+                type="checkbox"
+                name={option}
+                checked={selectedOptions[option] || false}
+                onChange={handleChange}
+              />
+              {option}
+            </label>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };

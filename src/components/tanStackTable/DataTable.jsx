@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect, useState } from 'react';
+import { extractUniqueOptions } from './ExtractOption';
 import GlobalFilter from "./GlobalFilter";
 import { filterByType } from "./CheckboxFilter";
 import CheckboxFilterComponent from "./CheckboxFilterComponent";
@@ -17,6 +18,10 @@ import Pagination from "./Pagination";
 
 const Table = () => {
   const [typeFilter, setTypeFilter] = React.useState({});
+  const [filterOptions, setFilterOptions] = useState([]); // Zustandsvariable für Filteroptionen
+  const [sorting, setSorting] = React.useState([]);
+  const [filtering, setFiltering] = React.useState("");
+
   const filteredData = React.useMemo(
     () => filterByType(mainData, typeFilter),
     [mainData, typeFilter]
@@ -24,8 +29,11 @@ const Table = () => {
   const finalData = React.useMemo(() => mainData, []);
   const finalColumnDef = React.useMemo(() => columnDef, []);
 
-  const [sorting, setSorting] = React.useState([]);
-  const [filtering, setFiltering] = React.useState("");
+  // Effekt zum Initialisieren der Filteroptionen
+  useEffect(() => {
+    const options = extractUniqueOptions(finalData, 'type'); // 'type' ist der Schlüssel
+    setFilterOptions(options);
+  }, [finalData]);
 
   const tableInstance = useReactTable({
     columns: finalColumnDef,
@@ -41,48 +49,47 @@ const Table = () => {
     onSortingChange: setSorting,
     onGlobalFilterChange: setFiltering,
   });
+   
 
   return (
     <> 
       <div className="tableContainer">
         <div className="filterContainer">
           <GlobalFilter filter={filtering} setFilter={setFiltering} />
-          {/* CheckboxFilter-Komponente */}
           <CheckboxFilterComponent
-            options={["country", "company"]}
+            options={filterOptions}
             selectedOptions={typeFilter}
             setSelectedOptions={setTypeFilter}
           />
         </div>
         <hr />
-        <table>
-          <thead>
-            {tableInstance.getHeaderGroups().map((headerEl) => (
-              <tr key={headerEl.id}>
-                {headerEl.headers.map((columnEl) => (
-                  <th
-                    key={columnEl.id}
-                    colSpan={columnEl.colSpan}
-                    onClick={columnEl.column.getToggleSortingHandler()}
-                  >
-                    {flexRender(
-                      columnEl.column.columnDef.header,
-                      columnEl.getContext()
-                    )}
-                    {/* Code for UP and DOWN sorting */}
-                    {columnEl.column.getIsSorted() === "asc"
-                      ? " ↑"
-                      : columnEl.column.getIsSorted() === "desc"
-                      ? " ↓"
-                      : " "}
-                  </th>
-                ))}
-              </tr>
-            ))}
-          </thead>
-        </table>
+
+        {/* Scrollbare Tabelle mit integriertem thead und tbody */}
         <div className="tableScroll">
           <table>
+            <thead className="thead">
+              {tableInstance.getHeaderGroups().map((headerEl) => (
+                <tr key={headerEl.id}>
+                  {headerEl.headers.map((columnEl) => (
+                    <th
+                      key={columnEl.id}
+                      colSpan={columnEl.colSpan}
+                      onClick={columnEl.column.getToggleSortingHandler()}
+                    >
+                      {flexRender(
+                        columnEl.column.columnDef.header,
+                        columnEl.getContext()
+                      )}
+                      {columnEl.column.getIsSorted() === "asc"
+                        ? " ↑"
+                        : columnEl.column.getIsSorted() === "desc"
+                        ? " ↓"
+                        : " "}
+                    </th>
+                  ))}
+                </tr>
+              ))}
+            </thead>
             <tbody>
               {tableInstance.getRowModel().rows.map((rowEl) => (
                 <tr key={rowEl.id}>
@@ -99,7 +106,7 @@ const Table = () => {
             </tbody>
           </table>
         </div>
-        <Pagination tableInstance={tableInstance} />
+        <Pagination className="pagination" tableInstance={tableInstance} />
       </div>
     </>
   );
