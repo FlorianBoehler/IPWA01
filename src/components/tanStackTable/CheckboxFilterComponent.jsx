@@ -14,6 +14,8 @@ const CheckboxFilterComponent = ({
     }));
   };
 
+  const sortedOptions = options.sort((a, b) => a.localeCompare(b));
+
   return (
     <div className="dropdown">
       <button
@@ -25,7 +27,7 @@ const CheckboxFilterComponent = ({
         {buttonTitle}
       </button>
       <ul className="dropdown-menu">
-        {options.map((option) => (
+        {sortedOptions.map((option) => (
           <li key={option}>
             <label className="dropdown-item">
               <input

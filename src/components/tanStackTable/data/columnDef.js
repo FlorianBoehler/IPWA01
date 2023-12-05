@@ -4,18 +4,10 @@ export const columnDef = [
     header: "Type",
   },
   {
-    accessorKey: "country_code",
-    header: "Country ID",
+    accessorKey: "name",
+    header: "Name",
   },
-  {
-    accessorKey: "country_name",
-    header: "Country Name",
-  },
-  {
-    accessorKey: "company_name",
-    header: "Company Name",
-  },
-  {
+    {
     accessorKey: "co2_value_in_kt",
     header: "kt CO2/yr ",
   },

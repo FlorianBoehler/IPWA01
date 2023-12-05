@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from 'react';
-import { extractUniqueOptions } from './ExtractOption';
+import React, { useEffect, useState } from "react";
+import { extractUniqueOptions } from "./ExtractOption";
 import GlobalFilter from "./GlobalFilter";
-import { filterByType } from "./CheckboxFilter";
+import { filterByType } from "./TypeFilter";
+import { filterByName } from "./NameFilter";
 import CheckboxFilterComponent from "./CheckboxFilterComponent";
 import "./DataTable.css";
 import {
@@ -12,35 +13,42 @@ import {
   getFilteredRowModel,
   getPaginationRowModel,
 } from "@tanstack/react-table";
-import mainData from "./data/co2_data.json";
+import mainData from "./data/co2_data_copy.json";
 import { columnDef } from "./data/columnDef";
 import Pagination from "./Pagination";
 
 const Table = () => {
   const [typeFilter, setTypeFilter] = React.useState({});
-  const [filterOptions, setFilterOptions] = useState([]); 
+  const [nameFilter, setNameFilter] = React.useState({});
+  const [filterOptions, setFilterOptions] = useState([]);
+  const [nameOptions, setNameOptions] = useState([]);
   const [sorting, setSorting] = React.useState([]);
   const [filtering, setFiltering] = React.useState("");
 
-  const filteredData = React.useMemo(
-    () => filterByType(mainData, typeFilter),
-    [mainData, typeFilter]
-  );
   const finalData = React.useMemo(() => mainData, []);
   const finalColumnDef = React.useMemo(() => columnDef, []);
 
-  const [countryFilter, setCountryFilter] = React.useState({});
-  const [countryOptions, setCountryOptions] = useState([]);
-  
+  const resetFilters = () => {
+    setTypeFilter({});
+    setNameFilter({});
+    setFiltering(""); // Setzt den globalen Filter zurück, falls verwendet
+  };
+
   useEffect(() => {
-    const options = extractUniqueOptions(finalData, 'type'); 
+    const options = extractUniqueOptions(finalData, "type");
     setFilterOptions(options);
   }, [finalData]);
 
   useEffect(() => {
-    const options = extractUniqueOptions(finalData, 'country_name'); 
-    setCountryOptions(options);
+    const options = extractUniqueOptions(finalData, "name");
+    setNameOptions(options);
   }, [finalData]);
+
+  const filteredData = React.useMemo(() => {
+    let data = filterByType(mainData, typeFilter);
+    data = filterByName(data, nameFilter);
+    return data;
+  }, [mainData, typeFilter, nameFilter]);
 
   const tableInstance = useReactTable({
     columns: finalColumnDef,
@@ -56,35 +64,38 @@ const Table = () => {
     onSortingChange: setSorting,
     onGlobalFilterChange: setFiltering,
   });
-   
 
-  
   return (
-    <> 
+    <>
       <div className="tableContainer">
         <div className="filterContainer">
-        <div >
           <GlobalFilter filter={filtering} setFilter={setFiltering} />
-          <CheckboxFilterComponent
-            buttonTitle="Type"
-            options={filterOptions}
-            selectedOptions={typeFilter}
-            setSelectedOptions={setTypeFilter}
-          />
-        </div>
+          
+          <div className="filterDropdownContainer">
+          <div>
+            <CheckboxFilterComponent
+              buttonTitle="Type"
+              options={filterOptions}
+              selectedOptions={typeFilter}
+              setSelectedOptions={setTypeFilter}
+            />
+          </div>
 
-        <div >
-        <CheckboxFilterComponent
-          buttonTitle="Country"
-          options={countryOptions}
-          selectedOptions={countryFilter}
-          setSelectedOptions={setCountryFilter}
-        />
+          <div>
+            <CheckboxFilterComponent
+              buttonTitle="Name"
+              options={nameOptions}
+              selectedOptions={nameFilter}
+              setSelectedOptions={setNameFilter}
+            />
+          </div>
+          </div>
+          <button className="btn btn-primary" onClick={resetFilters}>
+            Filter zurücksetzen
+          </button>
         </div>
-      </div>
         <hr />
 
-       
         <div className="tableScroll">
           <table>
             <thead className="thead">

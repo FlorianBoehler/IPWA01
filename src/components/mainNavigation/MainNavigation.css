@@ -19,6 +19,7 @@
 
 .logoText {
   color: #305473;
+  
 }
 
 .navMenu,
@@ -64,56 +65,7 @@
   display: none;
 }
 
-@media screen and (max-width: 700px) {
-  .MenuSmallScreen {
-    z-index: 99;
-  }
-
-  .navMenu,
-  .navMenuActive {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    background-color: rgba(224, 214, 224, 0.25);
-    box-shadow: 0 8px 32px 0 rgba(173, 168, 173, 0.25);
-    backdrop-filter: blur(4px);
-    border-radius: 13px;
-    width: 100%;
-    height: auto;
-    position: absolute;
-    top: 0px;
-    align-items: stretch;
-    padding: 4rem 0px 4rem 0;
-    margin: 0;
-    z-index: -1;
-    transition: all 0.3s ease-in-out;
-  }
-
-  .navMenu {
-    left: -110%;
-  }
-
-  .navMenuActive {
-    left: 0%;
-  }
-
-  .navLink {
-    display: block;
-    width: 100%;
-    padding: 2rem;
-    color: #222;
-  }
-
-  .navLink:hover {
-    background-color: rgba(255, 255, 255, 0.25);
-    backdrop-filter: blur(20px);
-  }
-  .MenuSmallScreen {
-    display: block;
-  }
-}
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .MenuSmallScreen {
     z-index: 99;
   }
@@ -151,6 +103,7 @@
     width: 100%;
     padding: 1rem;
     color: #222;
+    
   }
 
   .navLink:hover {
@@ -162,17 +115,3 @@
   }
 }
 
-@media (hover: none) and (pointer: coarse) {
-  .navLink:hover {
-    padding-bottom: initial;
-    background: initial;
-    border-radius: initial;
-  }
-
-  .navLink:active {
-    padding-bottom: 1.8rem;
-    background: #7da63f;
-    border-radius: 4px;
-    transition: all 0.2s ease-in-out;
-  }
-}
