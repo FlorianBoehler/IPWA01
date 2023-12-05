@@ -4,6 +4,8 @@ import GlobalFilter from "./GlobalFilter";
 import { filterByType } from "./TypeFilter";
 import { filterByName } from "./NameFilter";
 import CheckboxFilterComponent from "./CheckboxFilterComponent";
+
+import DebouncedInput from "./DebounceFunction";
 import "./DataTable.css";
 import {
   useReactTable,
@@ -69,7 +71,13 @@ const Table = () => {
     <>
       <div className="tableContainer">
         <div className="filterContainer">
-          <GlobalFilter filter={filtering} setFilter={setFiltering} />
+        <DebouncedInput
+            value={filtering}
+            onChange={setFiltering}
+            debounce={500} // Verzögerung in Millisekunden
+            className="your-input-class" // Falls Sie spezielle Klassen für Styling benötigen
+            placeholder="Suchen..." // Optional: Platzhaltertext
+          />
           
           <div className="filterDropdownContainer">
           <div>
