@@ -8,11 +8,45 @@
   z-index: 1000;
 }
 
-
 .globeIcon {
-  width: 1.8rem;
-  height: 1.4rem;
+  width: 1.5rem;
+  
   padding-right: 0.2rem;
   padding-left: 0.2rem;
 }
 
+#languageButton {
+  background-color: #7da63f;
+  border-color: #7da63f;
+  color: #1d4014;
+}
+
+#languageButton:hover {
+  background-color: #1d4014;
+  border-color: #1d4014;
+  color: #7da63f;
+}
+
+@media (hover: none) and (pointer: coarse) {
+  #languageButton:hover {
+    background-color: #7da63f;
+    border-color: #7da63f;
+    z-index: 1;
+  }
+
+  #languageButton:active {
+    background-color: #1d4014;
+    border-color: #1d4014;
+  }
+}
+
+
+
+@media screen and (max-width: 900px) and (max-height: 500px) {
+  .globeIcon {
+    width: 1.3rem;
+    
+  }
+
+ 
+}

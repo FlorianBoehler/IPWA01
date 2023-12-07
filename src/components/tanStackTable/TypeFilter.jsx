@@ -1,9 +1,9 @@
 export const filterByType = (data, typeFilter) => {
-  // Prüfen, ob alle Filter deaktiviert sind
+  // Check whether all filters are deactivated
   const isAnyFilterActive = Object.values(typeFilter).some(value => value);
 
   if (!isAnyFilterActive) {
-    return data; // Kein Filter ausgewählt, alle Daten anzeigen
+    return data; // No filter selected, display all data
   }
 
   return data.filter(item => typeFilter[item.type]);

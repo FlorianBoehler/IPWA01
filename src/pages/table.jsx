@@ -1,14 +1,12 @@
-import GlobalFiltering from "../components/tanStackTable/DataTable";
-
+import Table from "../components/tanStackTable/DataTable";
 
 function TablePage() {
-  return <div >
-    {/*<DataTable/>*/}
-    {/*<SortingTable/>*/}
-    {/*<GlobalTable/>*/}
-    <GlobalFiltering/>
-    
-  </div>;
+  return (
+    <div>
+      {/* Import of DataTable with all related Filtering and Sorting Functions */}
+      <Table />
+    </div>
+  );
 }
 
 export default TablePage;

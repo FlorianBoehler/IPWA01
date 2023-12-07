@@ -55,6 +55,32 @@ video {
   color: #305473;
 }
 
+#linkToTable {
+  background-color: #7da63f;
+  border-color: #7da63f;
+  color: #1d4014;
+}
+
+#linkToTable:hover {
+  background-color: #1d4014;
+  border-color: #1d4014;
+  color: #7da63f;
+}
+
+@media (hover: none) and (pointer: coarse) {
+  #linkToTable:hover {
+    background-color: #7da63f;
+    border-color: #7da63f;
+    z-index: 1;
+  }
+
+  #linkToTable:active {
+    background-color: #1d4014;
+    border-color: #1d4014;
+  }
+
+}
+
 @media (max-width: 400px) {
   .contentContainer {
     height: 65vh;

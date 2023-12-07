@@ -1,2195 +1,1794 @@
  [
-    {
-      "type": "country",
-      "country_code": "AW",
-      "country_name": "Aruba",
-      "co2_value_in_kt": "127",
-      "company_name":"",
-      "industry_sector":"",
-      "headquarters_city":"",
-      "number_of_employees":""
-
-    },
-    {
-      "type": "country",
-      "country_code": "AF",
-      "country_name": "Afghanistan",
-      "co2_value_in_kt": "835"
-    },
-    {
-      "type": "country",
-      "country_code": "AO",
-      "country_name": "Angola",
-      "co2_value_in_kt": "2445"
-    },
-    {
-      "type": "country",
-      "country_code": "AI",
-      "country_name": "Anguilla",
-      "co2_value_in_kt": "3"
-    },
-    {
-      "type": "country",
-      "country_code": "AL",
-      "country_name": "Albania",
-      "co2_value_in_kt": "459"
-    },
-    {
-      "type": "country",
-      "country_code": "AN",
-      "country_name": "Curaçao",
-      "co2_value_in_kt": "204"
-    },
-    {
-      "type": "country",
-      "country_code": "AE",
-      "country_name": "United Arab Emirates",
-      "co2_value_in_kt": "19351"
-    },
-    {
-      "type": "country",
-      "country_code": "AR",
-      "country_name": "Argentina",
-      "co2_value_in_kt": "18900"
-    },
-    {
-      "type": "country",
-      "country_code": "AM",
-      "country_name": "Armenia",
-      "co2_value_in_kt": "677"
-    },
-    {
-      "type": "country",
-      "country_code": "AG",
-      "country_name": "Antigua and Barbuda",
-      "co2_value_in_kt": "78"
-    },
-    {
-      "type": "country",
-      "country_code": "AU",
-      "country_name": "Australia",
-      "co2_value_in_kt": "36791"
-    },
-    {
-      "type": "country",
-      "country_code": "AT",
-      "country_name": "Austria",
-      "co2_value_in_kt": "6601"
-    },
-    {
-      "type": "country",
-      "country_code": "AZ",
-      "country_name": "Azerbaijan",
-      "co2_value_in_kt": "3711"
-    },
-    {
-      "type": "country",
-      "country_code": "BI",
-      "country_name": "Burundi",
-      "co2_value_in_kt": "71"
-    },
-    {
-      "type": "country",
-      "country_code": "BE",
-      "country_name": "Belgium",
-      "co2_value_in_kt": "9592"
-    },
-    {
-      "type": "country",
-      "country_code": "BJ",
-      "country_name": "Benin",
-      "co2_value_in_kt": "863"
-    },
-    {
-      "type": "country",
-      "country_code": "BF",
-      "country_name": "Burkina Faso",
-      "co2_value_in_kt": "529"
-    },
-    {
-      "type": "country",
-      "country_code": "BD",
-      "country_name": "Bangladesh",
-      "co2_value_in_kt": "10687"
-    },
-    {
-      "type": "country",
-      "country_code": "BG",
-      "country_name": "Bulgaria",
-      "co2_value_in_kt": "4364"
-    },
-    {
-      "type": "country",
-      "country_code": "BH",
-      "country_name": "Bahrain",
-      "co2_value_in_kt": "3749"
-    },
-    {
-      "type": "country",
-      "country_code": "BS",
-      "country_name": "Bahamas",
-      "co2_value_in_kt": "404"
-    },
-    {
-      "type": "country",
-      "country_code": "BA",
-      "country_name": "Bosnia and Herzegovina",
-      "co2_value_in_kt": "1537"
-    },
-    {
-      "type": "country",
-      "country_code": "BY",
-      "country_name": "Belarus",
-      "co2_value_in_kt": "5836"
-    },
-    {
-      "type": "country",
-      "country_code": "BZ",
-      "country_name": "Belize",
-      "co2_value_in_kt": "64"
-    },
-    {
-      "type": "country",
-      "country_code": "BM",
-      "country_name": "Bermuda",
-      "co2_value_in_kt": "82"
-    },
-    {
-      "type": "country",
-      "country_code": "BO",
-      "country_name": "Bolivia",
-      "co2_value_in_kt": "2243"
-    },
-    {
-      "type": "country",
-      "country_code": "BR",
-      "country_name": "Brazil",
-      "co2_value_in_kt": "48986"
-    },
-    {
-      "type": "country",
-      "country_code": "BB",
-      "country_name": "Barbados",
-      "co2_value_in_kt": "177"
-    },
-    {
-      "type": "country",
-      "country_code": "BN",
-      "country_name": "Brunei",
-      "co2_value_in_kt": "721"
-    },
-    {
-      "type": "country",
-      "country_code": "BT",
-      "country_name": "Bhutan",
-      "co2_value_in_kt": "198"
-    },
-    {
-      "type": "country",
-      "country_code": "BW",
-      "country_name": "Botswana",
-      "co2_value_in_kt": "700"
-    },
-    {
-      "type": "country",
-      "country_code": "CF",
-      "country_name": "Central African Republic",
-      "co2_value_in_kt": "28"
-    },
-    {
-      "type": "country",
-      "country_code": "CA",
-      "country_name": "Canada",
-      "co2_value_in_kt": "56354"
-    },
-    {
-      "type": "country",
-      "country_code": "CH",
-      "country_name": "Switzerland and Liechtenstein",
-      "co2_value_in_kt": "3507"
-    },
-    {
-      "type": "country",
-      "country_code": "CL",
-      "country_name": "Chile",
-      "co2_value_in_kt": "8570"
-    },
-    {
-      "type": "country",
-      "country_code": "CN",
-      "country_name": "China",
-      "co2_value_in_kt": "1246632"
-    },
-    {
-      "type": "country",
-      "country_code": "CI",
-      "country_name": "Ivory Coast",
-      "co2_value_in_kt": "1454"
-    },
-    {
-      "type": "country",
-      "country_code": "CM",
-      "country_name": "Cameroon",
-      "co2_value_in_kt": "1020"
-    },
-    {
-      "type": "country",
-      "country_code": "CD",
-      "country_name": "Democratic Republic of the Congo",
-      "co2_value_in_kt": "337"
-    },
-    {
-      "type": "country",
-      "country_code": "CG",
-      "country_name": "Congo",
-      "co2_value_in_kt": "737"
-    },
-    {
-      "type": "country",
-      "country_code": "CK",
-      "country_name": "Cook Islands",
-      "co2_value_in_kt": "11"
-    },
-    {
-      "type": "country",
-      "country_code": "CO",
-      "country_name": "Colombia",
-      "co2_value_in_kt": "7757"
-    },
-    {
-      "type": "country",
-      "country_code": "KM",
-      "country_name": "Comoros",
-      "co2_value_in_kt": "28"
-    },
-    {
-      "type": "country",
-      "country_code": "CV",
-      "country_name": "Cabo Verde",
-      "co2_value_in_kt": "92"
-    },
-    {
-      "type": "country",
-      "country_code": "CR",
-      "country_name": "Costa Rica",
-      "co2_value_in_kt": "809"
-    },
-    {
-      "type": "country",
-      "country_code": "CU",
-      "country_name": "Cuba",
-      "co2_value_in_kt": "2461"
-    },
-    {
-      "type": "country",
-      "country_code": "KY",
-      "country_name": "Cayman Islands",
-      "co2_value_in_kt": "86"
-    },
-    {
-      "type": "country",
-      "country_code": "CY",
-      "country_name": "Cyprus",
-      "co2_value_in_kt": "675"
-    },
-    {
-      "type": "country",
-      "country_code": "CZ",
-      "country_name": "Czechia",
-      "co2_value_in_kt": "9769"
-    },
-    {
-      "type": "country",
-      "country_code": "DE",
-      "country_name": "Germany",
-      "co2_value_in_kt": "66588"
-    },
-    {
-      "type": "country",
-      "country_code": "DJ",
-      "country_name": "Djibouti",
-      "co2_value_in_kt": "61"
-    },
-    {
-      "type": "country",
-      "country_code": "DM",
-      "country_name": "Dominica",
-      "co2_value_in_kt": "19"
-    },
-    {
-      "type": "country",
-      "country_code": "DK",
-      "country_name": "Denmark",
-      "co2_value_in_kt": "2728"
-    },
-    {
-      "type": "country",
-      "country_code": "DO",
-      "country_name": "Dominican Republic",
-      "co2_value_in_kt": "2773"
-    },
-    {
-      "type": "country",
-      "country_code": "DZ",
-      "country_name": "Algeria",
-      "co2_value_in_kt": "17300"
-    },
-    {
-      "type": "country",
-      "country_code": "EC",
-      "country_name": "Ecuador",
-      "co2_value_in_kt": "4114"
-    },
-    {
-      "type": "country",
-      "country_code": "EG",
-      "country_name": "Egypt",
-      "co2_value_in_kt": "25932"
-    },
-    {
-      "type": "country",
-      "country_code": "ER",
-      "country_name": "Eritrea",
-      "co2_value_in_kt": "84"
-    },
-    {
-      "type": "country",
-      "country_code": "EH",
-      "country_name": "Western Sahara",
-      "co2_value_in_kt": "24"
-    },
-    {
-      "type": "country",
-      "country_code": "ES",
-      "country_name": "Spain and Andorra",
-      "co2_value_in_kt": "23191"
-    },
-    {
-      "type": "country",
-      "country_code": "EE",
-      "country_name": "Estonia",
-      "co2_value_in_kt": "1491"
-    },
-    {
-      "type": "country",
-      "country_code": "ET",
-      "country_name": "Ethiopia",
-      "co2_value_in_kt": "1921"
-    },
-    {
-      "type": "country",
-      "country_code": "FI",
-      "country_name": "Finland",
-      "co2_value_in_kt": "3899"
-    },
-    {
-      "type": "country",
-      "country_code": "FJ",
-      "country_name": "Fiji",
-      "co2_value_in_kt": "173"
-    },
-    {
-      "type": "country",
-      "country_code": "FK",
-      "country_name": "Falkland Islands",
-      "co2_value_in_kt": "5"
-    },
-    {
-      "type": "country",
-      "country_code": "FR",
-      "country_name": "France and Monaco",
-      "co2_value_in_kt": "30233"
-    },
-    {
-      "type": "country",
-      "country_code": "FO",
-      "country_name": "Faroes",
-      "co2_value_in_kt": "0"
-    },
-    {
-      "type": "country",
-      "country_code": "GA",
-      "country_name": "Gabon",
-      "co2_value_in_kt": "552"
-    },
-    {
-      "type": "country",
-      "country_code": "GB",
-      "country_name": "United Kingdom",
-      "co2_value_in_kt": "33536"
-    },
-    {
-      "type": "country",
-      "country_code": "GE",
-      "country_name": "Georgia",
-      "co2_value_in_kt": "1165"
-    },
-    {
-      "type": "country",
-      "country_code": "GH",
-      "country_name": "Ghana",
-      "co2_value_in_kt": "2364"
-    },
-    {
-      "type": "country",
-      "country_code": "GI",
-      "country_name": "Gibraltar",
-      "co2_value_in_kt": "67"
-    },
-    {
-      "type": "country",
-      "country_code": "GN",
-      "country_name": "Guinea",
-      "co2_value_in_kt": "344"
-    },
-    {
-      "type": "country",
-      "country_code": "GP",
-      "country_name": "Guadeloupe",
-      "co2_value_in_kt": "181"
-    },
-    {
-      "type": "country",
-      "country_code": "GM",
-      "country_name": "The Gambia",
-      "co2_value_in_kt": "56"
-    },
-    {
-      "type": "country",
-      "country_code": "GW",
-      "country_name": "Guinea-Bissau",
-      "co2_value_in_kt": "32"
-    },
-    {
-      "type": "country",
-      "country_code": "GQ",
-      "country_name": "Equatorial Guinea",
-      "co2_value_in_kt": "700"
-    },
-    {
-      "type": "country",
-      "country_code": "GR",
-      "country_name": "Greece",
-      "co2_value_in_kt": "5337"
-    },
-    {
-      "type": "country",
-      "country_code": "GD",
-      "country_name": "Grenada",
-      "co2_value_in_kt": "34"
-    },
-    {
-      "type": "country",
-      "country_code": "GL",
-      "country_name": "Greenland",
-      "co2_value_in_kt": "46"
-    },
-    {
-      "type": "country",
-      "country_code": "GT",
-      "country_name": "Guatemala",
-      "co2_value_in_kt": "2019"
-    },
-    {
-      "type": "country",
-      "country_code": "GF",
-      "country_name": "French Guiana",
-      "co2_value_in_kt": "84"
-    },
-    {
-      "type": "country",
-      "country_code": "GY",
-      "country_name": "Guyana",
-      "co2_value_in_kt": "290"
-    },
-    {
-      "type": "country",
-      "country_code": "HK",
-      "country_name": "Hong Kong",
-      "co2_value_in_kt": "3321"
-    },
-    {
-      "type": "country",
-      "country_code": "HN",
-      "country_name": "Honduras",
-      "co2_value_in_kt": "975"
-    },
-    {
-      "type": "country",
-      "country_code": "HR",
-      "country_name": "Croatia",
-      "co2_value_in_kt": "1800"
-    },
-    {
-      "type": "country",
-      "country_code": "HT",
-      "country_name": "Haiti",
-      "co2_value_in_kt": "324"
-    },
-    {
-      "type": "country",
-      "country_code": "HU",
-      "country_name": "Hungary",
-      "co2_value_in_kt": "5069"
-    },
-    {
-      "type": "country",
-      "country_code": "ID",
-      "country_name": "Indonesia",
-      "co2_value_in_kt": "60259"
-    },
-    {
-      "type": "country",
-      "country_code": "IN",
-      "country_name": "India",
-      "co2_value_in_kt": "264878"
-    },
-    {
-      "type": "country",
-      "country_code": "IE",
-      "country_name": "Ireland",
-      "co2_value_in_kt": "3501"
-    },
-    {
-      "type": "country",
-      "country_code": "IR",
-      "country_name": "Iran",
-      "co2_value_in_kt": "71083"
-    },
-    {
-      "type": "country",
-      "country_code": "IQ",
-      "country_name": "Iraq",
-      "co2_value_in_kt": "17785"
-    },
-    {
-      "type": "country",
-      "country_code": "IS",
-      "country_name": "Iceland",
-      "co2_value_in_kt": "291"
-    },
-    {
-      "type": "country",
-      "country_code": "IL",
-      "country_name": "Israel ",
-      "co2_value_in_kt": "5959"
-    },
-    {
-      "type": "country",
-      "country_code": "IT",
-      "country_name": "Italy",
-      "co2_value_in_kt": "31967"
-    },
-    {
-      "type": "country",
-      "country_code": "JM",
-      "country_name": "Jamaica",
-      "co2_value_in_kt": "808"
-    },
-    {
-      "type": "country",
-      "country_code": "JO",
-      "country_name": "Jordan",
-      "co2_value_in_kt": "2430"
-    },
-    {
-      "type": "country",
-      "country_code": "JP",
-      "country_name": "Japan",
-      "co2_value_in_kt": "108469"
-    },
-    {
-      "type": "country",
-      "country_code": "KZ",
-      "country_name": "Kazakhstan",
-      "co2_value_in_kt": "21121"
-    },
-    {
-      "type": "country",
-      "country_code": "KE",
-      "country_name": "Kenya",
-      "co2_value_in_kt": "2243"
-    },
-    {
-      "type": "country",
-      "country_code": "KG",
-      "country_name": "Kyrgyzstan",
-      "co2_value_in_kt": "1078"
-    },
-    {
-      "type": "country",
-      "country_code": "KH",
-      "country_name": "Cambodia",
-      "co2_value_in_kt": "1696"
-    },
-    {
-      "type": "country",
-      "country_code": "KI",
-      "country_name": "Kiribati",
-      "co2_value_in_kt": "8"
-    },
-    {
-      "type": "country",
-      "country_code": "KN",
-      "country_name": "Saint Kitts and Nevis",
-      "co2_value_in_kt": "29"
-    },
-    {
-      "type": "country",
-      "country_code": "KR",
-      "country_name": "South Korea",
-      "co2_value_in_kt": "62680"
-    },
-    {
-      "type": "country",
-      "country_code": "KW",
-      "country_name": "Kuwait",
-      "co2_value_in_kt": "9808"
-    },
-    {
-      "type": "country",
-      "country_code": "LA",
-      "country_name": "Laos",
-      "co2_value_in_kt": "2056"
-    },
-    {
-      "type": "country",
-      "country_code": "LB",
-      "country_name": "Lebanon",
-      "co2_value_in_kt": "2577"
-    },
-    {
-      "type": "country",
-      "country_code": "LR",
-      "country_name": "Liberia",
-      "co2_value_in_kt": "144"
-    },
-    {
-      "type": "country",
-      "country_code": "LY",
-      "country_name": "Libya",
-      "co2_value_in_kt": "6328"
-    },
-    {
-      "type": "country",
-      "country_code": "LC",
-      "country_name": "Saint Lucia",
-      "co2_value_in_kt": "71"
-    },
-    {
-      "type": "country",
-      "country_code": "LK",
-      "country_name": "Sri Lanka",
-      "co2_value_in_kt": "2386"
-    },
-    {
-      "type": "country",
-      "country_code": "LS",
-      "country_name": "Lesotho",
-      "co2_value_in_kt": "65"
-    },
-    {
-      "type": "country",
-      "country_code": "LT",
-      "country_name": "Lithuania",
-      "co2_value_in_kt": "1382"
-    },
-    {
-      "type": "country",
-      "country_code": "LU",
-      "country_name": "Luxembourg",
-      "co2_value_in_kt": "845"
-    },
-    {
-      "type": "country",
-      "country_code": "LV",
-      "country_name": "Latvia",
-      "co2_value_in_kt": "721"
-    },
-    {
-      "type": "country",
-      "country_code": "MO",
-      "country_name": "Macao",
-      "co2_value_in_kt": "266"
-    },
-    {
-      "type": "country",
-      "country_code": "MA",
-      "country_name": "Morocco",
-      "co2_value_in_kt": "7397"
-    },
-    {
-      "type": "country",
-      "country_code": "MD",
-      "country_name": "Moldova",
-      "co2_value_in_kt": "955"
-    },
-    {
-      "type": "country",
-      "country_code": "MG",
-      "country_name": "Madagascar",
-      "co2_value_in_kt": "530"
-    },
-    {
-      "type": "country",
-      "country_code": "MV",
-      "country_name": "Maldives",
-      "co2_value_in_kt": "221"
-    },
-    {
-      "type": "country",
-      "country_code": "MX",
-      "country_name": "Mexico",
-      "co2_value_in_kt": "41835"
-    },
-    {
-      "type": "country",
-      "country_code": "MK",
-      "country_name": "North Macedonia",
-      "co2_value_in_kt": "751"
-    },
-    {
-      "type": "country",
-      "country_code": "ML",
-      "country_name": "Mali",
-      "co2_value_in_kt": "592"
-    },
-    {
-      "type": "country",
-      "country_code": "MT",
-      "country_name": "Malta",
-      "co2_value_in_kt": "175"
-    },
-    {
-      "type": "country",
-      "country_code": "MM",
-      "country_name": "Myanmar",
-      "co2_value_in_kt": "4005"
-    },
-    {
-      "type": "country",
-      "country_code": "MN",
-      "country_name": "Mongolia",
-      "co2_value_in_kt": "2499"
-    },
-    {
-      "type": "country",
-      "country_code": "MZ",
-      "country_name": "Mozambique",
-      "co2_value_in_kt": "864"
-    },
-    {
-      "type": "country",
-      "country_code": "MR",
-      "country_name": "Mauritania",
-      "co2_value_in_kt": "426"
-    },
-    {
-      "type": "country",
-      "country_code": "MQ",
-      "country_name": "Martinique",
-      "co2_value_in_kt": "190"
-    },
-    {
-      "type": "country",
-      "country_code": "MU",
-      "country_name": "Mauritius",
-      "co2_value_in_kt": "413"
-    },
-    {
-      "type": "country",
-      "country_code": "MW",
-      "country_name": "Malawi",
-      "co2_value_in_kt": "182"
-    },
-    {
-      "type": "country",
-      "country_code": "MY",
-      "country_name": "Malaysia",
-      "co2_value_in_kt": "25156"
-    },
-    {
-      "type": "country",
-      "country_code": "NA",
-      "country_name": "Namibia",
-      "co2_value_in_kt": "407"
-    },
-    {
-      "type": "country",
-      "country_code": "NC",
-      "country_name": "New Caledonia",
-      "co2_value_in_kt": "570"
-    },
-    {
-      "type": "country",
-      "country_code": "NE",
-      "country_name": "Niger",
-      "co2_value_in_kt": "247"
-    },
-    {
-      "type": "country",
-      "country_code": "NG",
-      "country_name": "Nigeria",
-      "co2_value_in_kt": "12703"
-    },
-    {
-      "type": "country",
-      "country_code": "NI",
-      "country_name": "Nicaragua",
-      "co2_value_in_kt": "500"
-    },
-    {
-      "type": "country",
-      "country_code": "NL",
-      "country_name": "Netherlands",
-      "co2_value_in_kt": "14687"
-    },
-    {
-      "type": "country",
-      "country_code": "NO",
-      "country_name": "Norway",
-      "co2_value_in_kt": "4233"
-    },
-    {
-      "type": "country",
-      "country_code": "NP",
-      "country_name": "Nepal",
-      "co2_value_in_kt": "1431"
-    },
-    {
-      "type": "country",
-      "country_code": "NZ",
-      "country_name": "New Zealand",
-      "co2_value_in_kt": "3260"
-    },
-    {
-      "type": "country",
-      "country_code": "OM",
-      "country_name": "Oman",
-      "co2_value_in_kt": "9462"
-    },
-    {
-      "type": "country",
-      "country_code": "PK",
-      "country_name": "Pakistan",
-      "co2_value_in_kt": "21979"
-    },
-    {
-      "type": "country",
-      "country_code": "PA",
-      "country_name": "Panama",
-      "co2_value_in_kt": "1251"
-    },
-    {
-      "type": "country",
-      "country_code": "PE",
-      "country_name": "Peru",
-      "co2_value_in_kt": "5514"
-    },
-    {
-      "type": "country",
-      "country_code": "PH",
-      "country_name": "Philippines",
-      "co2_value_in_kt": "14796"
-    },
-    {
-      "type": "country",
-      "country_code": "PW",
-      "country_name": "Palau",
-      "co2_value_in_kt": "132"
-    },
-    {
-      "type": "country",
-      "country_code": "PG",
-      "country_name": "Papua New Guinea",
-      "co2_value_in_kt": "657"
-    },
-    {
-      "type": "country",
-      "country_code": "PL",
-      "country_name": "Poland",
-      "co2_value_in_kt": "32077"
-    },
-    {
-      "type": "country",
-      "country_code": "PR",
-      "country_name": "Puerto Rico",
-      "co2_value_in_kt": "126"
-    },
-    {
-      "type": "country",
-      "country_code": "KP",
-      "country_name": "North Korea",
-      "co2_value_in_kt": "6257"
-    },
-    {
-      "type": "country",
-      "country_code": "PT",
-      "country_name": "Portugal",
-      "co2_value_in_kt": "3868"
-    },
-    {
-      "type": "country",
-      "country_code": "PY",
-      "country_name": "Paraguay",
-      "co2_value_in_kt": "889"
-    },
-    {
-      "type": "country",
-      "country_code": "PF",
-      "country_name": "French Polynesia",
-      "co2_value_in_kt": "97"
-    },
-    {
-      "type": "country",
-      "country_code": "QA",
-      "country_name": "Qatar",
-      "co2_value_in_kt": "9769"
-    },
-    {
-      "type": "country",
-      "country_code": "RE",
-      "country_name": "Réunion",
-      "co2_value_in_kt": "258"
-    },
-    {
-      "type": "country",
-      "country_code": "RO",
-      "country_name": "Romania",
-      "co2_value_in_kt": "7875"
-    },
-    {
-      "type": "country",
-      "country_code": "RU",
-      "country_name": "Russia",
-      "co2_value_in_kt": "194254"
-    },
-    {
-      "type": "country",
-      "country_code": "RW",
-      "country_name": "Rwanda",
-      "co2_value_in_kt": "124"
-    },
-    {
-      "type": "country",
-      "country_code": "SA",
-      "country_name": "Saudi Arabia",
-      "co2_value_in_kt": "58640"
-    },
-    {
-      "type": "country",
-      "country_code": "RS",
-      "country_name": "Serbia",
-      "co2_value_in_kt": "3935"
-    },
-    {
-      "type": "country",
-      "country_code": "SD",
-      "country_name": "Sudan and South Sudan",
-      "co2_value_in_kt": "2137"
-    },
-    {
-      "type": "country",
-      "country_code": "SN",
-      "country_name": "Senegal",
-      "co2_value_in_kt": "1198"
-    },
-    {
-      "type": "country",
-      "country_code": "SG",
-      "country_name": "Singapore",
-      "co2_value_in_kt": "5818"
-    },
-    {
-      "type": "country",
-      "country_code": "SH",
-      "country_name": "Saint Helena",
-      "co2_value_in_kt": "2"
-    },
-    {
-      "type": "country",
-      "country_code": "SB",
-      "country_name": "Solomon Islands",
-      "co2_value_in_kt": "33"
-    },
-    {
-      "type": "country",
-      "country_code": "SL",
-      "country_name": "Sierra Leone",
-      "co2_value_in_kt": "101"
-    },
-    {
-      "type": "country",
-      "country_code": "SV",
-      "country_name": "El Salvador",
-      "co2_value_in_kt": "818"
-    },
-    {
-      "type": "country",
-      "country_code": "SO",
-      "country_name": "Somalia",
-      "co2_value_in_kt": "76"
-    },
-    {
-      "type": "country",
-      "country_code": "PM",
-      "country_name": "Saint Pierre and Miquelon",
-      "co2_value_in_kt": "9"
-    },
-    {
-      "type": "country",
-      "country_code": "ST",
-      "country_name": "São Tomé and Príncipe",
-      "co2_value_in_kt": "15"
-    },
-    {
-      "type": "country",
-      "country_code": "SR",
-      "country_name": "Suriname",
-      "co2_value_in_kt": "271"
-    },
-    {
-      "type": "country",
-      "country_code": "SK",
-      "country_name": "Slovakia",
-      "co2_value_in_kt": "3748"
-    },
-    {
-      "type": "country",
-      "country_code": "SI",
-      "country_name": "Slovenia",
-      "co2_value_in_kt": "1417"
-    },
-    {
-      "type": "country",
-      "country_code": "SE",
-      "country_name": "Sweden",
-      "co2_value_in_kt": "3892"
-    },
-    {
-      "type": "country",
-      "country_code": "SZ",
-      "country_name": "Eswatini",
-      "co2_value_in_kt": "151"
-    },
-    {
-      "type": "country",
-      "country_code": "SC",
-      "country_name": "Seychelles",
-      "co2_value_in_kt": "105"
-    },
-    {
-      "type": "country",
-      "country_code": "SY",
-      "country_name": "Syria",
-      "co2_value_in_kt": "2586"
-    },
-    {
-      "type": "country",
-      "country_code": "TC",
-      "country_name": "Turks and Caicos Islands",
-      "co2_value_in_kt": "25"
-    },
-    {
-      "type": "country",
-      "country_code": "TD",
-      "country_name": "Chad",
-      "co2_value_in_kt": "221"
-    },
-    {
-      "type": "country",
-      "country_code": "TG",
-      "country_name": "Togo",
-      "co2_value_in_kt": "226"
-    },
-    {
-      "type": "country",
-      "country_code": "TH",
-      "country_name": "Thailand",
-      "co2_value_in_kt": "26957"
-    },
-    {
-      "type": "country",
-      "country_code": "TJ",
-      "country_name": "Tajikistan",
-      "co2_value_in_kt": "1013"
-    },
-    {
-      "type": "country",
-      "country_code": "TM",
-      "country_name": "Turkmenistan",
-      "co2_value_in_kt": "8332"
-    },
-    {
-      "type": "country",
-      "country_code": "TL",
-      "country_name": "Timor-Leste",
-      "co2_value_in_kt": "57"
-    },
-    {
-      "type": "country",
-      "country_code": "TO",
-      "country_name": "Tonga",
-      "co2_value_in_kt": "17"
-    },
-    {
-      "type": "country",
-      "country_code": "TT",
-      "country_name": "Trinidad and Tobago",
-      "co2_value_in_kt": "2899"
-    },
-    {
-      "type": "country",
-      "country_code": "TN",
-      "country_name": "Tunisia",
-      "co2_value_in_kt": "3179"
-    },
-    {
-      "type": "country",
-      "country_code": "TR",
-      "country_name": "Turkey",
-      "co2_value_in_kt": "44972"
-    },
-    {
-      "type": "country",
-      "country_code": "TW",
-      "country_name": "Taiwan",
-      "co2_value_in_kt": "28816"
-    },
-    {
-      "type": "country",
-      "country_code": "TZ",
-      "country_name": "Tanzania",
-      "co2_value_in_kt": "1341"
-    },
-    {
-      "type": "country",
-      "country_code": "UG",
-      "country_name": "Uganda",
-      "co2_value_in_kt": "682"
-    },
-    {
-      "type": "country",
-      "country_code": "UA",
-      "country_name": "Ukraine",
-      "co2_value_in_kt": "18546"
-    },
-    {
-      "type": "country",
-      "country_code": "UY",
-      "country_name": "Uruguay",
-      "co2_value_in_kt": "679"
-    },
-    {
-      "type": "country",
-      "country_code": "US",
-      "country_name": "United States",
-      "co2_value_in_kt": "475208"
-    },
-    {
-      "type": "country",
-      "country_code": "UZ",
-      "country_name": "Uzbekistan",
-      "co2_value_in_kt": "12565"
-    },
-    {
-      "type": "country",
-      "country_code": "VC",
-      "country_name": "Saint Vincent and the Grenadines",
-      "co2_value_in_kt": "23"
-    },
-    {
-      "type": "country",
-      "country_code": "VE",
-      "country_name": "Venezuela",
-      "co2_value_in_kt": "10467"
-    },
-    {
-      "type": "country",
-      "country_code": "VG",
-      "country_name": "British Virgin Islands",
-      "co2_value_in_kt": "18"
-    },
-    {
-      "type": "country",
-      "country_code": "VN",
-      "country_name": "Vietnam",
-      "co2_value_in_kt": "32141"
-    },
-    {
-      "type": "country",
-      "country_code": "VU",
-      "country_name": "Vanuatu",
-      "co2_value_in_kt": "22"
-    },
-    {
-      "type": "country",
-      "country_code": "WS",
-      "country_name": "Samoa",
-      "co2_value_in_kt": "36"
-    },
-    {
-      "type": "country",
-      "country_code": "YE",
-      "country_name": "Yemen",
-      "co2_value_in_kt": "1205"
-    },
-    {
-      "type": "country",
-      "country_code": "ZA",
-      "country_name": "South Africa",
-      "co2_value_in_kt": "43552"
-    },
-    {
-      "type": "country",
-      "country_code": "ZM",
-      "country_name": "Zambia",
-      "co2_value_in_kt": "701"
-    },
-    {
-      "type": "country",
-      "country_code": "ZW",
-      "country_name": "Zimbabwe",
-      "co2_value_in_kt": "1229"
-    },
-    {
-      "type": "company",
-      "country_code": "GB",
-      "country_name": "United Kingdom",
-      "company_name": "Prime Technologies Aerospace",
-      "co2_value_in_kt": "245.5",
-      "industry_sector": "Aerospace",
-      "headquarters_city": "London",
-      "number_of_employees": "2660"
-    },
-    {
-      "type": "company",
-      "country_code": "FR",
-      "country_name": "France",
-      "company_name": "Prime Solutions Energy",
-      "co2_value_in_kt": "542.63",
-      "industry_sector": "Energy",
-      "headquarters_city": "Paris",
-      "number_of_employees": "5581"
-    },
-    {
-      "type": "company",
-      "country_code": "US",
-      "country_name": "United States",
-      "company_name": "Elite Systems Aerospace",
-      "co2_value_in_kt": "806.36",
-      "industry_sector": "Aerospace",
-      "headquarters_city": "New York",
-      "number_of_employees": "6976"
-    },
-    {
-      "type": "company",
-      "country_code": "SG",
-      "country_name": "Singapore",
-      "company_name": "Elite Technologies Healthcare",
-      "co2_value_in_kt": "649.87",
-      "industry_sector": "Healthcare",
-      "headquarters_city": "Singapore",
-      "number_of_employees": "7254"
-    },
-    {
-      "type": "company",
-      "country_code": "US",
-      "country_name": "United States",
-      "company_name": "Future Technologies Healthcare",
-      "co2_value_in_kt": "749.23",
-      "industry_sector": "Healthcare",
-      "headquarters_city": "New York",
-      "number_of_employees": "6972"
-    },
-    {
-      "type": "company",
-      "country_code": "CA",
-      "country_name": "Canada",
-      "company_name": "Visionary Systems Telecommunications",
-      "co2_value_in_kt": "473.3",
-      "industry_sector": "Telecommunications",
-      "headquarters_city": "Toronto",
-      "number_of_employees": "4232"
-    },
-    {
-      "type": "company",
-      "country_code": "SG",
-      "country_name": "Singapore",
-      "company_name": "Elite Group Entertainment",
-      "co2_value_in_kt": "470.65",
-      "industry_sector": "Entertainment",
-      "headquarters_city": "Singapore",
-      "number_of_employees": "357"
-    },
-    {
-      "type": "company",
-      "country_code": "AE",
-      "country_name": "United Arab Emirates",
-      "company_name": "Future Industries Telecommunications",
-      "co2_value_in_kt": "599.47",
-      "industry_sector": "Telecommunications",
-      "headquarters_city": "Dubai",
-      "number_of_employees": "5352"
-    },
-    {
-      "type": "company",
-      "country_code": "US",
-      "country_name": "United States",
-      "company_name": "Visionary Holdings Automotive",
-      "co2_value_in_kt": "45.54",
-      "industry_sector": "Automotive",
-      "headquarters_city": "San Francisco",
-      "number_of_employees": "1202"
-    },
-    {
-      "type": "company",
-      "country_code": "SG",
-      "country_name": "Singapore",
-      "company_name": "Visionary Holdings Finance",
-      "co2_value_in_kt": "840.81",
-      "industry_sector": "Finance",
-      "headquarters_city": "Singapore",
-      "number_of_employees": "7000"
-    },
-    {
-      "type": "company",
-      "country_code": "DE",
-      "country_name": "Germany",
-      "company_name": "Prime Concepts Energy",
-      "co2_value_in_kt": "262.8",
-      "industry_sector": "Energy",
-      "headquarters_city": "Berlin",
-      "number_of_employees": "8517"
-    },
-    {
-      "type": "company",
-      "country_code": "US",
-      "country_name": "United States",
-      "company_name": "Innovative Corporation Finance",
-      "co2_value_in_kt": "896.35",
-      "industry_sector": "Finance",
-      "headquarters_city": "New York",
-      "number_of_employees": "5344"
-    },
-    {
-      "type": "company",
-      "country_code": "SG",
-      "country_name": "Singapore",
-      "company_name": "Tech Group Telecommunications",
-      "co2_value_in_kt": "270.93",
-      "industry_sector": "Telecommunications",
-      "headquarters_city": "Singapore",
-      "number_of_employees": "1258"
-    },
-    {
-      "type": "company",
-      "country_code": "AU",
-      "country_name": "Australia",
-      "company_name": "Tech Solutions Entertainment",
-      "co2_value_in_kt": "38.97",
-      "industry_sector": "Entertainment",
-      "headquarters_city": "Sydney",
-      "number_of_employees": "2542"
-    },
-    {
-      "type": "company",
-      "country_code": "AU",
-      "country_name": "Australia",
-      "company_name": "Quantum Corporation Retail",
-      "co2_value_in_kt": "182.07",
-      "industry_sector": "Retail",
-      "headquarters_city": "Sydney",
-      "number_of_employees": "8879"
-    },
-    {
-      "type": "company",
-      "country_code": "JP",
-      "country_name": "Japan",
-      "company_name": "Quantum Group Finance",
-      "co2_value_in_kt": "227.6",
-      "industry_sector": "Finance",
-      "headquarters_city": "Tokyo",
-      "number_of_employees": "820"
-    },
-    {
-      "type": "company",
-      "country_code": "US",
-      "country_name": "United States",
-      "company_name": "Visionary Holdings Entertainment",
-      "co2_value_in_kt": "715.48",
-      "industry_sector": "Entertainment",
-      "headquarters_city": "New York",
-      "number_of_employees": "8336"
-    },
-    {
-      "type": "company",
-      "country_code": "CA",
-      "country_name": "Canada",
-      "company_name": "Tech Dynamics Food & Beverage",
-      "co2_value_in_kt": "203.82",
-      "industry_sector": "Food & Beverage",
-      "headquarters_city": "Toronto",
-      "number_of_employees": "6045"
-    },
-    {
-      "type": "company",
-      "country_code": "AE",
-      "country_name": "United Arab Emirates",
-      "company_name": "Tech Dynamics Entertainment",
-      "co2_value_in_kt": "457.36",
-      "industry_sector": "Entertainment",
-      "headquarters_city": "Dubai",
-      "number_of_employees": "2394"
-    },
-    {
-      "type": "company",
-      "country_code": "DE",
-      "country_name": "Germany",
-      "company_name": "Quantum Dynamics Technology",
-      "co2_value_in_kt": "500.4",
-      "industry_sector": "Technology",
-      "headquarters_city": "Berlin",
-      "number_of_employees": "3141"
-    },
-    {
-      "type": "company",
-      "country_code": "AE",
-      "country_name": "United Arab Emirates",
-      "company_name": "Future Industries Aerospace",
-      "co2_value_in_kt": "204.31",
-      "industry_sector": "Aerospace",
-      "headquarters_city": "Dubai",
-      "number_of_employees": "3962"
-    },
-    {
-      "type": "company",
-      "country_code": "JP",
-      "country_name": "Japan",
-      "company_name": "Future Solutions Retail",
-      "co2_value_in_kt": "861.95",
-      "industry_sector": "Retail",
-      "headquarters_city": "Tokyo",
-      "number_of_employees": "1484"
-    },
-    {
-      "type": "company",
-      "country_code": "DE",
-      "country_name": "Germany",
-      "company_name": "Eco Dynamics Food & Beverage",
-      "co2_value_in_kt": "349.87",
-      "industry_sector": "Food & Beverage",
-      "headquarters_city": "Berlin",
-      "number_of_employees": "6644"
-    },
-    {
-      "type": "company",
-      "country_code": "US",
-      "country_name": "United States",
-      "company_name": "Global Group Entertainment",
-      "co2_value_in_kt": "439.82",
-      "industry_sector": "Entertainment",
-      "headquarters_city": "San Francisco",
-      "number_of_employees": "5418"
-    },
-    {
-      "type": "company",
-      "country_code": "AE",
-      "country_name": "United Arab Emirates",
-      "company_name": "Quantum Concepts Aerospace",
-      "co2_value_in_kt": "936.35",
-      "industry_sector": "Aerospace",
-      "headquarters_city": "Dubai",
-      "number_of_employees": "8422"
-    },
-    {
-      "type": "company",
-      "country_code": "AU",
-      "country_name": "Australia",
-      "company_name": "Elite Systems Technology",
-      "co2_value_in_kt": "111.85",
-      "industry_sector": "Technology",
-      "headquarters_city": "Sydney",
-      "number_of_employees": "7198"
-    },
-    {
-      "type": "company",
-      "country_code": "AU",
-      "country_name": "Australia",
-      "company_name": "Eco Solutions Finance",
-      "co2_value_in_kt": "141.73",
-      "industry_sector": "Finance",
-      "headquarters_city": "Sydney",
-      "number_of_employees": "8047"
-    },
-    {
-      "type": "company",
-      "country_code": "JP",
-      "country_name": "Japan",
-      "company_name": "NextGen Technologies Aerospace",
-      "co2_value_in_kt": "37.72",
-      "industry_sector": "Aerospace",
-      "headquarters_city": "Tokyo",
-      "number_of_employees": "3904"
-    },
-    {
-      "type": "company",
-      "country_code": "GB",
-      "country_name": "United Kingdom",
-      "company_name": "Global Industries Energy",
-      "co2_value_in_kt": "335.34",
-      "industry_sector": "Energy",
-      "headquarters_city": "London",
-      "number_of_employees": "8082"
-    },
-    {
-      "type": "company",
-      "country_code": "CA",
-      "country_name": "Canada",
-      "company_name": "NextGen Holdings Aerospace",
-      "co2_value_in_kt": "850.64",
-      "industry_sector": "Aerospace",
-      "headquarters_city": "Toronto",
-      "number_of_employees": "8181"
-    },
-    {
-      "type": "company",
-      "country_code": "AE",
-      "country_name": "United Arab Emirates",
-      "company_name": "NextGen Corporation Telecommunications",
-      "co2_value_in_kt": "728.6",
-      "industry_sector": "Telecommunications",
-      "headquarters_city": "Dubai",
-      "number_of_employees": "4895"
-    },
-    {
-      "type": "company",
-      "country_code": "DE",
-      "country_name": "Germany",
-      "company_name": "Future Corporation Aerospace",
-      "co2_value_in_kt": "284.92",
-      "industry_sector": "Aerospace",
-      "headquarters_city": "Berlin",
-      "number_of_employees": "5166"
-    },
-    {
-      "type": "company",
-      "country_code": "AE",
-      "country_name": "United Arab Emirates",
-      "company_name": "Tech Holdings Technology",
-      "co2_value_in_kt": "238.86",
-      "industry_sector": "Technology",
-      "headquarters_city": "Dubai",
-      "number_of_employees": "3583"
-    },
-    {
-      "type": "company",
-      "country_code": "US",
-      "country_name": "United States",
-      "company_name": "Elite Systems Healthcare",
-      "co2_value_in_kt": "157.1",
-      "industry_sector": "Healthcare",
-      "headquarters_city": "New York",
-      "number_of_employees": "2987"
-    },
-    {
-      "type": "company",
-      "country_code": "GB",
-      "country_name": "United Kingdom",
-      "company_name": "Global Industries Entertainment",
-      "co2_value_in_kt": "604.04",
-      "industry_sector": "Entertainment",
-      "headquarters_city": "London",
-      "number_of_employees": "9887"
-    },
-    {
-      "type": "company",
-      "country_code": "SG",
-      "country_name": "Singapore",
-      "company_name": "Quantum Dynamics Healthcare",
-      "co2_value_in_kt": "223.55",
-      "industry_sector": "Healthcare",
-      "headquarters_city": "Singapore",
-      "number_of_employees": "4989"
-    },
-    {
-      "type": "company",
-      "country_code": "JP",
-      "country_name": "Japan",
-      "company_name": "Global Solutions Healthcare",
-      "co2_value_in_kt": "535.7",
-      "industry_sector": "Healthcare",
-      "headquarters_city": "Tokyo",
-      "number_of_employees": "9794"
-    },
-    {
-      "type": "company",
-      "country_code": "GB",
-      "country_name": "United Kingdom",
-      "company_name": "Quantum Holdings Technology",
-      "co2_value_in_kt": "197.06",
-      "industry_sector": "Technology",
-      "headquarters_city": "London",
-      "number_of_employees": "3274"
-    },
-    {
-      "type": "company",
-      "country_code": "AE",
-      "country_name": "United Arab Emirates",
-      "company_name": "Future Solutions Energy",
-      "co2_value_in_kt": "359.16",
-      "industry_sector": "Energy",
-      "headquarters_city": "Dubai",
-      "number_of_employees": "5071"
-    },
-    {
-      "type": "company",
-      "country_code": "AE",
-      "country_name": "United Arab Emirates",
-      "company_name": "Visionary Enterprises Technology",
-      "co2_value_in_kt": "431.77",
-      "industry_sector": "Technology",
-      "headquarters_city": "Dubai",
-      "number_of_employees": "1184"
-    },
-    {
-      "type": "company",
-      "country_code": "GB",
-      "country_name": "United Kingdom",
-      "company_name": "Innovative Concepts Technology",
-      "co2_value_in_kt": "901.09",
-      "industry_sector": "Technology",
-      "headquarters_city": "London",
-      "number_of_employees": "75"
-    },
-    {
-      "type": "company",
-      "country_code": "US",
-      "country_name": "United States",
-      "company_name": "Innovative Dynamics Entertainment",
-      "co2_value_in_kt": "608.51",
-      "industry_sector": "Entertainment",
-      "headquarters_city": "San Francisco",
-      "number_of_employees": "9730"
-    },
-    {
-      "type": "company",
-      "country_code": "JP",
-      "country_name": "Japan",
-      "company_name": "Global Technologies Aerospace",
-      "co2_value_in_kt": "755.95",
-      "industry_sector": "Aerospace",
-      "headquarters_city": "Tokyo",
-      "number_of_employees": "1006"
-    },
-    {
-      "type": "company",
-      "country_code": "AE",
-      "country_name": "United Arab Emirates",
-      "company_name": "Global Concepts Entertainment",
-      "co2_value_in_kt": "465.27",
-      "industry_sector": "Entertainment",
-      "headquarters_city": "Dubai",
-      "number_of_employees": "1963"
-    },
-    {
-      "type": "company",
-      "country_code": "AE",
-      "country_name": "United Arab Emirates",
-      "company_name": "Quantum Enterprises Food & Beverage",
-      "co2_value_in_kt": "241.25",
-      "industry_sector": "Food & Beverage",
-      "headquarters_city": "Dubai",
-      "number_of_employees": "2984"
-    },
-    {
-      "type": "company",
-      "country_code": "CA",
-      "country_name": "Canada",
-      "company_name": "Eco Enterprises Retail",
-      "co2_value_in_kt": "895.51",
-      "industry_sector": "Retail",
-      "headquarters_city": "Toronto",
-      "number_of_employees": "2771"
-    },
-    {
-      "type": "company",
-      "country_code": "DE",
-      "country_name": "Germany",
-      "company_name": "Tech Group Retail",
-      "co2_value_in_kt": "52.81",
-      "industry_sector": "Retail",
-      "headquarters_city": "Berlin",
-      "number_of_employees": "978"
-    },
-    {
-      "type": "company",
-      "country_code": "JP",
-      "country_name": "Japan",
-      "company_name": "NextGen Dynamics Automotive",
-      "co2_value_in_kt": "282.43",
-      "industry_sector": "Automotive",
-      "headquarters_city": "Tokyo",
-      "number_of_employees": "5677"
-    },
-    {
-      "type": "company",
-      "country_code": "JP",
-      "country_name": "Japan",
-      "company_name": "Eco Concepts Automotive",
-      "co2_value_in_kt": "856.4",
-      "industry_sector": "Automotive",
-      "headquarters_city": "Tokyo",
-      "number_of_employees": "6315"
-    },
-    {
-      "type": "company",
-      "country_code": "SD",
-      "country_name": "Sudan",
-      "company_name": "Global Dynamics Automotive",
-      "co2_value_in_kt": "747.14",
-      "industry_sector": "Automotive",
-      "headquarters_city": "Khartoum",
-      "number_of_employees": "9767"
-    },
-    {
-      "type": "company",
-      "country_code": "CM",
-      "country_name": "Cameroon",
-      "company_name": "Eco Group Aerospace",
-      "co2_value_in_kt": "937.33",
-      "industry_sector": "Aerospace",
-      "headquarters_city": "Yaoundé",
-      "number_of_employees": "9882"
-    },
-    {
-      "type": "company",
-      "country_code": "CM",
-      "country_name": "Cameroon",
-      "company_name": "Quantum Dynamics Entertainment",
-      "co2_value_in_kt": "67.23",
-      "industry_sector": "Entertainment",
-      "headquarters_city": "Yaoundé",
-      "number_of_employees": "3865"
-    },
-    {
-      "type": "company",
-      "country_code": "TN",
-      "country_name": "Tunisia",
-      "company_name": "Quantum Holdings Finance",
-      "co2_value_in_kt": "901.42",
-      "industry_sector": "Finance",
-      "headquarters_city": "Tunis",
-      "number_of_employees": "6965"
-    },
-    {
-      "type": "company",
-      "country_code": "RW",
-      "country_name": "Rwanda",
-      "company_name": "Prime Concepts Automotive",
-      "co2_value_in_kt": "48.8",
-      "industry_sector": "Automotive",
-      "headquarters_city": "Kigali",
-      "number_of_employees": "3577"
-    },
-    {
-      "type": "company",
-      "country_code": "SN",
-      "country_name": "Senegal",
-      "company_name": "Visionary Group Healthcare",
-      "co2_value_in_kt": "39.84",
-      "industry_sector": "Healthcare",
-      "headquarters_city": "Dakar",
-      "number_of_employees": "9919"
-    },
-    {
-      "type": "company",
-      "country_code": "TZ",
-      "country_name": "Tanzania",
-      "company_name": "Eco Enterprises Healthcare",
-      "co2_value_in_kt": "486.97",
-      "industry_sector": "Healthcare",
-      "headquarters_city": "Dar es Salaam",
-      "number_of_employees": "5021"
-    },
-    {
-      "type": "company",
-      "country_code": "TN",
-      "country_name": "Tunisia",
-      "company_name": "NextGen Dynamics Food & Beverage",
-      "co2_value_in_kt": "37.45",
-      "industry_sector": "Food & Beverage",
-      "headquarters_city": "Tunis",
-      "number_of_employees": "2840"
-    },
-    {
-      "type": "company",
-      "country_code": "EG",
-      "country_name": "Egypt",
-      "company_name": "Tech Industries Healthcare",
-      "co2_value_in_kt": "384.36",
-      "industry_sector": "Healthcare",
-      "headquarters_city": "Cairo",
-      "number_of_employees": "9120"
-    },
-    {
-      "type": "company",
-      "country_code": "AO",
-      "country_name": "Angola",
-      "company_name": "NextGen Corporation Finance",
-      "co2_value_in_kt": "310.95",
-      "industry_sector": "Finance",
-      "headquarters_city": "Luanda",
-      "number_of_employees": "6860"
-    },
-    {
-      "type": "company",
-      "country_code": "EG",
-      "country_name": "Egypt",
-      "company_name": "Tech Industries Food & Beverage",
-      "co2_value_in_kt": "39.11",
-      "industry_sector": "Food & Beverage",
-      "headquarters_city": "Cairo",
-      "number_of_employees": "3747"
-    },
-    {
-      "type": "company",
-      "country_code": "UG",
-      "country_name": "Uganda",
-      "company_name": "Future Technologies Technology",
-      "co2_value_in_kt": "719.48",
-      "industry_sector": "Technology",
-      "headquarters_city": "Kampala",
-      "number_of_employees": "2768"
-    },
-    {
-      "type": "company",
-      "country_code": "ZM",
-      "country_name": "Zambia",
-      "company_name": "Eco Solutions Healthcare",
-      "co2_value_in_kt": "474.07",
-      "industry_sector": "Healthcare",
-      "headquarters_city": "Lusaka",
-      "number_of_employees": "7852"
-    },
-    {
-      "type": "company",
-      "country_code": "KE",
-      "country_name": "Kenya",
-      "company_name": "Future Holdings Retail",
-      "co2_value_in_kt": "393.52",
-      "industry_sector": "Retail",
-      "headquarters_city": "Nairobi",
-      "number_of_employees": "2963"
-    },
-    {
-      "type": "company",
-      "country_code": "ZA",
-      "country_name": "South Africa",
-      "company_name": "Global Industries Retail",
-      "co2_value_in_kt": "427.38",
-      "industry_sector": "Retail",
-      "headquarters_city": "Johannesburg",
-      "number_of_employees": "804"
-    },
-    {
-      "type": "company",
-      "country_code": "CI",
-      "country_name": "Ivory Coast",
-      "company_name": "Visionary Enterprises Energy",
-      "co2_value_in_kt": "470.69",
-      "industry_sector": "Energy",
-      "headquarters_city": "Abidjan",
-      "number_of_employees": "2942"
-    },
-    {
-      "type": "company",
-      "country_code": "ML",
-      "country_name": "Mali",
-      "company_name": "Innovative Concepts Energy",
-      "co2_value_in_kt": "592.19",
-      "industry_sector": "Energy",
-      "headquarters_city": "Bamako",
-      "number_of_employees": "3599"
-    },
-    {
-      "type": "company",
-      "country_code": "AO",
-      "country_name": "Angola",
-      "company_name": "Quantum Solutions Healthcare",
-      "co2_value_in_kt": "594.38",
-      "industry_sector": "Healthcare",
-      "headquarters_city": "Luanda",
-      "number_of_employees": "1363"
-    },
-    {
-      "type": "company",
-      "country_code": "ZA",
-      "country_name": "South Africa",
-      "company_name": "Tech Industries Automotive",
-      "co2_value_in_kt": "894.7",
-      "industry_sector": "Automotive",
-      "headquarters_city": "Johannesburg",
-      "number_of_employees": "2603"
-    },
-    {
-      "type": "company",
-      "country_code": "BO",
-      "country_name": "Bolivia",
-      "company_name": "Global Corporation Telecommunications",
-      "co2_value_in_kt": "107.14",
-      "industry_sector": "Telecommunications",
-      "headquarters_city": "La Paz",
-      "number_of_employees": "9579"
-    },
-    {
-      "type": "company",
-      "country_code": "CO",
-      "country_name": "Colombia",
-      "company_name": "Innovative Corporation Retail",
-      "co2_value_in_kt": "724.65",
-      "industry_sector": "Retail",
-      "headquarters_city": "Bogotá",
-      "number_of_employees": "2132"
-    },
-    {
-      "type": "company",
-      "country_code": "EC",
-      "country_name": "Ecuador",
-      "company_name": "Quantum Industries Healthcare",
-      "co2_value_in_kt": "467.69",
-      "industry_sector": "Healthcare",
-      "headquarters_city": "Quito",
-      "number_of_employees": "9543"
-    },
-    {
-      "type": "company",
-      "country_code": "SR",
-      "country_name": "Suriname",
-      "company_name": "Tech Enterprises Aerospace",
-      "co2_value_in_kt": "604.12",
-      "industry_sector": "Aerospace",
-      "headquarters_city": "Paramaribo",
-      "number_of_employees": "2827"
-    },
-    {
-      "type": "company",
-      "country_code": "BR",
-      "country_name": "Brazil",
-      "company_name": "Quantum Industries Energy",
-      "co2_value_in_kt": "225.6",
-      "industry_sector": "Energy",
-      "headquarters_city": "São Paulo",
-      "number_of_employees": "6559"
-    },
-    {
-      "type": "company",
-      "country_code": "EC",
-      "country_name": "Ecuador",
-      "company_name": "Elite Holdings Finance",
-      "co2_value_in_kt": "924.69",
-      "industry_sector": "Finance",
-      "headquarters_city": "Quito",
-      "number_of_employees": "4589"
-    },
-    {
-      "type": "company",
-      "country_code": "UY",
-      "country_name": "Uruguay",
-      "company_name": "Elite Group Retail",
-      "co2_value_in_kt": "362.45",
-      "industry_sector": "Retail",
-      "headquarters_city": "Montevideo",
-      "number_of_employees": "9382"
-    },
-    {
-      "type": "company",
-      "country_code": "VE",
-      "country_name": "Venezuela",
-      "company_name": "Elite Corporation Automotive",
-      "co2_value_in_kt": "665.84",
-      "industry_sector": "Automotive",
-      "headquarters_city": "Caracas",
-      "number_of_employees": "3199"
-    },
-    {
-      "type": "company",
-      "country_code": "UY",
-      "country_name": "Uruguay",
-      "company_name": "Quantum Dynamics Aerospace",
-      "co2_value_in_kt": "670.36",
-      "industry_sector": "Aerospace",
-      "headquarters_city": "Montevideo",
-      "number_of_employees": "8989"
-    },
-    {
-      "type": "company",
-      "country_code": "PE",
-      "country_name": "Peru",
-      "company_name": "Future Dynamics Automotive",
-      "co2_value_in_kt": "93.1",
-      "industry_sector": "Automotive",
-      "headquarters_city": "Lima",
-      "number_of_employees": "6652"
-    },
-    {
-      "type": "company",
-      "country_code": "CL",
-      "country_name": "Chile",
-      "company_name": "Innovative Corporation Entertainment",
-      "co2_value_in_kt": "597.18",
-      "industry_sector": "Entertainment",
-      "headquarters_city": "Santiago",
-      "number_of_employees": "7707"
-    },
-    {
-      "type": "company",
-      "country_code": "BO",
-      "country_name": "Bolivia",
-      "company_name": "NextGen Enterprises Energy",
-      "co2_value_in_kt": "392.27",
-      "industry_sector": "Energy",
-      "headquarters_city": "La Paz",
-      "number_of_employees": "7826"
-    },
-    {
-      "type": "company",
-      "country_code": "BO",
-      "country_name": "Bolivia",
-      "company_name": "Elite Solutions Telecommunications",
-      "co2_value_in_kt": "629.86",
-      "industry_sector": "Telecommunications",
-      "headquarters_city": "La Paz",
-      "number_of_employees": "190"
-    },
-    {
-      "type": "company",
-      "country_code": "VE",
-      "country_name": "Venezuela",
-      "company_name": "Visionary Group Entertainment",
-      "co2_value_in_kt": "354.1",
-      "industry_sector": "Entertainment",
-      "headquarters_city": "Caracas",
-      "number_of_employees": "8769"
-    },
-    {
-      "type": "company",
-      "country_code": "EC",
-      "country_name": "Ecuador",
-      "company_name": "Prime Corporation Retail",
-      "co2_value_in_kt": "274.32",
-      "industry_sector": "Retail",
-      "headquarters_city": "Quito",
-      "number_of_employees": "3852"
-    },
-    {
-      "type": "company",
-      "country_code": "AR",
-      "country_name": "Argentina",
-      "company_name": "Prime Industries Automotive",
-      "co2_value_in_kt": "20.35",
-      "industry_sector": "Automotive",
-      "headquarters_city": "Buenos Aires",
-      "number_of_employees": "9312"
-    },
-    {
-      "type": "company",
-      "country_code": "JP",
-      "country_name": "Japan",
-      "company_name": "Tech Dynamics Healthcare",
-      "co2_value_in_kt": "693.5",
-      "industry_sector": "Healthcare",
-      "headquarters_city": "Tokyo",
-      "number_of_employees": "8745"
-    },
-    {
-      "type": "company",
-      "country_code": "CN",
-      "country_name": "China",
-      "company_name": "Innovative Group Retail",
-      "co2_value_in_kt": "485.67",
-      "industry_sector": "Retail",
-      "headquarters_city": "Beijing",
-      "number_of_employees": "6993"
-    },
-    {
-      "type": "company",
-      "country_code": "IN",
-      "country_name": "India",
-      "company_name": "Quantum Corporation Energy",
-      "co2_value_in_kt": "752.18",
-      "industry_sector": "Energy",
-      "headquarters_city": "Mumbai",
-      "number_of_employees": "5218"
-    },
-    {
-      "type": "company",
-      "country_code": "JP",
-      "country_name": "Japan",
-      "company_name": "Elite Systems Aerospace",
-      "co2_value_in_kt": "810.29",
-      "industry_sector": "Aerospace",
-      "headquarters_city": "Tokyo",
-      "number_of_employees": "7119"
-    },
-    {
-      "type": "company",
-      "country_code": "CN",
-      "country_name": "China",
-      "company_name": "Global Solutions Technology",
-      "co2_value_in_kt": "678.95",
-      "industry_sector": "Technology",
-      "headquarters_city": "Beijing",
-      "number_of_employees": "8834"
-    },
-    {
-      "type": "company",
-      "country_code": "IN",
-      "country_name": "India",
-      "company_name": "Prime Dynamics Entertainment",
-      "co2_value_in_kt": "364.12",
-      "industry_sector": "Entertainment",
-      "headquarters_city": "Mumbai",
-      "number_of_employees": "4986"
-    },
-    {
-      "type": "company",
-      "country_code": "JP",
-      "country_name": "Japan",
-      "company_name": "Future Concepts Telecommunications",
-      "co2_value_in_kt": "529.88",
-      "industry_sector": "Telecommunications",
-      "headquarters_city": "Tokyo",
-      "number_of_employees": "9123"
-    },
-    {
-      "type": "company",
-      "country_code": "CN",
-      "country_name": "China",
-      "company_name": "Eco Solutions Retail",
-      "co2_value_in_kt": "411.73",
-      "industry_sector": "Retail",
-      "headquarters_city": "Shanghai",
-      "number_of_employees": "6457"
-    },
-    {
-      "type": "company",
-      "country_code": "KR",
-      "country_name": "South Korea",
-      "company_name": "Visionary Enterprises Healthcare",
-      "co2_value_in_kt": "633.29",
-      "industry_sector": "Healthcare",
-      "headquarters_city": "Seoul",
-      "number_of_employees": "7834"
-    },
-    {
-      "type": "company",
-      "country_code": "IN",
-      "country_name": "India",
-      "company_name": "Quantum Group Automotive",
-      "co2_value_in_kt": "490.56",
-      "industry_sector": "Automotive",
-      "headquarters_city": "Bangalore",
-      "number_of_employees": "5674"
-    }
+  {
+    "type": "Company",
+    "name": "Prime Technologies Aerospace",
+    "co2_value_in_kt": "245.5",
+    "industry_sector": "Aerospace",
+    "headquarters_city": "London",
+    "number_of_employees": "2660"
+  },
+  {
+    "type": "Company",
+    "name": "Prime Solutions Energy",
+    "co2_value_in_kt": "542.63",
+    "industry_sector": "Energy",
+    "headquarters_city": "Paris",
+    "number_of_employees": "5581"
+  },
+  {
+    "type": "Company",
+    "name": "Elite Systems Aerospace",
+    "co2_value_in_kt": "806.36",
+    "industry_sector": "Aerospace",
+    "headquarters_city": "New York",
+    "number_of_employees": "6976"
+  },
+  {
+    "type": "Company",
+    "name": "Elite Technologies Healthcare",
+    "co2_value_in_kt": "649.87",
+    "industry_sector": "Healthcare",
+    "headquarters_city": "Singapore",
+    "number_of_employees": "7254"
+  },
+  {
+    "type": "Company",
+    "name": "Future Technologies Healthcare",
+    "co2_value_in_kt": "749.23",
+    "industry_sector": "Healthcare",
+    "headquarters_city": "New York",
+    "number_of_employees": "6972"
+  },
+  {
+    "type": "Company",
+    "name": "Visionary Systems Telecommunications",
+    "co2_value_in_kt": "473.3",
+    "industry_sector": "Telecommunications",
+    "headquarters_city": "Toronto",
+    "number_of_employees": "4232"
+  },
+  {
+    "type": "Company",
+    "name": "Elite Group Entertainment",
+    "co2_value_in_kt": "470.65",
+    "industry_sector": "Entertainment",
+    "headquarters_city": "Singapore",
+    "number_of_employees": "357"
+  },
+  {
+    "type": "Company",
+    "name": "Future Industries Telecommunications",
+    "co2_value_in_kt": "599.47",
+    "industry_sector": "Telecommunications",
+    "headquarters_city": "Dubai",
+    "number_of_employees": "5352"
+  },
+  {
+    "type": "Company",
+    "name": "Visionary Holdings Automotive",
+    "co2_value_in_kt": "45.54",
+    "industry_sector": "Automotive",
+    "headquarters_city": "San Francisco",
+    "number_of_employees": "1202"
+  },
+  {
+    "type": "Company",
+    "name": "Visionary Holdings Finance",
+    "co2_value_in_kt": "840.81",
+    "industry_sector": "Finance",
+    "headquarters_city": "Singapore",
+    "number_of_employees": "7000"
+  },
+  {
+    "type": "Company",
+    "name": "Prime Concepts Energy",
+    "co2_value_in_kt": "262.8",
+    "industry_sector": "Energy",
+    "headquarters_city": "Berlin",
+    "number_of_employees": "8517"
+  },
+  {
+    "type": "Company",
+    "name": "Innovative Corporation Finance",
+    "co2_value_in_kt": "896.35",
+    "industry_sector": "Finance",
+    "headquarters_city": "New York",
+    "number_of_employees": "5344"
+  },
+  {
+    "type": "Company",
+    "name": "Tech Group Telecommunications",
+    "co2_value_in_kt": "270.93",
+    "industry_sector": "Telecommunications",
+    "headquarters_city": "Singapore",
+    "number_of_employees": "1258"
+  },
+  {
+    "type": "Company",
+    "name": "Tech Solutions Entertainment",
+    "co2_value_in_kt": "38.97",
+    "industry_sector": "Entertainment",
+    "headquarters_city": "Sydney",
+    "number_of_employees": "2542"
+  },
+  {
+    "type": "Company",
+    "name": "Quantum Corporation Retail",
+    "co2_value_in_kt": "182.07",
+    "industry_sector": "Retail",
+    "headquarters_city": "Sydney",
+    "number_of_employees": "8879"
+  },
+  {
+    "type": "Company",
+    "name": "Quantum Group Finance",
+    "co2_value_in_kt": "227.6",
+    "industry_sector": "Finance",
+    "headquarters_city": "Tokyo",
+    "number_of_employees": "820"
+  },
+  {
+    "type": "Company",
+    "name": "Visionary Holdings Entertainment",
+    "co2_value_in_kt": "715.48",
+    "industry_sector": "Entertainment",
+    "headquarters_city": "New York",
+    "number_of_employees": "8336"
+  },
+  {
+    "type": "Company",
+    "name": "Tech Dynamics Food & Beverage",
+    "co2_value_in_kt": "203.82",
+    "industry_sector": "Food & Beverage",
+    "headquarters_city": "Toronto",
+    "number_of_employees": "6045"
+  },
+  {
+    "type": "Company",
+    "name": "Tech Dynamics Entertainment",
+    "co2_value_in_kt": "457.36",
+    "industry_sector": "Entertainment",
+    "headquarters_city": "Dubai",
+    "number_of_employees": "2394"
+  },
+  {
+    "type": "Company",
+    "name": "Quantum Dynamics Technology",
+    "co2_value_in_kt": "500.4",
+    "industry_sector": "Technology",
+    "headquarters_city": "Berlin",
+    "number_of_employees": "3141"
+  },
+  {
+    "type": "Company",
+    "name": "Future Industries Aerospace",
+    "co2_value_in_kt": "204.31",
+    "industry_sector": "Aerospace",
+    "headquarters_city": "Dubai",
+    "number_of_employees": "3962"
+  },
+  {
+    "type": "Company",
+    "name": "Future Solutions Retail",
+    "co2_value_in_kt": "861.95",
+    "industry_sector": "Retail",
+    "headquarters_city": "Tokyo",
+    "number_of_employees": "1484"
+  },
+  {
+    "type": "Company",
+    "name": "Eco Dynamics Food & Beverage",
+    "co2_value_in_kt": "349.87",
+    "industry_sector": "Food & Beverage",
+    "headquarters_city": "Berlin",
+    "number_of_employees": "6644"
+  },
+  {
+    "type": "Company",
+    "name": "Global Group Entertainment",
+    "co2_value_in_kt": "439.82",
+    "industry_sector": "Entertainment",
+    "headquarters_city": "San Francisco",
+    "number_of_employees": "5418"
+  },
+  {
+    "type": "Company",
+    "name": "Quantum Concepts Aerospace",
+    "co2_value_in_kt": "936.35",
+    "industry_sector": "Aerospace",
+    "headquarters_city": "Dubai",
+    "number_of_employees": "8422"
+  },
+  {
+    "type": "Company",
+    "name": "Elite Systems Technology",
+    "co2_value_in_kt": "111.85",
+    "industry_sector": "Technology",
+    "headquarters_city": "Sydney",
+    "number_of_employees": "7198"
+  },
+  {
+    "type": "Company",
+    "name": "Eco Solutions Finance",
+    "co2_value_in_kt": "141.73",
+    "industry_sector": "Finance",
+    "headquarters_city": "Sydney",
+    "number_of_employees": "8047"
+  },
+  {
+    "type": "Company",
+    "name": "NextGen Technologies Aerospace",
+    "co2_value_in_kt": "37.72",
+    "industry_sector": "Aerospace",
+    "headquarters_city": "Tokyo",
+    "number_of_employees": "3904"
+  },
+  {
+    "type": "Company",
+    "name": "Global Industries Energy",
+    "co2_value_in_kt": "335.34",
+    "industry_sector": "Energy",
+    "headquarters_city": "London",
+    "number_of_employees": "8082"
+  },
+  {
+    "type": "Company",
+    "name": "NextGen Holdings Aerospace",
+    "co2_value_in_kt": "850.64",
+    "industry_sector": "Aerospace",
+    "headquarters_city": "Toronto",
+    "number_of_employees": "8181"
+  },
+  {
+    "type": "Company",
+    "name": "NextGen Corporation Telecommunications",
+    "co2_value_in_kt": "728.6",
+    "industry_sector": "Telecommunications",
+    "headquarters_city": "Dubai",
+    "number_of_employees": "4895"
+  },
+  {
+    "type": "Company",
+    "name": "Future Corporation Aerospace",
+    "co2_value_in_kt": "284.92",
+    "industry_sector": "Aerospace",
+    "headquarters_city": "Berlin",
+    "number_of_employees": "5166"
+  },
+  {
+    "type": "Company",
+    "name": "Tech Holdings Technology",
+    "co2_value_in_kt": "238.86",
+    "industry_sector": "Technology",
+    "headquarters_city": "Dubai",
+    "number_of_employees": "3583"
+  },
+  {
+    "type": "Company",
+    "name": "Elite Systems Healthcare",
+    "co2_value_in_kt": "157.1",
+    "industry_sector": "Healthcare",
+    "headquarters_city": "New York",
+    "number_of_employees": "2987"
+  },
+  {
+    "type": "Company",
+    "name": "Global Industries Entertainment",
+    "co2_value_in_kt": "604.04",
+    "industry_sector": "Entertainment",
+    "headquarters_city": "London",
+    "number_of_employees": "9887"
+  },
+  {
+    "type": "Company",
+    "name": "Quantum Dynamics Healthcare",
+    "co2_value_in_kt": "223.55",
+    "industry_sector": "Healthcare",
+    "headquarters_city": "Singapore",
+    "number_of_employees": "4989"
+  },
+  {
+    "type": "Company",
+    "name": "Global Solutions Healthcare",
+    "co2_value_in_kt": "535.7",
+    "industry_sector": "Healthcare",
+    "headquarters_city": "Tokyo",
+    "number_of_employees": "9794"
+  },
+  {
+    "type": "Company",
+    "name": "Quantum Holdings Technology",
+    "co2_value_in_kt": "197.06",
+    "industry_sector": "Technology",
+    "headquarters_city": "London",
+    "number_of_employees": "3274"
+  },
+  {
+    "type": "Company",
+    "name": "Future Solutions Energy",
+    "co2_value_in_kt": "359.16",
+    "industry_sector": "Energy",
+    "headquarters_city": "Dubai",
+    "number_of_employees": "5071"
+  },
+  {
+    "type": "Company",
+    "name": "Visionary Enterprises Technology",
+    "co2_value_in_kt": "431.77",
+    "industry_sector": "Technology",
+    "headquarters_city": "Dubai",
+    "number_of_employees": "1184"
+  },
+  {
+    "type": "Company",
+    "name": "Innovative Concepts Technology",
+    "co2_value_in_kt": "901.09",
+    "industry_sector": "Technology",
+    "headquarters_city": "London",
+    "number_of_employees": "75"
+  },
+  {
+    "type": "Company",
+    "name": "Innovative Dynamics Entertainment",
+    "co2_value_in_kt": "608.51",
+    "industry_sector": "Entertainment",
+    "headquarters_city": "San Francisco",
+    "number_of_employees": "9730"
+  },
+  {
+    "type": "Company",
+    "name": "Global Technologies Aerospace",
+    "co2_value_in_kt": "755.95",
+    "industry_sector": "Aerospace",
+    "headquarters_city": "Tokyo",
+    "number_of_employees": "1006"
+  },
+  {
+    "type": "Company",
+    "name": "Global Concepts Entertainment",
+    "co2_value_in_kt": "465.27",
+    "industry_sector": "Entertainment",
+    "headquarters_city": "Dubai",
+    "number_of_employees": "1963"
+  },
+  {
+    "type": "Company",
+    "name": "Quantum Enterprises Food & Beverage",
+    "co2_value_in_kt": "241.25",
+    "industry_sector": "Food & Beverage",
+    "headquarters_city": "Dubai",
+    "number_of_employees": "2984"
+  },
+  {
+    "type": "Company",
+    "name": "Eco Enterprises Retail",
+    "co2_value_in_kt": "895.51",
+    "industry_sector": "Retail",
+    "headquarters_city": "Toronto",
+    "number_of_employees": "2771"
+  },
+  {
+    "type": "Company",
+    "name": "Tech Group Retail",
+    "co2_value_in_kt": "52.81",
+    "industry_sector": "Retail",
+    "headquarters_city": "Berlin",
+    "number_of_employees": "978"
+  },
+  {
+    "type": "Company",
+    "name": "NextGen Dynamics Automotive",
+    "co2_value_in_kt": "282.43",
+    "industry_sector": "Automotive",
+    "headquarters_city": "Tokyo",
+    "number_of_employees": "5677"
+  },
+  {
+    "type": "Company",
+    "name": "Eco Concepts Automotive",
+    "co2_value_in_kt": "856.4",
+    "industry_sector": "Automotive",
+    "headquarters_city": "Tokyo",
+    "number_of_employees": "6315"
+  },
+  {
+    "type": "Company",
+    "name": "Global Dynamics Automotive",
+    "co2_value_in_kt": "747.14",
+    "industry_sector": "Automotive",
+    "headquarters_city": "Khartoum",
+    "number_of_employees": "9767"
+  },
+  {
+    "type": "Company",
+    "name": "Eco Group Aerospace",
+    "co2_value_in_kt": "937.33",
+    "industry_sector": "Aerospace",
+    "headquarters_city": "Yaoundé",
+    "number_of_employees": "9882"
+  },
+  {
+    "type": "Company",
+    "name": "Quantum Dynamics Entertainment",
+    "co2_value_in_kt": "67.23",
+    "industry_sector": "Entertainment",
+    "headquarters_city": "Yaoundé",
+    "number_of_employees": "3865"
+  },
+  {
+    "type": "Company",
+    "name": "Quantum Holdings Finance",
+    "co2_value_in_kt": "901.42",
+    "industry_sector": "Finance",
+    "headquarters_city": "Tunis",
+    "number_of_employees": "6965"
+  },
+  {
+    "type": "Company",
+    "name": "Prime Concepts Automotive",
+    "co2_value_in_kt": "48.8",
+    "industry_sector": "Automotive",
+    "headquarters_city": "Kigali",
+    "number_of_employees": "3577"
+  },
+  {
+    "type": "Company",
+    "name": "Visionary Group Healthcare",
+    "co2_value_in_kt": "39.84",
+    "industry_sector": "Healthcare",
+    "headquarters_city": "Dakar",
+    "number_of_employees": "9919"
+  },
+  {
+    "type": "Company",
+    "name": "Eco Enterprises Healthcare",
+    "co2_value_in_kt": "486.97",
+    "industry_sector": "Healthcare",
+    "headquarters_city": "Dar es Salaam",
+    "number_of_employees": "5021"
+  },
+  {
+    "type": "Company",
+    "name": "NextGen Dynamics Food & Beverage",
+    "co2_value_in_kt": "37.45",
+    "industry_sector": "Food & Beverage",
+    "headquarters_city": "Tunis",
+    "number_of_employees": "2840"
+  },
+  {
+    "type": "Company",
+    "name": "Tech Industries Healthcare",
+    "co2_value_in_kt": "384.36",
+    "industry_sector": "Healthcare",
+    "headquarters_city": "Cairo",
+    "number_of_employees": "9120"
+  },
+  {
+    "type": "Company",
+    "name": "NextGen Corporation Finance",
+    "co2_value_in_kt": "310.95",
+    "industry_sector": "Finance",
+    "headquarters_city": "Luanda",
+    "number_of_employees": "6860"
+  },
+  {
+    "type": "Company",
+    "name": "Tech Industries Food & Beverage",
+    "co2_value_in_kt": "39.11",
+    "industry_sector": "Food & Beverage",
+    "headquarters_city": "Cairo",
+    "number_of_employees": "3747"
+  },
+  {
+    "type": "Company",
+    "name": "Future Technologies Technology",
+    "co2_value_in_kt": "719.48",
+    "industry_sector": "Technology",
+    "headquarters_city": "Kampala",
+    "number_of_employees": "2768"
+  },
+  {
+    "type": "Company",
+    "name": "Eco Solutions Healthcare",
+    "co2_value_in_kt": "474.07",
+    "industry_sector": "Healthcare",
+    "headquarters_city": "Lusaka",
+    "number_of_employees": "7852"
+  },
+  {
+    "type": "Company",
+    "name": "Future Holdings Retail",
+    "co2_value_in_kt": "393.52",
+    "industry_sector": "Retail",
+    "headquarters_city": "Nairobi",
+    "number_of_employees": "2963"
+  },
+  {
+    "type": "Company",
+    "name": "Global Industries Retail",
+    "co2_value_in_kt": "427.38",
+    "industry_sector": "Retail",
+    "headquarters_city": "Johannesburg",
+    "number_of_employees": "804"
+  },
+  {
+    "type": "Company",
+    "name": "Visionary Enterprises Energy",
+    "co2_value_in_kt": "470.69",
+    "industry_sector": "Energy",
+    "headquarters_city": "Abidjan",
+    "number_of_employees": "2942"
+  },
+  {
+    "type": "Company",
+    "name": "Innovative Concepts Energy",
+    "co2_value_in_kt": "592.19",
+    "industry_sector": "Energy",
+    "headquarters_city": "Bamako",
+    "number_of_employees": "3599"
+  },
+  {
+    "type": "Company",
+    "name": "Quantum Solutions Healthcare",
+    "co2_value_in_kt": "594.38",
+    "industry_sector": "Healthcare",
+    "headquarters_city": "Luanda",
+    "number_of_employees": "1363"
+  },
+  {
+    "type": "Company",
+    "name": "Tech Industries Automotive",
+    "co2_value_in_kt": "894.7",
+    "industry_sector": "Automotive",
+    "headquarters_city": "Johannesburg",
+    "number_of_employees": "2603"
+  },
+  {
+    "type": "Company",
+    "name": "Global Corporation Telecommunications",
+    "co2_value_in_kt": "107.14",
+    "industry_sector": "Telecommunications",
+    "headquarters_city": "La Paz",
+    "number_of_employees": "9579"
+  },
+  {
+    "type": "Company",
+    "name": "Innovative Corporation Retail",
+    "co2_value_in_kt": "724.65",
+    "industry_sector": "Retail",
+    "headquarters_city": "Bogotá",
+    "number_of_employees": "2132"
+  },
+  {
+    "type": "Company",
+    "name": "Quantum Industries Healthcare",
+    "co2_value_in_kt": "467.69",
+    "industry_sector": "Healthcare",
+    "headquarters_city": "Quito",
+    "number_of_employees": "9543"
+  },
+  {
+    "type": "Company",
+    "name": "Tech Enterprises Aerospace",
+    "co2_value_in_kt": "604.12",
+    "industry_sector": "Aerospace",
+    "headquarters_city": "Paramaribo",
+    "number_of_employees": "2827"
+  },
+  {
+    "type": "Company",
+    "name": "Quantum Industries Energy",
+    "co2_value_in_kt": "225.6",
+    "industry_sector": "Energy",
+    "headquarters_city": "São Paulo",
+    "number_of_employees": "6559"
+  },
+  {
+    "type": "Company",
+    "name": "Elite Holdings Finance",
+    "co2_value_in_kt": "924.69",
+    "industry_sector": "Finance",
+    "headquarters_city": "Quito",
+    "number_of_employees": "4589"
+  },
+  {
+    "type": "Company",
+    "name": "Elite Group Retail",
+    "co2_value_in_kt": "362.45",
+    "industry_sector": "Retail",
+    "headquarters_city": "Montevideo",
+    "number_of_employees": "9382"
+  },
+  {
+    "type": "Company",
+    "name": "Elite Corporation Automotive",
+    "co2_value_in_kt": "665.84",
+    "industry_sector": "Automotive",
+    "headquarters_city": "Caracas",
+    "number_of_employees": "3199"
+  },
+  {
+    "type": "Company",
+    "name": "Quantum Dynamics Aerospace",
+    "co2_value_in_kt": "670.36",
+    "industry_sector": "Aerospace",
+    "headquarters_city": "Montevideo",
+    "number_of_employees": "8989"
+  },
+  {
+    "type": "Company",
+    "name": "Future Dynamics Automotive",
+    "co2_value_in_kt": "93.1",
+    "industry_sector": "Automotive",
+    "headquarters_city": "Lima",
+    "number_of_employees": "6652"
+  },
+  {
+    "type": "Company",
+    "name": "Innovative Corporation Entertainment",
+    "co2_value_in_kt": "597.18",
+    "industry_sector": "Entertainment",
+    "headquarters_city": "Santiago",
+    "number_of_employees": "7707"
+  },
+  {
+    "type": "Company",
+    "name": "NextGen Enterprises Energy",
+    "co2_value_in_kt": "392.27",
+    "industry_sector": "Energy",
+    "headquarters_city": "La Paz",
+    "number_of_employees": "7826"
+  },
+  {
+    "type": "Company",
+    "name": "Elite Solutions Telecommunications",
+    "co2_value_in_kt": "629.86",
+    "industry_sector": "Telecommunications",
+    "headquarters_city": "La Paz",
+    "number_of_employees": "190"
+  },
+  {
+    "type": "Company",
+    "name": "Visionary Group Entertainment",
+    "co2_value_in_kt": "354.1",
+    "industry_sector": "Entertainment",
+    "headquarters_city": "Caracas",
+    "number_of_employees": "8769"
+  },
+  {
+    "type": "Company",
+    "name": "Prime Corporation Retail",
+    "co2_value_in_kt": "274.32",
+    "industry_sector": "Retail",
+    "headquarters_city": "Quito",
+    "number_of_employees": "3852"
+  },
+  {
+    "type": "Company",
+    "name": "Prime Industries Automotive",
+    "co2_value_in_kt": "20.35",
+    "industry_sector": "Automotive",
+    "headquarters_city": "Buenos Aires",
+    "number_of_employees": "9312"
+  },
+  {
+    "type": "Company",
+    "name": "Tech Dynamics Healthcare",
+    "co2_value_in_kt": "693.5",
+    "industry_sector": "Healthcare",
+    "headquarters_city": "Tokyo",
+    "number_of_employees": "8745"
+  },
+  {
+    "type": "Company",
+    "name": "Innovative Group Retail",
+    "co2_value_in_kt": "485.67",
+    "industry_sector": "Retail",
+    "headquarters_city": "Beijing",
+    "number_of_employees": "6993"
+  },
+  {
+    "type": "Company",
+    "name": "Quantum Corporation Energy",
+    "co2_value_in_kt": "752.18",
+    "industry_sector": "Energy",
+    "headquarters_city": "Mumbai",
+    "number_of_employees": "5218"
+  },
+  {
+    "type": "Company",
+    "name": "Elite Systems Aerospace",
+    "co2_value_in_kt": "810.29",
+    "industry_sector": "Aerospace",
+    "headquarters_city": "Tokyo",
+    "number_of_employees": "7119"
+  },
+  {
+    "type": "Company",
+    "name": "Global Solutions Technology",
+    "co2_value_in_kt": "678.95",
+    "industry_sector": "Technology",
+    "headquarters_city": "Beijing",
+    "number_of_employees": "8834"
+  },
+  {
+    "type": "Company",
+    "name": "Prime Dynamics Entertainment",
+    "co2_value_in_kt": "364.12",
+    "industry_sector": "Entertainment",
+    "headquarters_city": "Mumbai",
+    "number_of_employees": "4986"
+  },
+  {
+    "type": "Company",
+    "name": "Future Concepts Telecommunications",
+    "co2_value_in_kt": "529.88",
+    "industry_sector": "Telecommunications",
+    "headquarters_city": "Tokyo",
+    "number_of_employees": "9123"
+  },
+  {
+    "type": "Company",
+    "name": "Eco Solutions Retail",
+    "co2_value_in_kt": "411.73",
+    "industry_sector": "Retail",
+    "headquarters_city": "Shanghai",
+    "number_of_employees": "6457"
+  },
+  {
+    "type": "Company",
+    "name": "Visionary Enterprises Healthcare",
+    "co2_value_in_kt": "633.29",
+    "industry_sector": "Healthcare",
+    "headquarters_city": "Seoul",
+    "number_of_employees": "7834"
+  },
+  {
+    "type": "Company",
+    "name": "Quantum Group Automotive",
+    "co2_value_in_kt": "490.56",
+    "industry_sector": "Automotive",
+    "headquarters_city": "Bangalore",
+    "number_of_employees": "5674"
+  },
+  {
+    "type": "Country",
+    "name": "Aruba",
+    "co2_value_in_kt": "127"
+  },
+  {
+    "type": "Country",
+    "name": "Afghanistan",
+    "co2_value_in_kt": "835"
+  },
+  {
+    "type": "Country",
+    "name": "Angola",
+    "co2_value_in_kt": "2445"
+  },
+  {
+    "type": "Country",
+    "name": "Anguilla",
+    "co2_value_in_kt": "3"
+  },
+  {
+    "type": "Country",
+    "name": "Albania",
+    "co2_value_in_kt": "459"
+  },
+  {
+    "type": "Country",
+    "name": "Curaçao",
+    "co2_value_in_kt": "204"
+  },
+  {
+    "type": "Country",
+    "name": "United Arab Emirates",
+    "co2_value_in_kt": "19351"
+  },
+  {
+    "type": "Country",
+    "name": "Argentina",
+    "co2_value_in_kt": "18900"
+  },
+  {
+    "type": "Country",
+    "name": "Armenia",
+    "co2_value_in_kt": "677"
+  },
+  {
+    "type": "Country",
+    "name": "Antigua and Barbuda",
+    "co2_value_in_kt": "78"
+  },
+  {
+    "type": "Country",
+    "name": "Australia",
+    "co2_value_in_kt": "36791"
+  },
+  {
+    "type": "Country",
+    "name": "Austria",
+    "co2_value_in_kt": "6601"
+  },
+  {
+    "type": "Country",
+    "name": "Azerbaijan",
+    "co2_value_in_kt": "3711"
+  },
+  {
+    "type": "Country",
+    "name": "Burundi",
+    "co2_value_in_kt": "71"
+  },
+  {
+    "type": "Country",
+    "name": "Belgium",
+    "co2_value_in_kt": "9592"
+  },
+  {
+    "type": "Country",
+    "name": "Benin",
+    "co2_value_in_kt": "863"
+  },
+  {
+    "type": "Country",
+    "name": "Burkina Faso",
+    "co2_value_in_kt": "529"
+  },
+  {
+    "type": "Country",
+    "name": "Bangladesh",
+    "co2_value_in_kt": "10687"
+  },
+  {
+    "type": "Country",
+    "name": "Bulgaria",
+    "co2_value_in_kt": "4364"
+  },
+  {
+    "type": "Country",
+    "name": "Bahrain",
+    "co2_value_in_kt": "3749"
+  },
+  {
+    "type": "Country",
+    "name": "Bahamas",
+    "co2_value_in_kt": "404"
+  },
+  {
+    "type": "Country",
+    "name": "Bosnia and Herzegovina",
+    "co2_value_in_kt": "1537"
+  },
+  {
+    "type": "Country",
+    "name": "Belarus",
+    "co2_value_in_kt": "5836"
+  },
+  {
+    "type": "Country",
+    "name": "Belize",
+    "co2_value_in_kt": "64"
+  },
+  {
+    "type": "Country",
+    "name": "Bermuda",
+    "co2_value_in_kt": "82"
+  },
+  {
+    "type": "Country",
+    "name": "Bolivia",
+    "co2_value_in_kt": "2243"
+  },
+  {
+    "type": "Country",
+    "name": "Brazil",
+    "co2_value_in_kt": "48986"
+  },
+  {
+    "type": "Country",
+    "name": "Barbados",
+    "co2_value_in_kt": "177"
+  },
+  {
+    "type": "Country",
+    "name": "Brunei",
+    "co2_value_in_kt": "721"
+  },
+  {
+    "type": "Country",
+    "name": "Bhutan",
+    "co2_value_in_kt": "198"
+  },
+  {
+    "type": "Country",
+    "name": "Botswana",
+    "co2_value_in_kt": "700"
+  },
+  {
+    "type": "Country",
+    "name": "Central African Republic",
+    "co2_value_in_kt": "28"
+  },
+  {
+    "type": "Country",
+    "name": "Canada",
+    "co2_value_in_kt": "56354"
+  },
+  {
+    "type": "Country",
+    "name": "Switzerland and Liechtenstein",
+    "co2_value_in_kt": "3507"
+  },
+  {
+    "type": "Country",
+    "name": "Chile",
+    "co2_value_in_kt": "8570"
+  },
+  {
+    "type": "Country",
+    "name": "China",
+    "co2_value_in_kt": "1246632"
+  },
+  {
+    "type": "Country",
+    "name": "Ivory Coast",
+    "co2_value_in_kt": "1454"
+  },
+  {
+    "type": "Country",
+    "name": "Cameroon",
+    "co2_value_in_kt": "1020"
+  },
+  {
+    "type": "Country",
+    "name": "Democratic Republic of the Congo",
+    "co2_value_in_kt": "337"
+  },
+  {
+    "type": "Country",
+    "name": "Congo",
+    "co2_value_in_kt": "737"
+  },
+  {
+    "type": "Country",
+    "name": "Cook Islands",
+    "co2_value_in_kt": "11"
+  },
+  {
+    "type": "Country",
+    "name": "Colombia",
+    "co2_value_in_kt": "7757"
+  },
+  {
+    "type": "Country",
+    "name": "Comoros",
+    "co2_value_in_kt": "28"
+  },
+  {
+    "type": "Country",
+    "name": "Cabo Verde",
+    "co2_value_in_kt": "92"
+  },
+  {
+    "type": "Country",
+    "name": "Costa Rica",
+    "co2_value_in_kt": "809"
+  },
+  {
+    "type": "Country",
+    "name": "Cuba",
+    "co2_value_in_kt": "2461"
+  },
+  {
+    "type": "Country",
+    "name": "Cayman Islands",
+    "co2_value_in_kt": "86"
+  },
+  {
+    "type": "Country",
+    "name": "Cyprus",
+    "co2_value_in_kt": "675"
+  },
+  {
+    "type": "Country",
+    "name": "Czechia",
+    "co2_value_in_kt": "9769"
+  },
+  {
+    "type": "Country",
+    "name": "Germany",
+    "co2_value_in_kt": "66588"
+  },
+  {
+    "type": "Country",
+    "name": "Djibouti",
+    "co2_value_in_kt": "61"
+  },
+  {
+    "type": "Country",
+    "name": "Dominica",
+    "co2_value_in_kt": "19"
+  },
+  {
+    "type": "Country",
+    "name": "Denmark",
+    "co2_value_in_kt": "2728"
+  },
+  {
+    "type": "Country",
+    "name": "Dominican Republic",
+    "co2_value_in_kt": "2773"
+  },
+  {
+    "type": "Country",
+    "name": "Algeria",
+    "co2_value_in_kt": "17300"
+  },
+  {
+    "type": "Country",
+    "name": "Ecuador",
+    "co2_value_in_kt": "4114"
+  },
+  {
+    "type": "Country",
+    "name": "Egypt",
+    "co2_value_in_kt": "25932"
+  },
+  {
+    "type": "Country",
+    "name": "Eritrea",
+    "co2_value_in_kt": "84"
+  },
+  {
+    "type": "Country",
+    "name": "Western Sahara",
+    "co2_value_in_kt": "24"
+  },
+  {
+    "type": "Country",
+    "name": "Spain and Andorra",
+    "co2_value_in_kt": "23191"
+  },
+  {
+    "type": "Country",
+    "name": "Estonia",
+    "co2_value_in_kt": "1491"
+  },
+  {
+    "type": "Country",
+    "name": "Ethiopia",
+    "co2_value_in_kt": "1921"
+  },
+  {
+    "type": "Country",
+    "name": "Finland",
+    "co2_value_in_kt": "3899"
+  },
+  {
+    "type": "Country",
+    "name": "Fiji",
+    "co2_value_in_kt": "173"
+  },
+  {
+    "type": "Country",
+    "name": "Falkland Islands",
+    "co2_value_in_kt": "5"
+  },
+  {
+    "type": "Country",
+    "name": "France and Monaco",
+    "co2_value_in_kt": "30233"
+  },
+  {
+    "type": "Country",
+    "name": "Faroes",
+    "co2_value_in_kt": "0"
+  },
+  {
+    "type": "Country",
+    "name": "Gabon",
+    "co2_value_in_kt": "552"
+  },
+  {
+    "type": "Country",
+    "name": "United Kingdom",
+    "co2_value_in_kt": "33536"
+  },
+  {
+    "type": "Country",
+    "name": "Georgia",
+    "co2_value_in_kt": "1165"
+  },
+  {
+    "type": "Country",
+    "name": "Ghana",
+    "co2_value_in_kt": "2364"
+  },
+  {
+    "type": "Country",
+    "name": "Gibraltar",
+    "co2_value_in_kt": "67"
+  },
+  {
+    "type": "Country",
+    "name": "Guinea",
+    "co2_value_in_kt": "344"
+  },
+  {
+    "type": "Country",
+    "name": "Guadeloupe",
+    "co2_value_in_kt": "181"
+  },
+  {
+    "type": "Country",
+    "name": "The Gambia",
+    "co2_value_in_kt": "56"
+  },
+  {
+    "type": "Country",
+    "name": "Guinea-Bissau",
+    "co2_value_in_kt": "32"
+  },
+  {
+    "type": "Country",
+    "name": "Equatorial Guinea",
+    "co2_value_in_kt": "700"
+  },
+  {
+    "type": "Country",
+    "name": "Greece",
+    "co2_value_in_kt": "5337"
+  },
+  {
+    "type": "Country",
+    "name": "Grenada",
+    "co2_value_in_kt": "34"
+  },
+  {
+    "type": "Country",
+    "name": "Greenland",
+    "co2_value_in_kt": "46"
+  },
+  {
+    "type": "Country",
+    "name": "Guatemala",
+    "co2_value_in_kt": "2019"
+  },
+  {
+    "type": "Country",
+    "name": "French Guiana",
+    "co2_value_in_kt": "84"
+  },
+  {
+    "type": "Country",
+    "name": "Guyana",
+    "co2_value_in_kt": "290"
+  },
+  {
+    "type": "Country",
+    "name": "Hong Kong",
+    "co2_value_in_kt": "3321"
+  },
+  {
+    "type": "Country",
+    "name": "Honduras",
+    "co2_value_in_kt": "975"
+  },
+  {
+    "type": "Country",
+    "name": "Croatia",
+    "co2_value_in_kt": "1800"
+  },
+  {
+    "type": "Country",
+    "name": "Haiti",
+    "co2_value_in_kt": "324"
+  },
+  {
+    "type": "Country",
+    "name": "Hungary",
+    "co2_value_in_kt": "5069"
+  },
+  {
+    "type": "Country",
+    "name": "Indonesia",
+    "co2_value_in_kt": "60259"
+  },
+  {
+    "type": "Country",
+    "name": "India",
+    "co2_value_in_kt": "264878"
+  },
+  {
+    "type": "Country",
+    "name": "Ireland",
+    "co2_value_in_kt": "3501"
+  },
+  {
+    "type": "Country",
+    "name": "Iran",
+    "co2_value_in_kt": "71083"
+  },
+  {
+    "type": "Country",
+    "name": "Iraq",
+    "co2_value_in_kt": "17785"
+  },
+  {
+    "type": "Country",
+    "name": "Iceland",
+    "co2_value_in_kt": "291"
+  },
+  {
+    "type": "Country",
+    "name": "Israel ",
+    "co2_value_in_kt": "5959"
+  },
+  {
+    "type": "Country",
+    "name": "Italy",
+    "co2_value_in_kt": "31967"
+  },
+  {
+    "type": "Country",
+    "name": "Jamaica",
+    "co2_value_in_kt": "808"
+  },
+  {
+    "type": "Country",
+    "name": "Jordan",
+    "co2_value_in_kt": "2430"
+  },
+  {
+    "type": "Country",
+    "name": "Japan",
+    "co2_value_in_kt": "108469"
+  },
+  {
+    "type": "Country",
+    "name": "Kazakhstan",
+    "co2_value_in_kt": "21121"
+  },
+  {
+    "type": "Country",
+    "name": "Kenya",
+    "co2_value_in_kt": "2243"
+  },
+  {
+    "type": "Country",
+    "name": "Kyrgyzstan",
+    "co2_value_in_kt": "1078"
+  },
+  {
+    "type": "Country",
+    "name": "Cambodia",
+    "co2_value_in_kt": "1696"
+  },
+  {
+    "type": "Country",
+    "name": "Kiribati",
+    "co2_value_in_kt": "8"
+  },
+  {
+    "type": "Country",
+    "name": "Saint Kitts and Nevis",
+    "co2_value_in_kt": "29"
+  },
+  {
+    "type": "Country",
+    "name": "South Korea",
+    "co2_value_in_kt": "62680"
+  },
+  {
+    "type": "Country",
+    "name": "Kuwait",
+    "co2_value_in_kt": "9808"
+  },
+  {
+    "type": "Country",
+    "name": "Laos",
+    "co2_value_in_kt": "2056"
+  },
+  {
+    "type": "Country",
+    "name": "Lebanon",
+    "co2_value_in_kt": "2577"
+  },
+  {
+    "type": "Country",
+    "name": "Liberia",
+    "co2_value_in_kt": "144"
+  },
+  {
+    "type": "Country",
+    "name": "Libya",
+    "co2_value_in_kt": "6328"
+  },
+  {
+    "type": "Country",
+    "name": "Saint Lucia",
+    "co2_value_in_kt": "71"
+  },
+  {
+    "type": "Country",
+    "name": "Sri Lanka",
+    "co2_value_in_kt": "2386"
+  },
+  {
+    "type": "Country",
+    "name": "Lesotho",
+    "co2_value_in_kt": "65"
+  },
+  {
+    "type": "Country",
+    "name": "Lithuania",
+    "co2_value_in_kt": "1382"
+  },
+  {
+    "type": "Country",
+    "name": "Luxembourg",
+    "co2_value_in_kt": "845"
+  },
+  {
+    "type": "Country",
+    "name": "Latvia",
+    "co2_value_in_kt": "721"
+  },
+  {
+    "type": "Country",
+    "name": "Macao",
+    "co2_value_in_kt": "266"
+  },
+  {
+    "type": "Country",
+    "name": "Morocco",
+    "co2_value_in_kt": "7397"
+  },
+  {
+    "type": "Country",
+    "name": "Moldova",
+    "co2_value_in_kt": "955"
+  },
+  {
+    "type": "Country",
+    "name": "Madagascar",
+    "co2_value_in_kt": "530"
+  },
+  {
+    "type": "Country",
+    "name": "Maldives",
+    "co2_value_in_kt": "221"
+  },
+  {
+    "type": "Country",
+    "name": "Mexico",
+    "co2_value_in_kt": "41835"
+  },
+  {
+    "type": "Country",
+    "name": "North Macedonia",
+    "co2_value_in_kt": "751"
+  },
+  {
+    "type": "Country",
+    "name": "Mali",
+    "co2_value_in_kt": "592"
+  },
+  {
+    "type": "Country",
+    "name": "Malta",
+    "co2_value_in_kt": "175"
+  },
+  {
+    "type": "Country",
+    "name": "Myanmar",
+    "co2_value_in_kt": "4005"
+  },
+  {
+    "type": "Country",
+    "name": "Mongolia",
+    "co2_value_in_kt": "2499"
+  },
+  {
+    "type": "Country",
+    "name": "Mozambique",
+    "co2_value_in_kt": "864"
+  },
+  {
+    "type": "Country",
+    "name": "Mauritania",
+    "co2_value_in_kt": "426"
+  },
+  {
+    "type": "Country",
+    "name": "Martinique",
+    "co2_value_in_kt": "190"
+  },
+  {
+    "type": "Country",
+    "name": "Mauritius",
+    "co2_value_in_kt": "413"
+  },
+  {
+    "type": "Country",
+    "name": "Malawi",
+    "co2_value_in_kt": "182"
+  },
+  {
+    "type": "Country",
+    "name": "Malaysia",
+    "co2_value_in_kt": "25156"
+  },
+  {
+    "type": "Country",
+    "name": "Namibia",
+    "co2_value_in_kt": "407"
+  },
+  {
+    "type": "Country",
+    "name": "New Caledonia",
+    "co2_value_in_kt": "570"
+  },
+  {
+    "type": "Country",
+    "name": "Niger",
+    "co2_value_in_kt": "247"
+  },
+  {
+    "type": "Country",
+    "name": "Nigeria",
+    "co2_value_in_kt": "12703"
+  },
+  {
+    "type": "Country",
+    "name": "Nicaragua",
+    "co2_value_in_kt": "500"
+  },
+  {
+    "type": "Country",
+    "name": "Netherlands",
+    "co2_value_in_kt": "14687"
+  },
+  {
+    "type": "Country",
+    "name": "Norway",
+    "co2_value_in_kt": "4233"
+  },
+  {
+    "type": "Country",
+    "name": "Nepal",
+    "co2_value_in_kt": "1431"
+  },
+  {
+    "type": "Country",
+    "name": "New Zealand",
+    "co2_value_in_kt": "3260"
+  },
+  {
+    "type": "Country",
+    "name": "Oman",
+    "co2_value_in_kt": "9462"
+  },
+  {
+    "type": "Country",
+    "name": "Pakistan",
+    "co2_value_in_kt": "21979"
+  },
+  {
+    "type": "Country",
+    "name": "Panama",
+    "co2_value_in_kt": "1251"
+  },
+  {
+    "type": "Country",
+    "name": "Peru",
+    "co2_value_in_kt": "5514"
+  },
+  {
+    "type": "Country",
+    "name": "Philippines",
+    "co2_value_in_kt": "14796"
+  },
+  {
+    "type": "Country",
+    "name": "Palau",
+    "co2_value_in_kt": "132"
+  },
+  {
+    "type": "Country",
+    "name": "Papua New Guinea",
+    "co2_value_in_kt": "657"
+  },
+  {
+    "type": "Country",
+    "name": "Poland",
+    "co2_value_in_kt": "32077"
+  },
+  {
+    "type": "Country",
+    "name": "Puerto Rico",
+    "co2_value_in_kt": "126"
+  },
+  {
+    "type": "Country",
+    "name": "North Korea",
+    "co2_value_in_kt": "6257"
+  },
+  {
+    "type": "Country",
+    "name": "Portugal",
+    "co2_value_in_kt": "3868"
+  },
+  {
+    "type": "Country",
+    "name": "Paraguay",
+    "co2_value_in_kt": "889"
+  },
+  {
+    "type": "Country",
+    "name": "French Polynesia",
+    "co2_value_in_kt": "97"
+  },
+  {
+    "type": "Country",
+    "name": "Qatar",
+    "co2_value_in_kt": "9769"
+  },
+  {
+    "type": "Country",
+    "name": "Réunion",
+    "co2_value_in_kt": "258"
+  },
+  {
+    "type": "Country",
+    "name": "Romania",
+    "co2_value_in_kt": "7875"
+  },
+  {
+    "type": "Country",
+    "name": "Russia",
+    "co2_value_in_kt": "194254"
+  },
+  {
+    "type": "Country",
+    "name": "Rwanda",
+    "co2_value_in_kt": "124"
+  },
+  {
+    "type": "Country",
+    "name": "Saudi Arabia",
+    "co2_value_in_kt": "58640"
+  },
+  {
+    "type": "Country",
+    "name": "Serbia",
+    "co2_value_in_kt": "3935"
+  },
+  {
+    "type": "Country",
+    "name": "Sudan and South Sudan",
+    "co2_value_in_kt": "2137"
+  },
+  {
+    "type": "Country",
+    "name": "Senegal",
+    "co2_value_in_kt": "1198"
+  },
+  {
+    "type": "Country",
+    "name": "Singapore",
+    "co2_value_in_kt": "5818"
+  },
+  {
+    "type": "Country",
+    "name": "Saint Helena",
+    "co2_value_in_kt": "2"
+  },
+  {
+    "type": "Country",
+    "name": "Solomon Islands",
+    "co2_value_in_kt": "33"
+  },
+  {
+    "type": "Country",
+    "name": "Sierra Leone",
+    "co2_value_in_kt": "101"
+  },
+  {
+    "type": "Country",
+    "name": "El Salvador",
+    "co2_value_in_kt": "818"
+  },
+  {
+    "type": "Country",
+    "name": "Somalia",
+    "co2_value_in_kt": "76"
+  },
+  {
+    "type": "Country",
+    "name": "Saint Pierre and Miquelon",
+    "co2_value_in_kt": "9"
+  },
+  {
+    "type": "Country",
+    "name": "São Tomé and Príncipe",
+    "co2_value_in_kt": "15"
+  },
+  {
+    "type": "Country",
+    "name": "Suriname",
+    "co2_value_in_kt": "271"
+  },
+  {
+    "type": "Country",
+    "name": "Slovakia",
+    "co2_value_in_kt": "3748"
+  },
+  {
+    "type": "Country",
+    "name": "Slovenia",
+    "co2_value_in_kt": "1417"
+  },
+  {
+    "type": "Country",
+    "name": "Sweden",
+    "co2_value_in_kt": "3892"
+  },
+  {
+    "type": "Country",
+    "name": "Eswatini",
+    "co2_value_in_kt": "151"
+  },
+  {
+    "type": "Country",
+    "name": "Seychelles",
+    "co2_value_in_kt": "105"
+  },
+  {
+    "type": "Country",
+    "name": "Syria",
+    "co2_value_in_kt": "2586"
+  },
+  {
+    "type": "Country",
+    "name": "Turks and Caicos Islands",
+    "co2_value_in_kt": "25"
+  },
+  {
+    "type": "Country",
+    "name": "Chad",
+    "co2_value_in_kt": "221"
+  },
+  {
+    "type": "Country",
+    "name": "Togo",
+    "co2_value_in_kt": "226"
+  },
+  {
+    "type": "Country",
+    "name": "Thailand",
+    "co2_value_in_kt": "26957"
+  },
+  {
+    "type": "Country",
+    "name": "Tajikistan",
+    "co2_value_in_kt": "1013"
+  },
+  {
+    "type": "Country",
+    "name": "Turkmenistan",
+    "co2_value_in_kt": "8332"
+  },
+  {
+    "type": "Country",
+    "name": "Timor-Leste",
+    "co2_value_in_kt": "57"
+  },
+  {
+    "type": "Country",
+    "name": "Tonga",
+    "co2_value_in_kt": "17"
+  },
+  {
+    "type": "Country",
+    "name": "Trinidad and Tobago",
+    "co2_value_in_kt": "2899"
+  },
+  {
+    "type": "Country",
+    "name": "Tunisia",
+    "co2_value_in_kt": "3179"
+  },
+  {
+    "type": "Country",
+    "name": "Turkey",
+    "co2_value_in_kt": "44972"
+  },
+  {
+    "type": "Country",
+    "name": "Taiwan",
+    "co2_value_in_kt": "28816"
+  },
+  {
+    "type": "Country",
+    "name": "Tanzania",
+    "co2_value_in_kt": "1341"
+  },
+  {
+    "type": "Country",
+    "name": "Uganda",
+    "co2_value_in_kt": "682"
+  },
+  {
+    "type": "Country",
+    "name": "Ukraine",
+    "co2_value_in_kt": "18546"
+  },
+  {
+    "type": "Country",
+    "name": "Uruguay",
+    "co2_value_in_kt": "679"
+  },
+  {
+    "type": "Country",
+    "name": "United States",
+    "co2_value_in_kt": "475208"
+  },
+  {
+    "type": "Country",
+    "name": "Uzbekistan",
+    "co2_value_in_kt": "12565"
+  },
+  {
+    "type": "Country",
+    "name": "Saint Vincent and the Grenadines",
+    "co2_value_in_kt": "23"
+  },
+  {
+    "type": "Country",
+    "name": "Venezuela",
+    "co2_value_in_kt": "10467"
+  },
+  {
+    "type": "Country",
+    "name": "British Virgin Islands",
+    "co2_value_in_kt": "18"
+  },
+  {
+    "type": "Country",
+    "name": "Vietnam",
+    "co2_value_in_kt": "32141"
+  },
+  {
+    "type": "Country",
+    "name": "Vanuatu",
+    "co2_value_in_kt": "22"
+  },
+  {
+    "type": "Country",
+    "name": "Samoa",
+    "co2_value_in_kt": "36"
+  },
+  {
+    "type": "Country",
+    "name": "Yemen",
+    "co2_value_in_kt": "1205"
+  },
+  {
+    "type": "Country",
+    "name": "South Africa",
+    "co2_value_in_kt": "43552"
+  },
+  {
+    "type": "Country",
+    "name": "Zambia",
+    "co2_value_in_kt": "701"
+  },
+  {
+    "type": "Country",
+    "name": "Zimbabwe",
+    "co2_value_in_kt": "1229"
+  }
   ]

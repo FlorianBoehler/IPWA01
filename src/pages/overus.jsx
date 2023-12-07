@@ -1,7 +1,8 @@
-import "./Overus.css"
+import "./Overus.css";
 
 function OverUsPage() {
   return (
+    //Legal content and contact informations with dummy information
     <div className="legalContent">
       <h1>Impressum</h1>
       <p>Angaben gemäß § 5 TMG</p>
@@ -9,12 +10,16 @@ function OverUsPage() {
       <p>Musterweg 30</p>
       <p>12345 Musterstadt</p>
       <p>
-        
         <strong>Vertreten durch: </strong>
       </p>
       <p>Jane Doe</p>
       <p>
-        <a className="emailButton" href="mailto:beispiel@example.com" class="btn btn-secondary">
+        {/*Button to open system mail application to contact the organization*/}
+        <a
+          className="emailButton"
+          href="mailto:beispiel@example.com"
+          class="btn btn-secondary"
+        >
           E-Mail senden
         </a>
       </p>

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import "./LanguageButton.css"
+import "./LanguageButton.css";
 import { useTranslation } from "react-i18next";
 import { LanguageButtonData } from "./LanguageButtonData";
 import "../../../node_modules/flag-icon-css/css/flag-icons.min.css";
@@ -17,12 +17,15 @@ function LanguageButton() {
 
   useEffect(() => {
     const currentLanguage = LanguageButtonData.find(
-      (l) => l.code === currentLanguageCode,
-      (document.title = t("app_title")) // & Change Title
+      (l) => l.code === currentLanguageCode
     );
-    const direction = currentLanguage ? currentLanguage.dir : "ltr";
-    document.body.dir = direction;
-  }, [currentLanguageCode]);
+
+    if (currentLanguage) {
+      document.title = t("app_title"); 
+      const direction = currentLanguage.dir || "ltr";
+      document.body.dir = direction;
+    }
+  }, [currentLanguageCode, t]);
 
   const handleLanguageChange = (code) => {
     i18next.changeLanguage(code);
@@ -31,36 +34,38 @@ function LanguageButton() {
 
   return (
     <div className="dropdownContainer">
-    <div className="dropdown">
-      <button
-        className="btn btn-secondary dropdown-toggle"
-        type="button"
-        data-bs-toggle="dropdown"
-        aria-expanded="false"
-      >
-        <img className="globeIcon" src={globeIcon} alt="Globe Icon" />
-      </button>
-      <ul className="dropdown-menu">
-        <li>
-          <span className="dropdown-item-text">{t("language")}</span>
-        </li>
-        {LanguageButtonData.map(({ code, name, country_code }) => (
-          <li key={country_code}>
-            <button
-              className="dropdown-item"
-              onClick={() => handleLanguageChange(code)}
-              disabled={code === currentLanguageCode}
-            >
-              <span
-                className={`flag-icon flag-icon-${country_code} mx-2`}
-                style={{ opacity: code === currentLanguageCode ? 0.5 : 1 }}
-              ></span>
-              {name}
-            </button>
+      <div className="dropdown">
+        <button
+          id="languageButton"
+          className="btn btn-secondary btn-sm dropdown-toggle"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <img className="globeIcon" src={globeIcon} alt="Globe Icon" />
+        </button>
+        <ul className="dropdown-menu">
+          <li>
+            <span className="dropdown-item-text">{t("language")}</span>
           </li>
-        ))}
-      </ul>
-    </div> </div>
+          {LanguageButtonData.map(({ code, name, country_code }) => (
+            <li key={country_code}>
+              <button
+                className="dropdown-item"
+                onClick={() => handleLanguageChange(code)}
+                disabled={code === currentLanguageCode}
+              >
+                <span
+                  className={`flag-icon flag-icon-${country_code} mx-2`}
+                  style={{ opacity: code === currentLanguageCode ? 0.5 : 1 }}
+                ></span>
+                {name}
+              </button>
+            </li>
+          ))}
+        </ul>
+      </div>{" "}
+    </div>
   );
 }
 

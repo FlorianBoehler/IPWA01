@@ -22,7 +22,7 @@ class MainNavigation extends Component {
     return (
       <div>
         <nav className="NavigationItems">
-          <h2 className=".logoText" onClick={this.closeMenu}>
+          <h2 className="logoText" onClick={this.closeMenu}>
             {t("app_title")}
           </h2>
           <div className="MenuSmallScreen">

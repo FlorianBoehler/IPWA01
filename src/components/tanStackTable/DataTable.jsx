@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
+// Import utility functions and components
 import { extractUniqueOptions } from "./ExtractOption";
-import GlobalFilter from "./GlobalFilter";
 import { filterByType } from "./TypeFilter";
 import { filterByName } from "./NameFilter";
 import CheckboxFilterComponent from "./CheckboxFilterComponent";
-
 import DebouncedInput from "./DebounceFunction";
 import "./DataTable.css";
+// Import hooks and utilities from react-table
 import {
   useReactTable,
   flexRender,
@@ -15,11 +15,12 @@ import {
   getFilteredRowModel,
   getPaginationRowModel,
 } from "@tanstack/react-table";
-import mainData from "./data/co2_data_copy.json";
+import mainData from "./data/co2_data.json";
 import { columnDef } from "./data/columnDef";
 import Pagination from "./Pagination";
 
 const Table = () => {
+  // State hooks for managing filters and options
   const [typeFilter, setTypeFilter] = React.useState({});
   const [nameFilter, setNameFilter] = React.useState({});
   const [filterOptions, setFilterOptions] = useState([]);
@@ -27,15 +28,25 @@ const Table = () => {
   const [sorting, setSorting] = React.useState([]);
   const [filtering, setFiltering] = React.useState("");
 
+  // useMemo hooks for optimized rendering
   const finalData = React.useMemo(() => mainData, []);
   const finalColumnDef = React.useMemo(() => columnDef, []);
 
+  // Function to reset all filters
   const resetFilters = () => {
     setTypeFilter({});
     setNameFilter({});
-    setFiltering(""); // Setzt den globalen Filter zurück, falls verwendet
+    setFiltering(""); // Resets global filter
   };
 
+  // useMemo for filtering data based on selected filters
+  const filteredData = React.useMemo(() => {
+    let data = filterByType(mainData, typeFilter);
+    data = filterByName(data, nameFilter);
+    return data;
+  }, [typeFilter, nameFilter]);
+
+  // useEffect hooks to update options based on available data
   useEffect(() => {
     const options = extractUniqueOptions(finalData, "type");
     setFilterOptions(options);
@@ -46,12 +57,7 @@ const Table = () => {
     setNameOptions(options);
   }, [finalData]);
 
-  const filteredData = React.useMemo(() => {
-    let data = filterByType(mainData, typeFilter);
-    data = filterByName(data, nameFilter);
-    return data;
-  }, [mainData, typeFilter, nameFilter]);
-
+  // Initializing react-table instance with configuration
   const tableInstance = useReactTable({
     columns: finalColumnDef,
     data: filteredData,
@@ -71,25 +77,19 @@ const Table = () => {
     <>
       <div className="tableContainer">
         <div className="filterContainer">
-        <DebouncedInput
+          <DebouncedInput
             value={filtering}
             onChange={setFiltering}
-            debounce={500} // Verzögerung in Millisekunden
-            className="your-input-class" // Falls Sie spezielle Klassen für Styling benötigen
-            placeholder="Suchen..." // Optional: Platzhaltertext
+            debounce={500} // Delay in milliseconds
+            placeholder="Search..." 
           />
-          
           <div className="filterDropdownContainer">
-          <div>
             <CheckboxFilterComponent
               buttonTitle="Type"
               options={filterOptions}
               selectedOptions={typeFilter}
               setSelectedOptions={setTypeFilter}
             />
-          </div>
-
-          <div>
             <CheckboxFilterComponent
               buttonTitle="Name"
               options={nameOptions}
@@ -97,16 +97,15 @@ const Table = () => {
               setSelectedOptions={setNameFilter}
             />
           </div>
-          </div>
           <button className="btn btn-primary" onClick={resetFilters}>
-            Filter zurücksetzen
+            Reset Filters
           </button>
         </div>
         <hr />
-
         <div className="tableScroll">
           <table>
             <thead className="thead">
+              {/* Rendering table headers */}
               {tableInstance.getHeaderGroups().map((headerEl) => (
                 <tr key={headerEl.id}>
                   {headerEl.headers.map((columnEl) => (
@@ -119,6 +118,7 @@ const Table = () => {
                         columnEl.column.columnDef.header,
                         columnEl.getContext()
                       )}
+                      {/* Display sort direction */}
                       {columnEl.column.getIsSorted() === "asc"
                         ? " ↑"
                         : columnEl.column.getIsSorted() === "desc"
@@ -130,6 +130,7 @@ const Table = () => {
               ))}
             </thead>
             <tbody>
+              {/* Rendering table rows */}
               {tableInstance.getRowModel().rows.map((rowEl) => (
                 <tr key={rowEl.id}>
                   {rowEl.getVisibleCells().map((cellEl) => (
@@ -145,6 +146,7 @@ const Table = () => {
             </tbody>
           </table>
         </div>
+        {/* Pagination component */}
         <Pagination className="pagination" tableInstance={tableInstance} />
       </div>
     </>
