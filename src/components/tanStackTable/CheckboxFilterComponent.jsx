@@ -1,22 +1,22 @@
 import React from "react";
 
-// CheckboxFilterComponent for rendering a dropdown with checkbox options
 const CheckboxFilterComponent = ({
-  buttonTitle, // Title of the dropdown button
-  options, // List of options to display in the dropdown
-  selectedOptions, // Object holding the current state of selected options
-  setSelectedOptions, // Function to update the selected options state
+  buttonTitle,
+  options,
+  selectedOptions,
+  setSelectedOptions,
 }) => {
-  // Handler for checkbox change events
   const handleChange = (event) => {
+    // Verhindern, dass das Dropdown-Menü sich schließt
+    event.stopPropagation(); 
     const value = event.target.name;
     setSelectedOptions((prev) => ({
       ...prev,
-      [value]: !prev[value], // Toggle the state of the clicked checkbox option
+      [value]: !prev[value],
     }));
   };
 
-  // Sort options alphabetically
+  // Sortieren der Optionen alphabetisch
   const sortedOptions = options.sort((a, b) => a.localeCompare(b));
 
   return (
@@ -27,12 +27,11 @@ const CheckboxFilterComponent = ({
         data-bs-toggle="dropdown"
         aria-expanded="false"
       >
-        {/* Display the button title*/}
         {buttonTitle}
       </button>
       <ul className="dropdown-menu">
         {sortedOptions.map((option) => (
-          <li key={option}>
+          <li key={option} onClick={(e) => e.stopPropagation()}>
             <label className="dropdown-item">
               <input
                 type="checkbox"
@@ -40,7 +39,6 @@ const CheckboxFilterComponent = ({
                 checked={selectedOptions[option] || false}
                 onChange={handleChange}
               />
-              {/* Display the option name */}
               {option}
             </label>
           </li>

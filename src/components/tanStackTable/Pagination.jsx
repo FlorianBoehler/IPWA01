@@ -61,8 +61,7 @@ const Pagination = ({ tableInstance }) => {
           </option>
         ))}
       </select>
-      {/*Show loading page */}
-      dataQuery.isFetching ? 'Loading...' : null
+      
     </div>
   );
 };
