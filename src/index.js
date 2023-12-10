@@ -15,7 +15,7 @@ const loadingMarkup = (
 
 // Rendering the root of the React application
 ReactDOM.render(
-  // Suspense component used for handling the loading state of dynamically imported components
+  // Suspense component used for handling the loading state of dynamically imported components from i18next
   <Suspense fallback={loadingMarkup}>
     <App/> {/* The main component of the application */}
   </Suspense>,

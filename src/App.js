@@ -3,8 +3,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 // Importing the page and layout components
 import MainPage from "./pages/MainPage";
-import TablePage from "./pages/table";
-import OverUsPage from "./pages/overus";
+import TablePage from "./pages/TablePage.jsx";
+import OverUsPage from "./pages/OverusPage.jsx";
 import LanguageButton from "./components/languageButton/LanguageButton";
 import MainNavigation from "./components/mainNavigation/MainNavigation";
 import Footer from "./components/footer/Footer";

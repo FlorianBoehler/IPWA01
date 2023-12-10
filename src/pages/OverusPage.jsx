@@ -1,4 +1,4 @@
-import "./Overus.css";
+import "./OverusPage.css";
 
 function OverUsPage() {
   return (

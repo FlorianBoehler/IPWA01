@@ -1,70 +1,72 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```mermaid
 
-## Available Scripts
 
-In the project directory, you can run:
+graph BT;
+    index.js-->index.html;
+    index.css-->index.js;
+    style index.css stroke:#0000FF,stroke-width:2px
 
-### `npm start`
+    App.js-->index.js;
+    App.css-->App.js;
+    style App.css stroke:#0000FF,stroke-width:2px
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    Header-Components-->App.js;
+    style Header-Components stroke:#ffeb3b,stroke-width:2px
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    LanguageButton.jsx-->Header-Components;
+    LanguageButton.css-->LanguageButton.jsx;
+    style LanguageButton.css stroke:#0000FF
+    LanguageButtonData.js-->LanguageButton.jsx;
 
-### `npm test`
+    MainNavigation.jsx-->Header-Components;
+    MainNavigation.css-->MainNavigation.jsx;
+    style MainNavigation.css stroke:#0000FF
+    MainNavigationData.js-->MainNavigation.jsx;
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    Content-Components-->App.js;
+    style Content-Components stroke:#ffeb3b,stroke-width:2px
 
-### `npm run build`
+    MainPage.jsx-->Content-Components;
+    MainPage.css-->MainPage.jsx;
+    style MainPage.css stroke:#0000FF
+    VideoMain.jsx-->MainPage.jsx;
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    TablePage.jsx-->Content-Components;
+    DataTable.jsx-->TablePage.jsx;
+    GlobalFilter.jsx-->DataTable.jsx;
+    CheckboxFilterComponent.jsx-->DataTable.jsx;
+    TypeFilter-->DataTable.jsx;
+    NameFilter-->DataTable.jsx;
+    ExtractOption.jsx-->DataTable.jsx;
+    Pagination.jsx-->DataTable.jsx;
+    DebounceFunction.jsx-->DataTable.jsx;;
+    DataTable.css-->DataTable.jsx;;
+    style DataTable.css stroke:#0000FF,stroke-width:2px
+    DebounceFunction-->DataTable.jsx;
+    Pagination-->DataTable.jsx;
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    OverusPage.jsx-->Content-Components;
+    OverusPage.css-->OverusPage.jsx;
+    style OverusPage.css stroke:#0000FF
 
-### `npm run eject`
+    Footer-Components-->App.js;
+    style Footer-Components stroke:#ffeb3b,stroke-width:2px
+    Footer.jsx-->Footer-Components;
+    Footer.css-->Footer.jsx;
+    style Footer.css stroke:#0000FF,stroke-width:2px
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    i18n.js-->|Übersetzungsbibliothek|App.js;
+    TranslationData-->i18n.js;
+    style TranslationData stroke:#ffeb3b,stroke-width:2px
+    ar-->TranslationData;
+    translation.json-Arabic-->ar;
+    de-->TranslationData;
+    translation.json-German-->de;
+    en-->TranslationData;
+    translation.json-English-->en;
+    fr-->TranslationData;
+    translation.json-French-->fr;
+    
+```
