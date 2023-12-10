@@ -2,7 +2,7 @@
 ```mermaid
 
 
-graph BT;
+graph RL;
     index.js-->index.html;
     index.css-->index.js;
     style index.css stroke:#0000FF,stroke-width:2px
