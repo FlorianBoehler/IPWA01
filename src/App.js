@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-//import MainPage from "./pages/main";
+// Importing the page and layout components
 import MainPage from "./pages/MainPage";
 import TablePage from "./pages/table";
 import OverUsPage from "./pages/overus";
@@ -9,26 +9,30 @@ import LanguageButton from "./components/languageButton/LanguageButton";
 import MainNavigation from "./components/mainNavigation/MainNavigation";
 import Footer from "./components/footer/Footer";
 import "./App.css";
-import  "./components/i18next/i18n.js"; //Call of i18next function to make the translation available in the app
+import "./components/i18next/i18n.js"; // Import for i18next configuration for internationalization
 
+// Main App component
 function App() {
   return (
     <div className="appContainer">
+      {/* BrowserRouter for handling routing in the application */}
       <BrowserRouter>
-        {/*Header with the Button to change the language and the menu bar*/}
+        {/* Header section including language selection and navigation menu */}
         <div className="header">
-          <LanguageButton />
-          <MainNavigation />
+          <LanguageButton /> 
+          <MainNavigation /> 
         </div>
-        {/*Routing link informations for the different pages*/}
+
+        {/* Main content area where different pages will be rendered based on the route */}
         <div className="content">
           <Routes>
-            <Route path="/" element={<MainPage />} />
-            <Route path="/table" element={<TablePage />} />
-            <Route path="/overus" element={<OverUsPage />} />
+            <Route path="/" element={<MainPage />} /> 
+            <Route path="/table" element={<TablePage />} /> 
+            <Route path="/overus" element={<OverUsPage />} /> 
           </Routes>
         </div>
-        {/*Footer with legal notes*/}
+
+        {/* Footer section with legal and other information */}
         <Footer />
       </BrowserRouter>
     </div>

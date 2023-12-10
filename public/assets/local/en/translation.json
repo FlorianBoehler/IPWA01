@@ -1,5 +1,4 @@
 {
-  
   "language": "Language",
   "app_title": "CO₂ Calculator",
   "home": "Home",
@@ -7,5 +6,8 @@
   "knowledge": "Knowledge Base",
   "contact": "Contact Us",
   "footer_all_rights": "© Green Future Energy - All rights reserved.",
-  "footer_legal_notice": "Legal Notice"
+  "footer_legal_notice": "Legal Notice",
+  "compare_co2_Values": "Compare CO₂ Values",
+  "welcome": "Welcome to the",
+  "of": "of"
 }

@@ -3,22 +3,21 @@ import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 import HttpApi from "i18next-http-backend";
 
-
 i18next
   .use(initReactI18next)
   .use(LanguageDetector)
   .use(HttpApi)
   .init({
-    supportedLngs: ["ar","de","fr","en"],
-    fallbackLng: "en",
+    supportedLngs: ["ar", "de", "fr", "en"], // List of languages
+    fallbackLng: "en", // Fallback language
     detection: {
-      order: ["path", "cookie", "htmlTag",  "localStorage", "subdomain"],
+      // Configure how to detect the user's language
+      order: ["path", "cookie", "htmlTag", "localStorage", "subdomain"], // Order of language detection methods
       caches: ["cookie"],
     },
     backend: {
-      loadPath: "/ipwa01/assets/local/{{lng}}/translation.json",
+      loadPath: "/assets/local/{{lng}}/translation.json", // Path to the translation files
     },
-    
   });
 
-export default i18next;
+export default i18next; 
