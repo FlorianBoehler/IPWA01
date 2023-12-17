@@ -1,7 +1,6 @@
 {
-  
   "language": "Langue",
-  "app_title": "Calculateur de CO₂",
+  "app_title": "Données d'émission de CO₂",
   "home": "Accueil",
   "table": "Table",
   "knowledge": "Base de connaissances",
@@ -11,6 +10,4 @@
   "compare_co2_Values": "Comparez les valeurs de CO₂",
   "welcome": "Bienvenue sur le",
   "of": "de"
-  
-  
 }

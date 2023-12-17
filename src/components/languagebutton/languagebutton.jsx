@@ -25,7 +25,7 @@ function LanguageButton() {
 
     if (currentLanguage) {
       document.title = t("app_title"); // Update page title using translated value
-      const direction = currentLanguage.dir || "ltr"; // Set text direction based on language
+      const direction = currentLanguage.dir || "ltr"; // Set text direction based on language, Fallback is ltr
       document.body.dir = direction;
     }
   }, [currentLanguageCode, t]);

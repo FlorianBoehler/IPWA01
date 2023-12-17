@@ -754,202 +754,202 @@
   {
     "type": "Country",
     "name": "Aruba",
-    "co2_value_in_kt": "127"
+    "co2_value_in_kt": "139"
   },
   {
     "type": "Country",
     "name": "Afghanistan",
-    "co2_value_in_kt": "835"
+    "co2_value_in_kt": "781"
   },
   {
     "type": "Country",
     "name": "Angola",
-    "co2_value_in_kt": "2445"
+    "co2_value_in_kt": "1498"
   },
   {
     "type": "Country",
     "name": "Anguilla",
-    "co2_value_in_kt": "3"
+    "co2_value_in_kt": "4"
   },
   {
     "type": "Country",
     "name": "Albania",
-    "co2_value_in_kt": "459"
+    "co2_value_in_kt": "645"
   },
   {
     "type": "Country",
-    "name": "Curaçao",
-    "co2_value_in_kt": "204"
+    "name": "Cura\u00e7ao",
+    "co2_value_in_kt": "272"
   },
   {
     "type": "Country",
     "name": "United Arab Emirates",
-    "co2_value_in_kt": "19351"
+    "co2_value_in_kt": "21496"
   },
   {
     "type": "Country",
     "name": "Argentina",
-    "co2_value_in_kt": "18900"
+    "co2_value_in_kt": "15598"
   },
   {
     "type": "Country",
     "name": "Armenia",
-    "co2_value_in_kt": "677"
+    "co2_value_in_kt": "990"
   },
   {
     "type": "Country",
     "name": "Antigua and Barbuda",
-    "co2_value_in_kt": "78"
+    "co2_value_in_kt": "46"
   },
   {
     "type": "Country",
     "name": "Australia",
-    "co2_value_in_kt": "36791"
+    "co2_value_in_kt": "44674"
   },
   {
     "type": "Country",
     "name": "Austria",
-    "co2_value_in_kt": "6601"
+    "co2_value_in_kt": "5504"
   },
   {
     "type": "Country",
     "name": "Azerbaijan",
-    "co2_value_in_kt": "3711"
+    "co2_value_in_kt": "4989"
   },
   {
     "type": "Country",
     "name": "Burundi",
-    "co2_value_in_kt": "71"
+    "co2_value_in_kt": "41"
   },
   {
     "type": "Country",
     "name": "Belgium",
-    "co2_value_in_kt": "9592"
+    "co2_value_in_kt": "10875"
   },
   {
     "type": "Country",
     "name": "Benin",
-    "co2_value_in_kt": "863"
+    "co2_value_in_kt": "734"
   },
   {
     "type": "Country",
     "name": "Burkina Faso",
-    "co2_value_in_kt": "529"
+    "co2_value_in_kt": "788"
   },
   {
     "type": "Country",
     "name": "Bangladesh",
-    "co2_value_in_kt": "10687"
+    "co2_value_in_kt": "9567"
   },
   {
     "type": "Country",
     "name": "Bulgaria",
-    "co2_value_in_kt": "4364"
+    "co2_value_in_kt": "6515"
   },
   {
     "type": "Country",
     "name": "Bahrain",
-    "co2_value_in_kt": "3749"
+    "co2_value_in_kt": "4300"
   },
   {
     "type": "Country",
     "name": "Bahamas",
-    "co2_value_in_kt": "404"
+    "co2_value_in_kt": "530"
   },
   {
     "type": "Country",
     "name": "Bosnia and Herzegovina",
-    "co2_value_in_kt": "1537"
+    "co2_value_in_kt": "1311"
   },
   {
     "type": "Country",
     "name": "Belarus",
-    "co2_value_in_kt": "5836"
+    "co2_value_in_kt": "7644"
   },
   {
     "type": "Country",
     "name": "Belize",
-    "co2_value_in_kt": "64"
+    "co2_value_in_kt": "95"
   },
   {
     "type": "Country",
     "name": "Bermuda",
-    "co2_value_in_kt": "82"
+    "co2_value_in_kt": "45"
   },
   {
     "type": "Country",
     "name": "Bolivia",
-    "co2_value_in_kt": "2243"
+    "co2_value_in_kt": "3181"
   },
   {
     "type": "Country",
     "name": "Brazil",
-    "co2_value_in_kt": "48986"
+    "co2_value_in_kt": "37107"
   },
   {
     "type": "Country",
     "name": "Barbados",
-    "co2_value_in_kt": "177"
+    "co2_value_in_kt": "159"
   },
   {
     "type": "Country",
     "name": "Brunei",
-    "co2_value_in_kt": "721"
+    "co2_value_in_kt": "881"
   },
   {
     "type": "Country",
     "name": "Bhutan",
-    "co2_value_in_kt": "198"
+    "co2_value_in_kt": "170"
   },
   {
     "type": "Country",
     "name": "Botswana",
-    "co2_value_in_kt": "700"
+    "co2_value_in_kt": "378"
   },
   {
     "type": "Country",
     "name": "Central African Republic",
-    "co2_value_in_kt": "28"
+    "co2_value_in_kt": "27"
   },
   {
     "type": "Country",
     "name": "Canada",
-    "co2_value_in_kt": "56354"
+    "co2_value_in_kt": "67114"
   },
   {
     "type": "Country",
     "name": "Switzerland and Liechtenstein",
-    "co2_value_in_kt": "3507"
+    "co2_value_in_kt": "5086"
   },
   {
     "type": "Country",
     "name": "Chile",
-    "co2_value_in_kt": "8570"
+    "co2_value_in_kt": "10196"
   },
   {
     "type": "Country",
     "name": "China",
-    "co2_value_in_kt": "1246632"
+    "co2_value_in_kt": "702095"
   },
   {
     "type": "Country",
     "name": "Ivory Coast",
-    "co2_value_in_kt": "1454"
+    "co2_value_in_kt": "841"
   },
   {
     "type": "Country",
     "name": "Cameroon",
-    "co2_value_in_kt": "1020"
+    "co2_value_in_kt": "832"
   },
   {
     "type": "Country",
     "name": "Democratic Republic of the Congo",
-    "co2_value_in_kt": "337"
+    "co2_value_in_kt": "291"
   },
   {
     "type": "Country",
     "name": "Congo",
-    "co2_value_in_kt": "737"
+    "co2_value_in_kt": "551"
   },
   {
     "type": "Country",
@@ -959,127 +959,127 @@
   {
     "type": "Country",
     "name": "Colombia",
-    "co2_value_in_kt": "7757"
+    "co2_value_in_kt": "10078"
   },
   {
     "type": "Country",
     "name": "Comoros",
-    "co2_value_in_kt": "28"
+    "co2_value_in_kt": "14"
   },
   {
     "type": "Country",
     "name": "Cabo Verde",
-    "co2_value_in_kt": "92"
+    "co2_value_in_kt": "50"
   },
   {
     "type": "Country",
     "name": "Costa Rica",
-    "co2_value_in_kt": "809"
+    "co2_value_in_kt": "1029"
   },
   {
     "type": "Country",
     "name": "Cuba",
-    "co2_value_in_kt": "2461"
+    "co2_value_in_kt": "2262"
   },
   {
     "type": "Country",
     "name": "Cayman Islands",
-    "co2_value_in_kt": "86"
+    "co2_value_in_kt": "45"
   },
   {
     "type": "Country",
     "name": "Cyprus",
-    "co2_value_in_kt": "675"
+    "co2_value_in_kt": "608"
   },
   {
     "type": "Country",
     "name": "Czechia",
-    "co2_value_in_kt": "9769"
+    "co2_value_in_kt": "7253"
   },
   {
     "type": "Country",
     "name": "Germany",
-    "co2_value_in_kt": "66588"
+    "co2_value_in_kt": "75989"
   },
   {
     "type": "Country",
     "name": "Djibouti",
-    "co2_value_in_kt": "61"
+    "co2_value_in_kt": "85"
   },
   {
     "type": "Country",
     "name": "Dominica",
-    "co2_value_in_kt": "19"
+    "co2_value_in_kt": "20"
   },
   {
     "type": "Country",
     "name": "Denmark",
-    "co2_value_in_kt": "2728"
+    "co2_value_in_kt": "2284"
   },
   {
     "type": "Country",
     "name": "Dominican Republic",
-    "co2_value_in_kt": "2773"
+    "co2_value_in_kt": "3840"
   },
   {
     "type": "Country",
     "name": "Algeria",
-    "co2_value_in_kt": "17300"
+    "co2_value_in_kt": "18425"
   },
   {
     "type": "Country",
     "name": "Ecuador",
-    "co2_value_in_kt": "4114"
+    "co2_value_in_kt": "4677"
   },
   {
     "type": "Country",
     "name": "Egypt",
-    "co2_value_in_kt": "25932"
+    "co2_value_in_kt": "21706"
   },
   {
     "type": "Country",
     "name": "Eritrea",
-    "co2_value_in_kt": "84"
+    "co2_value_in_kt": "103"
   },
   {
     "type": "Country",
     "name": "Western Sahara",
-    "co2_value_in_kt": "24"
+    "co2_value_in_kt": "12"
   },
   {
     "type": "Country",
     "name": "Spain and Andorra",
-    "co2_value_in_kt": "23191"
+    "co2_value_in_kt": "20582"
   },
   {
     "type": "Country",
     "name": "Estonia",
-    "co2_value_in_kt": "1491"
+    "co2_value_in_kt": "1013"
   },
   {
     "type": "Country",
     "name": "Ethiopia",
-    "co2_value_in_kt": "1921"
+    "co2_value_in_kt": "1796"
   },
   {
     "type": "Country",
     "name": "Finland",
-    "co2_value_in_kt": "3899"
+    "co2_value_in_kt": "5253"
   },
   {
     "type": "Country",
     "name": "Fiji",
-    "co2_value_in_kt": "173"
+    "co2_value_in_kt": "244"
   },
   {
     "type": "Country",
     "name": "Falkland Islands",
-    "co2_value_in_kt": "5"
+    "co2_value_in_kt": "3"
   },
   {
     "type": "Country",
     "name": "France and Monaco",
-    "co2_value_in_kt": "30233"
+    "co2_value_in_kt": "43514"
   },
   {
     "type": "Country",
@@ -1089,497 +1089,497 @@
   {
     "type": "Country",
     "name": "Gabon",
-    "co2_value_in_kt": "552"
+    "co2_value_in_kt": "445"
   },
   {
     "type": "Country",
     "name": "United Kingdom",
-    "co2_value_in_kt": "33536"
+    "co2_value_in_kt": "24338"
   },
   {
     "type": "Country",
     "name": "Georgia",
-    "co2_value_in_kt": "1165"
+    "co2_value_in_kt": "1076"
   },
   {
     "type": "Country",
     "name": "Ghana",
-    "co2_value_in_kt": "2364"
+    "co2_value_in_kt": "2100"
   },
   {
     "type": "Country",
     "name": "Gibraltar",
-    "co2_value_in_kt": "67"
+    "co2_value_in_kt": "79"
   },
   {
     "type": "Country",
     "name": "Guinea",
-    "co2_value_in_kt": "344"
+    "co2_value_in_kt": "259"
   },
   {
     "type": "Country",
     "name": "Guadeloupe",
-    "co2_value_in_kt": "181"
+    "co2_value_in_kt": "180"
   },
   {
     "type": "Country",
     "name": "The Gambia",
-    "co2_value_in_kt": "56"
+    "co2_value_in_kt": "36"
   },
   {
     "type": "Country",
     "name": "Guinea-Bissau",
-    "co2_value_in_kt": "32"
+    "co2_value_in_kt": "41"
   },
   {
     "type": "Country",
     "name": "Equatorial Guinea",
-    "co2_value_in_kt": "700"
+    "co2_value_in_kt": "977"
   },
   {
     "type": "Country",
     "name": "Greece",
-    "co2_value_in_kt": "5337"
+    "co2_value_in_kt": "6159"
   },
   {
     "type": "Country",
     "name": "Grenada",
-    "co2_value_in_kt": "34"
+    "co2_value_in_kt": "24"
   },
   {
     "type": "Country",
     "name": "Greenland",
-    "co2_value_in_kt": "46"
+    "co2_value_in_kt": "35"
   },
   {
     "type": "Country",
     "name": "Guatemala",
-    "co2_value_in_kt": "2019"
+    "co2_value_in_kt": "1885"
   },
   {
     "type": "Country",
     "name": "French Guiana",
-    "co2_value_in_kt": "84"
+    "co2_value_in_kt": "95"
   },
   {
     "type": "Country",
     "name": "Guyana",
-    "co2_value_in_kt": "290"
+    "co2_value_in_kt": "339"
   },
   {
     "type": "Country",
     "name": "Hong Kong",
-    "co2_value_in_kt": "3321"
+    "co2_value_in_kt": "3953"
   },
   {
     "type": "Country",
     "name": "Honduras",
-    "co2_value_in_kt": "975"
+    "co2_value_in_kt": "1192"
   },
   {
     "type": "Country",
     "name": "Croatia",
-    "co2_value_in_kt": "1800"
+    "co2_value_in_kt": "2678"
   },
   {
     "type": "Country",
     "name": "Haiti",
-    "co2_value_in_kt": "324"
+    "co2_value_in_kt": "417"
   },
   {
     "type": "Country",
     "name": "Hungary",
-    "co2_value_in_kt": "5069"
+    "co2_value_in_kt": "7292"
   },
   {
     "type": "Country",
     "name": "Indonesia",
-    "co2_value_in_kt": "60259"
+    "co2_value_in_kt": "57067"
   },
   {
     "type": "Country",
     "name": "India",
-    "co2_value_in_kt": "264878"
+    "co2_value_in_kt": "324823"
   },
   {
     "type": "Country",
     "name": "Ireland",
-    "co2_value_in_kt": "3501"
+    "co2_value_in_kt": "4903"
   },
   {
     "type": "Country",
     "name": "Iran",
-    "co2_value_in_kt": "71083"
+    "co2_value_in_kt": "71805"
   },
   {
     "type": "Country",
     "name": "Iraq",
-    "co2_value_in_kt": "17785"
+    "co2_value_in_kt": "23455"
   },
   {
     "type": "Country",
     "name": "Iceland",
-    "co2_value_in_kt": "291"
+    "co2_value_in_kt": "384"
   },
   {
     "type": "Country",
     "name": "Israel ",
-    "co2_value_in_kt": "5959"
+    "co2_value_in_kt": "8306"
   },
   {
     "type": "Country",
     "name": "Italy",
-    "co2_value_in_kt": "31967"
+    "co2_value_in_kt": "43416"
   },
   {
     "type": "Country",
     "name": "Jamaica",
-    "co2_value_in_kt": "808"
+    "co2_value_in_kt": "642"
   },
   {
     "type": "Country",
     "name": "Jordan",
-    "co2_value_in_kt": "2430"
+    "co2_value_in_kt": "3395"
   },
   {
     "type": "Country",
     "name": "Japan",
-    "co2_value_in_kt": "108469"
+    "co2_value_in_kt": "110057"
   },
   {
     "type": "Country",
     "name": "Kazakhstan",
-    "co2_value_in_kt": "21121"
+    "co2_value_in_kt": "17417"
   },
   {
     "type": "Country",
     "name": "Kenya",
-    "co2_value_in_kt": "2243"
+    "co2_value_in_kt": "1931"
   },
   {
     "type": "Country",
     "name": "Kyrgyzstan",
-    "co2_value_in_kt": "1078"
+    "co2_value_in_kt": "1488"
   },
   {
     "type": "Country",
     "name": "Cambodia",
-    "co2_value_in_kt": "1696"
+    "co2_value_in_kt": "2145"
   },
   {
     "type": "Country",
     "name": "Kiribati",
-    "co2_value_in_kt": "8"
+    "co2_value_in_kt": "9"
   },
   {
     "type": "Country",
     "name": "Saint Kitts and Nevis",
-    "co2_value_in_kt": "29"
+    "co2_value_in_kt": "23"
   },
   {
     "type": "Country",
     "name": "South Korea",
-    "co2_value_in_kt": "62680"
+    "co2_value_in_kt": "58641"
   },
   {
     "type": "Country",
     "name": "Kuwait",
-    "co2_value_in_kt": "9808"
+    "co2_value_in_kt": "8611"
   },
   {
     "type": "Country",
     "name": "Laos",
-    "co2_value_in_kt": "2056"
+    "co2_value_in_kt": "2033"
   },
   {
     "type": "Country",
     "name": "Lebanon",
-    "co2_value_in_kt": "2577"
+    "co2_value_in_kt": "3259"
   },
   {
     "type": "Country",
     "name": "Liberia",
-    "co2_value_in_kt": "144"
+    "co2_value_in_kt": "103"
   },
   {
     "type": "Country",
     "name": "Libya",
-    "co2_value_in_kt": "6328"
+    "co2_value_in_kt": "3512"
   },
   {
     "type": "Country",
     "name": "Saint Lucia",
-    "co2_value_in_kt": "71"
+    "co2_value_in_kt": "87"
   },
   {
     "type": "Country",
     "name": "Sri Lanka",
-    "co2_value_in_kt": "2386"
+    "co2_value_in_kt": "3051"
   },
   {
     "type": "Country",
     "name": "Lesotho",
-    "co2_value_in_kt": "65"
+    "co2_value_in_kt": "32"
   },
   {
     "type": "Country",
     "name": "Lithuania",
-    "co2_value_in_kt": "1382"
+    "co2_value_in_kt": "1548"
   },
   {
     "type": "Country",
     "name": "Luxembourg",
-    "co2_value_in_kt": "845"
+    "co2_value_in_kt": "1246"
   },
   {
     "type": "Country",
     "name": "Latvia",
-    "co2_value_in_kt": "721"
+    "co2_value_in_kt": "965"
   },
   {
     "type": "Country",
     "name": "Macao",
-    "co2_value_in_kt": "266"
+    "co2_value_in_kt": "370"
   },
   {
     "type": "Country",
     "name": "Morocco",
-    "co2_value_in_kt": "7397"
+    "co2_value_in_kt": "6207"
   },
   {
     "type": "Country",
     "name": "Moldova",
-    "co2_value_in_kt": "955"
+    "co2_value_in_kt": "1141"
   },
   {
     "type": "Country",
     "name": "Madagascar",
-    "co2_value_in_kt": "530"
+    "co2_value_in_kt": "394"
   },
   {
     "type": "Country",
     "name": "Maldives",
-    "co2_value_in_kt": "221"
+    "co2_value_in_kt": "273"
   },
   {
     "type": "Country",
     "name": "Mexico",
-    "co2_value_in_kt": "41835"
+    "co2_value_in_kt": "24523"
   },
   {
     "type": "Country",
     "name": "North Macedonia",
-    "co2_value_in_kt": "751"
+    "co2_value_in_kt": "774"
   },
   {
     "type": "Country",
     "name": "Mali",
-    "co2_value_in_kt": "592"
-  },
-  {
-    "type": "Country",
-    "name": "Malta",
-    "co2_value_in_kt": "175"
-  },
-  {
-    "type": "Country",
-    "name": "Myanmar",
-    "co2_value_in_kt": "4005"
-  },
-  {
-    "type": "Country",
-    "name": "Mongolia",
-    "co2_value_in_kt": "2499"
-  },
-  {
-    "type": "Country",
-    "name": "Mozambique",
     "co2_value_in_kt": "864"
   },
   {
     "type": "Country",
-    "name": "Mauritania",
-    "co2_value_in_kt": "426"
-  },
-  {
-    "type": "Country",
-    "name": "Martinique",
-    "co2_value_in_kt": "190"
-  },
-  {
-    "type": "Country",
-    "name": "Mauritius",
-    "co2_value_in_kt": "413"
-  },
-  {
-    "type": "Country",
-    "name": "Malawi",
-    "co2_value_in_kt": "182"
-  },
-  {
-    "type": "Country",
-    "name": "Malaysia",
-    "co2_value_in_kt": "25156"
-  },
-  {
-    "type": "Country",
-    "name": "Namibia",
-    "co2_value_in_kt": "407"
-  },
-  {
-    "type": "Country",
-    "name": "New Caledonia",
-    "co2_value_in_kt": "570"
-  },
-  {
-    "type": "Country",
-    "name": "Niger",
-    "co2_value_in_kt": "247"
-  },
-  {
-    "type": "Country",
-    "name": "Nigeria",
-    "co2_value_in_kt": "12703"
-  },
-  {
-    "type": "Country",
-    "name": "Nicaragua",
-    "co2_value_in_kt": "500"
-  },
-  {
-    "type": "Country",
-    "name": "Netherlands",
-    "co2_value_in_kt": "14687"
-  },
-  {
-    "type": "Country",
-    "name": "Norway",
-    "co2_value_in_kt": "4233"
-  },
-  {
-    "type": "Country",
-    "name": "Nepal",
-    "co2_value_in_kt": "1431"
-  },
-  {
-    "type": "Country",
-    "name": "New Zealand",
-    "co2_value_in_kt": "3260"
-  },
-  {
-    "type": "Country",
-    "name": "Oman",
-    "co2_value_in_kt": "9462"
-  },
-  {
-    "type": "Country",
-    "name": "Pakistan",
-    "co2_value_in_kt": "21979"
-  },
-  {
-    "type": "Country",
-    "name": "Panama",
-    "co2_value_in_kt": "1251"
-  },
-  {
-    "type": "Country",
-    "name": "Peru",
-    "co2_value_in_kt": "5514"
-  },
-  {
-    "type": "Country",
-    "name": "Philippines",
-    "co2_value_in_kt": "14796"
-  },
-  {
-    "type": "Country",
-    "name": "Palau",
+    "name": "Malta",
     "co2_value_in_kt": "132"
   },
   {
     "type": "Country",
+    "name": "Myanmar",
+    "co2_value_in_kt": "4715"
+  },
+  {
+    "type": "Country",
+    "name": "Mongolia",
+    "co2_value_in_kt": "1376"
+  },
+  {
+    "type": "Country",
+    "name": "Mozambique",
+    "co2_value_in_kt": "756"
+  },
+  {
+    "type": "Country",
+    "name": "Mauritania",
+    "co2_value_in_kt": "243"
+  },
+  {
+    "type": "Country",
+    "name": "Martinique",
+    "co2_value_in_kt": "95"
+  },
+  {
+    "type": "Country",
+    "name": "Mauritius",
+    "co2_value_in_kt": "266"
+  },
+  {
+    "type": "Country",
+    "name": "Malawi",
+    "co2_value_in_kt": "250"
+  },
+  {
+    "type": "Country",
+    "name": "Malaysia",
+    "co2_value_in_kt": "23074"
+  },
+  {
+    "type": "Country",
+    "name": "Namibia",
+    "co2_value_in_kt": "240"
+  },
+  {
+    "type": "Country",
+    "name": "New Caledonia",
+    "co2_value_in_kt": "655"
+  },
+  {
+    "type": "Country",
+    "name": "Niger",
+    "co2_value_in_kt": "152"
+  },
+  {
+    "type": "Country",
+    "name": "Nigeria",
+    "co2_value_in_kt": "13670"
+  },
+  {
+    "type": "Country",
+    "name": "Nicaragua",
+    "co2_value_in_kt": "284"
+  },
+  {
+    "type": "Country",
+    "name": "Netherlands",
+    "co2_value_in_kt": "11066"
+  },
+  {
+    "type": "Country",
+    "name": "Norway",
+    "co2_value_in_kt": "5280"
+  },
+  {
+    "type": "Country",
+    "name": "Nepal",
+    "co2_value_in_kt": "1159"
+  },
+  {
+    "type": "Country",
+    "name": "New Zealand",
+    "co2_value_in_kt": "1831"
+  },
+  {
+    "type": "Country",
+    "name": "Oman",
+    "co2_value_in_kt": "5713"
+  },
+  {
+    "type": "Country",
+    "name": "Pakistan",
+    "co2_value_in_kt": "11398"
+  },
+  {
+    "type": "Country",
+    "name": "Panama",
+    "co2_value_in_kt": "991"
+  },
+  {
+    "type": "Country",
+    "name": "Peru",
+    "co2_value_in_kt": "8198"
+  },
+  {
+    "type": "Country",
+    "name": "Philippines",
+    "co2_value_in_kt": "7965"
+  },
+  {
+    "type": "Country",
+    "name": "Palau",
+    "co2_value_in_kt": "164"
+  },
+  {
+    "type": "Country",
     "name": "Papua New Guinea",
-    "co2_value_in_kt": "657"
+    "co2_value_in_kt": "956"
   },
   {
     "type": "Country",
     "name": "Poland",
-    "co2_value_in_kt": "32077"
+    "co2_value_in_kt": "35225"
   },
   {
     "type": "Country",
     "name": "Puerto Rico",
-    "co2_value_in_kt": "126"
+    "co2_value_in_kt": "116"
   },
   {
     "type": "Country",
     "name": "North Korea",
-    "co2_value_in_kt": "6257"
+    "co2_value_in_kt": "8198"
   },
   {
     "type": "Country",
     "name": "Portugal",
-    "co2_value_in_kt": "3868"
+    "co2_value_in_kt": "3692"
   },
   {
     "type": "Country",
     "name": "Paraguay",
-    "co2_value_in_kt": "889"
+    "co2_value_in_kt": "871"
   },
   {
     "type": "Country",
     "name": "French Polynesia",
-    "co2_value_in_kt": "97"
+    "co2_value_in_kt": "66"
   },
   {
     "type": "Country",
     "name": "Qatar",
-    "co2_value_in_kt": "9769"
+    "co2_value_in_kt": "6133"
   },
   {
     "type": "Country",
-    "name": "Réunion",
-    "co2_value_in_kt": "258"
+    "name": "R\u00e9union",
+    "co2_value_in_kt": "200"
   },
   {
     "type": "Country",
     "name": "Romania",
-    "co2_value_in_kt": "7875"
+    "co2_value_in_kt": "8286"
   },
   {
     "type": "Country",
     "name": "Russia",
-    "co2_value_in_kt": "194254"
+    "co2_value_in_kt": "243817"
   },
   {
     "type": "Country",
     "name": "Rwanda",
-    "co2_value_in_kt": "124"
+    "co2_value_in_kt": "74"
   },
   {
     "type": "Country",
     "name": "Saudi Arabia",
-    "co2_value_in_kt": "58640"
+    "co2_value_in_kt": "75882"
   },
   {
     "type": "Country",
     "name": "Serbia",
-    "co2_value_in_kt": "3935"
+    "co2_value_in_kt": "4131"
   },
   {
     "type": "Country",
     "name": "Sudan and South Sudan",
-    "co2_value_in_kt": "2137"
+    "co2_value_in_kt": "1936"
   },
   {
     "type": "Country",
     "name": "Senegal",
-    "co2_value_in_kt": "1198"
+    "co2_value_in_kt": "746"
   },
   {
     "type": "Country",
     "name": "Singapore",
-    "co2_value_in_kt": "5818"
+    "co2_value_in_kt": "6192"
   },
   {
     "type": "Country",
@@ -1589,206 +1589,206 @@
   {
     "type": "Country",
     "name": "Solomon Islands",
-    "co2_value_in_kt": "33"
+    "co2_value_in_kt": "40"
   },
   {
     "type": "Country",
     "name": "Sierra Leone",
-    "co2_value_in_kt": "101"
+    "co2_value_in_kt": "98"
   },
   {
     "type": "Country",
     "name": "El Salvador",
-    "co2_value_in_kt": "818"
+    "co2_value_in_kt": "451"
   },
   {
     "type": "Country",
     "name": "Somalia",
-    "co2_value_in_kt": "76"
+    "co2_value_in_kt": "55"
   },
   {
     "type": "Country",
     "name": "Saint Pierre and Miquelon",
-    "co2_value_in_kt": "9"
+    "co2_value_in_kt": "12"
   },
   {
     "type": "Country",
-    "name": "São Tomé and Príncipe",
-    "co2_value_in_kt": "15"
+    "name": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+    "co2_value_in_kt": "21"
   },
   {
     "type": "Country",
     "name": "Suriname",
-    "co2_value_in_kt": "271"
+    "co2_value_in_kt": "402"
   },
   {
     "type": "Country",
     "name": "Slovakia",
-    "co2_value_in_kt": "3748"
+    "co2_value_in_kt": "4767"
   },
   {
     "type": "Country",
     "name": "Slovenia",
-    "co2_value_in_kt": "1417"
+    "co2_value_in_kt": "1513"
   },
   {
     "type": "Country",
     "name": "Sweden",
-    "co2_value_in_kt": "3892"
+    "co2_value_in_kt": "4117"
   },
   {
     "type": "Country",
     "name": "Eswatini",
-    "co2_value_in_kt": "151"
+    "co2_value_in_kt": "88"
   },
   {
     "type": "Country",
     "name": "Seychelles",
-    "co2_value_in_kt": "105"
+    "co2_value_in_kt": "128"
   },
   {
     "type": "Country",
     "name": "Syria",
-    "co2_value_in_kt": "2586"
+    "co2_value_in_kt": "2124"
   },
   {
     "type": "Country",
     "name": "Turks and Caicos Islands",
-    "co2_value_in_kt": "25"
+    "co2_value_in_kt": "33"
   },
   {
     "type": "Country",
     "name": "Chad",
-    "co2_value_in_kt": "221"
+    "co2_value_in_kt": "258"
   },
   {
     "type": "Country",
     "name": "Togo",
-    "co2_value_in_kt": "226"
+    "co2_value_in_kt": "203"
   },
   {
     "type": "Country",
     "name": "Thailand",
-    "co2_value_in_kt": "26957"
+    "co2_value_in_kt": "24863"
   },
   {
     "type": "Country",
     "name": "Tajikistan",
-    "co2_value_in_kt": "1013"
+    "co2_value_in_kt": "767"
   },
   {
     "type": "Country",
     "name": "Turkmenistan",
-    "co2_value_in_kt": "8332"
+    "co2_value_in_kt": "4173"
   },
   {
     "type": "Country",
     "name": "Timor-Leste",
-    "co2_value_in_kt": "57"
+    "co2_value_in_kt": "59"
   },
   {
     "type": "Country",
     "name": "Tonga",
-    "co2_value_in_kt": "17"
+    "co2_value_in_kt": "13"
   },
   {
     "type": "Country",
     "name": "Trinidad and Tobago",
-    "co2_value_in_kt": "2899"
+    "co2_value_in_kt": "4346"
   },
   {
     "type": "Country",
     "name": "Tunisia",
-    "co2_value_in_kt": "3179"
+    "co2_value_in_kt": "3497"
   },
   {
     "type": "Country",
     "name": "Turkey",
-    "co2_value_in_kt": "44972"
+    "co2_value_in_kt": "39194"
   },
   {
     "type": "Country",
     "name": "Taiwan",
-    "co2_value_in_kt": "28816"
+    "co2_value_in_kt": "31239"
   },
   {
     "type": "Country",
     "name": "Tanzania",
-    "co2_value_in_kt": "1341"
+    "co2_value_in_kt": "1668"
   },
   {
     "type": "Country",
     "name": "Uganda",
-    "co2_value_in_kt": "682"
+    "co2_value_in_kt": "491"
   },
   {
     "type": "Country",
     "name": "Ukraine",
-    "co2_value_in_kt": "18546"
+    "co2_value_in_kt": "27023"
   },
   {
     "type": "Country",
     "name": "Uruguay",
-    "co2_value_in_kt": "679"
+    "co2_value_in_kt": "513"
   },
   {
     "type": "Country",
     "name": "United States",
-    "co2_value_in_kt": "475208"
+    "co2_value_in_kt": "661940"
   },
   {
     "type": "Country",
     "name": "Uzbekistan",
-    "co2_value_in_kt": "12565"
+    "co2_value_in_kt": "18146"
   },
   {
     "type": "Country",
     "name": "Saint Vincent and the Grenadines",
-    "co2_value_in_kt": "23"
+    "co2_value_in_kt": "15"
   },
   {
     "type": "Country",
     "name": "Venezuela",
-    "co2_value_in_kt": "10467"
+    "co2_value_in_kt": "11257"
   },
   {
     "type": "Country",
     "name": "British Virgin Islands",
-    "co2_value_in_kt": "18"
+    "co2_value_in_kt": "25"
   },
   {
     "type": "Country",
     "name": "Vietnam",
-    "co2_value_in_kt": "32141"
+    "co2_value_in_kt": "20613"
   },
   {
     "type": "Country",
     "name": "Vanuatu",
-    "co2_value_in_kt": "22"
+    "co2_value_in_kt": "24"
   },
   {
     "type": "Country",
     "name": "Samoa",
-    "co2_value_in_kt": "36"
+    "co2_value_in_kt": "28"
   },
   {
     "type": "Country",
     "name": "Yemen",
-    "co2_value_in_kt": "1205"
+    "co2_value_in_kt": "1482"
   },
   {
     "type": "Country",
     "name": "South Africa",
-    "co2_value_in_kt": "43552"
+    "co2_value_in_kt": "25672"
   },
   {
     "type": "Country",
     "name": "Zambia",
-    "co2_value_in_kt": "701"
+    "co2_value_in_kt": "549"
   },
   {
     "type": "Country",
     "name": "Zimbabwe",
-    "co2_value_in_kt": "1229"
+    "co2_value_in_kt": "650"
   }
-  ]
+]

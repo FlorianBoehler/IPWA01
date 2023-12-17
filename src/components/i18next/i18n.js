@@ -12,7 +12,7 @@ i18next
     fallbackLng: "en", // Fallback language
     detection: {
       // Configure how to detect the user's language
-      order: ["path", "cookie", "htmlTag", "localStorage", "subdomain"], // Order of language detection methods
+      order: ["cookie", "htmlTag", "localStorage", "subdomain"], // Order of language detection methods
       caches: ["cookie"],
     },
     backend: {
@@ -21,3 +21,5 @@ i18next
   });
 
 export default i18next; 
+
+

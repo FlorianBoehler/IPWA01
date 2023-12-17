@@ -5,11 +5,12 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import MainPage from "./pages/MainPage";
 import TablePage from "./pages/TablePage.jsx";
 import OverUsPage from "./pages/OverusPage.jsx";
+
 import LanguageButton from "./components/languageButton/LanguageButton";
 import MainNavigation from "./components/mainNavigation/MainNavigation";
 import Footer from "./components/footer/Footer";
 import "./App.css";
-import "./components/i18next/i18n.js"; // Import for i18next configuration for internationalization
+import "./components/i18next/i18n.js"; // Import i18next configuration for internationalization
 
 // Main App component
 function App() {
@@ -29,6 +30,7 @@ function App() {
             <Route path="/" element={<MainPage />} /> 
             <Route path="/table" element={<TablePage />} /> 
             <Route path="/overus" element={<OverUsPage />} /> 
+            
           </Routes>
         </div>
 
@@ -40,3 +42,5 @@ function App() {
 }
 
 export default App;
+
+

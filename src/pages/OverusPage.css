@@ -10,6 +10,16 @@
   overflow-y: auto;
     
 }
+#emailButton{
+  background-color: #7da63f;
+  border-color: #7da63f;
+  color: #1d4014;
+}
+
+#emailButton:hover{background-color: #1d4014;
+  border-color: #1d4014;
+  color: #7da63f;
+}
 
 @media (max-width: 400px) {
   

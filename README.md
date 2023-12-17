@@ -16,12 +16,12 @@ graph RL;
 
     LanguageButton.jsx-->Header-Components;
     LanguageButton.css-->LanguageButton.jsx;
-    style LanguageButton.css stroke:#0000FF
+    style LanguageButton.css stroke:#0000FF,stroke-width:2px
     LanguageButtonData.js-->LanguageButton.jsx;
 
     MainNavigation.jsx-->Header-Components;
     MainNavigation.css-->MainNavigation.jsx;
-    style MainNavigation.css stroke:#0000FF
+    style MainNavigation.css stroke:#0000FF,stroke-width:2px
     MainNavigationData.js-->MainNavigation.jsx;
 
     Content-Components-->App.js;
@@ -33,6 +33,8 @@ graph RL;
     VideoMain.jsx-->MainPage.jsx;
 
     TablePage.jsx-->Content-Components;
+    TablePage.css-->TablePage.jsx;
+    style TablePage.css stroke:#0000FF,stroke-width:2px
     DataTable.jsx-->TablePage.jsx;
     GlobalFilter.jsx-->DataTable.jsx;
     CheckboxFilterComponent.jsx-->DataTable.jsx;
@@ -41,8 +43,6 @@ graph RL;
     ExtractOption.jsx-->DataTable.jsx;
     Pagination.jsx-->DataTable.jsx;
     DebounceFunction.jsx-->DataTable.jsx;;
-    DataTable.css-->DataTable.jsx;;
-    style DataTable.css stroke:#0000FF,stroke-width:2px
     DebounceFunction-->DataTable.jsx;
     Pagination-->DataTable.jsx;
 

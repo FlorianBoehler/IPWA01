@@ -6,7 +6,7 @@
   position: fixed;
   width: 100%;
   z-index: 1000;
-  background-color: #4caf50;
+  background-color: #7da63f;
   padding: 0.5rem;
   border-radius: 13px;
   display: flex;
@@ -29,7 +29,6 @@ table {
 .thead {
   position: sticky;
   top: 0rem;
-  background-color: #4caf50;
 }
 
 .tableScroll {
@@ -64,7 +63,7 @@ tfoot td {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: center;
-  background-color: #4caf50;
+  background-color: #7da63f;
   color: white;
 }
 
@@ -101,7 +100,6 @@ tfoot td {
     flex-direction: column; /* Ändern in Spaltenlayout für kleine Bildschirme */
     padding: 0.25rem; /* Reduzierung des Paddings */
     gap: 0.3rem; /* Reduzierung des Abstands zwischen Elementen */
-    
   }
 
   .filterDropdownContainer {
@@ -119,7 +117,7 @@ tfoot td {
     overflow-y: auto;
   }
 
-  .dropdown-item{
+  .dropdown-item {
     font-size: 0.6rem;
   }
 
@@ -133,9 +131,8 @@ tfoot td {
     overflow-y: hidden;
   }
   table th {
-padding: 0rem;
+    padding: 0rem;
   }
-  
 }
 
 @media (min-width: 401px) and (max-width: 900px) {
@@ -175,15 +172,13 @@ padding: 0rem;
   }
 }
 
-@media (min-width: 901px) and (max-width: 1500px){
+@media (min-width: 901px) and (max-width: 1500px) {
   .tableContainer {
     padding-top: 8rem;
   }
-  
-  
+
   .tableScroll {
     margin-top: 2.5rem;
     max-height: 60vh;
   }
-
 }

@@ -5,7 +5,7 @@ import { filterByType } from "./TypeFilter";
 import { filterByName } from "./NameFilter";
 import CheckboxFilterComponent from "./CheckboxFilterComponent";
 import DebouncedInput from "./DebounceFunction";
-import "./DataTable.css";
+
 // Import hooks and utilities from react-table
 import {
   useReactTable,
@@ -81,7 +81,7 @@ const Table = () => {
             value={filtering}
             onChange={setFiltering}
             debounce={500} // Delay in milliseconds
-            placeholder="Search..." 
+            placeholder="Search..."
           />
           <div className="filterDropdownContainer">
             <CheckboxFilterComponent
@@ -147,6 +147,7 @@ const Table = () => {
           </table>
         </div>
         {/* Pagination component */}
+
         <Pagination className="pagination" tableInstance={tableInstance} />
       </div>
     </>
