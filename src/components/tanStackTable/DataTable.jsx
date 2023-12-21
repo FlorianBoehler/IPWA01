@@ -42,14 +42,14 @@ const Table = () => {
 
   // useEffect hooks to update options based on available data
   useEffect(() => {
-    const options = extractUniqueOptions(finalData, "type");
+    const options = extractUniqueOptions(filteredData, "type");
     setFilterOptions(options);
-  }, [finalData]);
+  }, [filteredData]);
 
   useEffect(() => {
-    const options = extractUniqueOptions(finalData, "name");
+    const options = extractUniqueOptions(filteredData, "name");
     setNameOptions(options);
-  }, [finalData]);
+  }, [filteredData]);
 
   // Function to reset all filters
   const resetFilters = () => {
