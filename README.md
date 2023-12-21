@@ -38,13 +38,12 @@ graph RL;
     DataTable.jsx-->TablePage.jsx;
     GlobalFilter.jsx-->DataTable.jsx;
     CheckboxFilterComponent.jsx-->DataTable.jsx;
-    TypeFilter-->DataTable.jsx;
-    NameFilter-->DataTable.jsx;
+    TypeFilter.jsx-->DataTable.jsx;
+    NameFilter.jsx-->DataTable.jsx;
     ExtractOption.jsx-->DataTable.jsx;
     Pagination.jsx-->DataTable.jsx;
     DebounceFunction.jsx-->DataTable.jsx;;
-    DebounceFunction-->DataTable.jsx;
-    Pagination-->DataTable.jsx;
+    Pagination.jsx-->DataTable.jsx;
 
 
     OverusPage.jsx-->Content-Components;
@@ -68,5 +67,5 @@ graph RL;
     translation.json-English-->en;
     fr-->TranslationData;
     translation.json-French-->fr;
-    
+
 ```

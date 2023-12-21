@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-// Import utility functions and components
 import { extractUniqueOptions } from "./ExtractOption";
 import { filterByType } from "./TypeFilter";
 import { filterByName } from "./NameFilter";
@@ -32,12 +31,7 @@ const Table = () => {
   const finalData = React.useMemo(() => mainData, []);
   const finalColumnDef = React.useMemo(() => columnDef, []);
 
-  // Function to reset all filters
-  const resetFilters = () => {
-    setTypeFilter({});
-    setNameFilter({});
-    setFiltering(""); // Resets global filter
-  };
+  
 
   // useMemo for filtering data based on selected filters
   const filteredData = React.useMemo(() => {
@@ -56,6 +50,13 @@ const Table = () => {
     const options = extractUniqueOptions(finalData, "name");
     setNameOptions(options);
   }, [finalData]);
+
+  // Function to reset all filters
+  const resetFilters = () => {
+    setTypeFilter({});
+    setNameFilter({});
+    setFiltering(""); // Resets global filter
+  };
 
   // Initializing react-table instance with configuration
   const tableInstance = useReactTable({

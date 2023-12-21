@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import DOMPurify from 'dompurify';
 
 // Debounce function to limit the rate at which a function can fire.
 const debounce = (func, delay) => {
@@ -14,6 +15,12 @@ const debounce = (func, delay) => {
 // GlobalFilter component for a debounced search input field
 const GlobalFilter = ({ filter, setFilter }) => {
   const [inputValue, setInputValue] = useState(filter); 
+
+// DOMPurify to clean input Value
+  const handleInputChange = (e) => {
+    const cleanValue = DOMPurify.sanitize(e.target.value);
+    setInputValue(cleanValue);
+  };
 
   // Debounced version of setFilter, timer can be set (default = 500ms)
   const debounceSetFilter = debounce(value => {
@@ -33,7 +40,7 @@ const GlobalFilter = ({ filter, setFilter }) => {
     <input
       type="text"
       value={inputValue}
-      onChange={(e) => setInputValue(e.target.value)} 
+      onChange={handleInputChange} 
       placeholder="Search for..." // Fallback Placeholder for the input
     />
   );
