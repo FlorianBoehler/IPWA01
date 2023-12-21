@@ -28,10 +28,7 @@ const Table = () => {
   const [filtering, setFiltering] = React.useState("");
 
   // useMemo hooks for optimized rendering
-  const finalData = React.useMemo(() => mainData, []);
   const finalColumnDef = React.useMemo(() => columnDef, []);
-
-  
 
   // useMemo for filtering data based on selected filters
   const filteredData = React.useMemo(() => {
