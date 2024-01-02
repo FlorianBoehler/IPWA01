@@ -11,28 +11,22 @@ graph RL;
     App.css-->App.js;
     style App.css stroke:#0000FF,stroke-width:2px
 
-    Header-Components-->App.js;
-    style Header-Components stroke:#ffeb3b,stroke-width:2px
-
-    LanguageButton.jsx-->Header-Components;
+    LanguageButton.jsx-->App.js;
     LanguageButton.css-->LanguageButton.jsx;
     style LanguageButton.css stroke:#0000FF,stroke-width:2px
     LanguageButtonData.js-->LanguageButton.jsx;
 
-    MainNavigation.jsx-->Header-Components;
+    MainNavigation.jsx-->App.js;
     MainNavigation.css-->MainNavigation.jsx;
     style MainNavigation.css stroke:#0000FF,stroke-width:2px
     MainNavigationData.js-->MainNavigation.jsx;
 
-    Content-Components-->App.js;
-    style Content-Components stroke:#ffeb3b,stroke-width:2px
-
-    MainPage.jsx-->Content-Components;
+        MainPage.jsx-->App.js;
     MainPage.css-->MainPage.jsx;
-    style MainPage.css stroke:#0000FF
+    style MainPage.css stroke:#0000FF,stroke-width:2px
     VideoMain.jsx-->MainPage.jsx;
 
-    TablePage.jsx-->Content-Components;
+    TablePage.jsx-->App.js;
     TablePage.css-->TablePage.jsx;
     style TablePage.css stroke:#0000FF,stroke-width:2px
     DataTable.jsx-->TablePage.jsx;
@@ -46,26 +40,25 @@ graph RL;
     Pagination.jsx-->DataTable.jsx;
 
 
-    OverusPage.jsx-->Content-Components;
+    OverusPage.jsx-->App.js;
     OverusPage.css-->OverusPage.jsx;
-    style OverusPage.css stroke:#0000FF
+    style OverusPage.css stroke:#0000FF,stroke-width:2px
 
-    Footer-Components-->App.js;
-    style Footer-Components stroke:#ffeb3b,stroke-width:2px
-    Footer.jsx-->Footer-Components;
+    
+    
+    Footer.jsx-->App.js;
     Footer.css-->Footer.jsx;
     style Footer.css stroke:#0000FF,stroke-width:2px
 
     i18n.js-->|Übersetzungsbibliothek|App.js;
-    TranslationData-->i18n.js;
-    style TranslationData stroke:#ffeb3b,stroke-width:2px
-    ar-->TranslationData;
+   
+    ar-->i18n.js;
     translation.json-Arabic-->ar;
-    de-->TranslationData;
+    de-->i18n.js;
     translation.json-German-->de;
-    en-->TranslationData;
+    en-->i18n.js;
     translation.json-English-->en;
-    fr-->TranslationData;
+    fr-->i18n.js;
     translation.json-French-->fr;
 
 ```
