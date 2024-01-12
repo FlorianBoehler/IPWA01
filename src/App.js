@@ -27,7 +27,7 @@ function App() {
         {/* Main content area where different pages will be rendered based on the route */}
         <div className="content">
           <Routes>
-            <Route path="/" element={<MainPage />} /> 
+            <Route path="/ipwa01" element={<MainPage />} /> 
             <Route path="/table" element={<TablePage />} /> 
             <Route path="/overus" element={<OverUsPage />} /> 
             
