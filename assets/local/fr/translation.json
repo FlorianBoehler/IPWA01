@@ -1,12 +1,13 @@
 {
-  
   "language": "Langue",
-  "app_title": "Calculateur de CO₂",
+  "app_title": "Données d'émission de CO₂",
   "home": "Accueil",
   "table": "Table",
   "knowledge": "Base de connaissances",
   "contact": "Nous contacter",
   "footer_all_rights": "© Green Future Energy - Tous droits réservés",
-  "footer_legal_notice": "Mentions légales"
-  
+  "footer_legal_notice": "Mentions légales",
+  "compare_co2_Values": "Comparez les valeurs de CO₂",
+  "welcome": "Bienvenue sur le",
+  "of": "de"
 }
