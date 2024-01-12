@@ -16,7 +16,7 @@ i18next
       caches: ["cookie"],
     },
     backend: {
-      loadPath: "public/assets/local/{{lng}}/translation.json", // Path to the translation files
+      loadPath: "assets/local/{{lng}}/translation.json", // Path to the translation files
     },
   });
 
