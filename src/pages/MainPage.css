@@ -27,8 +27,6 @@
   text-align: center;
 }
 
-
-
 .videoOverlayContainer {
   position: relative;
 }
@@ -49,7 +47,7 @@ video {
 .overlayContent {
   position: absolute;
   top: 50%;
-  left: 35%;
+  left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   color: #305473;
@@ -78,7 +76,6 @@ video {
     background-color: #1d4014;
     border-color: #1d4014;
   }
-
 }
 
 @media (max-width: 400px) {
@@ -96,13 +93,9 @@ video {
 
   .overlayContent h3 {
     font-size: 0.8em;
-    
   }
 
-  .overlayContent {
-    top: 45%;
-    left: 40%;
-  }
+
 
   video {
     width: 100%;
@@ -121,13 +114,9 @@ video {
 
   .overlayContent h3 {
     font-size: 1rem;
-    
   }
 
-  .overlayContent {
-    top: 35%;
-    left: 40%;
-  }
+
 
   video {
     width: 100%;
@@ -141,7 +130,6 @@ video {
 @media (min-width: 601px) and (max-width: 800px) {
   .contentContainer {
     height: 50vh;
-    
   }
 
   .welcomeText h1 {
@@ -161,10 +149,7 @@ video {
     padding-right: 0.1rem;
   }
 
-  .overlayContent {
-    top: 55%;
-    left: 35%;
-  }
+
 }
 
 @media (min-width: 801px) and (max-width: 1024px) and (max-height: 999px) {
@@ -190,10 +175,7 @@ video {
     padding-right: 0.1rem;
   }
 
-  .overlayContent {
-    top: 50%;
-    left: 35%;
-  }
+
 }
 
 @media (min-width: 801px) and (max-width: 1025px) and (min-height: 1000px) and (max-height: 1500px) {
@@ -211,17 +193,12 @@ video {
   }
 
   .overlayContent h3 {
-    font-size: 2.0rem;
+    font-size: 2rem;
   }
 
   video {
     max-height: 40vh;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-  }
-
-  .overlayContent {
-    top: 35%;
-    left: 33%;
   }
 }
